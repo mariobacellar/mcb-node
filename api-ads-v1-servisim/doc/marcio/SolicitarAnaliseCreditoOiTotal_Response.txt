@@ -1,0 +1,33 @@
+"{"SiebelMessage": {
+    "IntObjectName": "PCS Consultar Transact Request",
+    "xmlns:soapenv": "http://schemas.xmlsoap.org/soap/envelope/",
+    "ListOfPCSConsultarTransact": {"PCSTransact": {
+        "TempErrorDesc": "",
+        "TempFacConf": "S",
+        "TempFacRoamN": "S",
+        "TempFacRoamS": "S",
+        "TempMaxLPerm": "0",
+        "TempNumProposta": "80000183290308",
+        "TempDecisao": "PRE APPR",
+        "TempScoredeRisco": "796",
+        "TempNascSERASA": "",
+        "TempFacRoamG": "S",
+        "TempFacRoamI": "N",
+        "TempMaxMAvulso": "",
+        "TempErrorCode": "0",
+        "TempFacServI": "S",
+        "TempFacVPNI": "N",
+        "FlagControle": "",
+        "TempClasseRisco": "0",
+        "TempRatingPJ": "",
+        "TempCodPlanoPreco": "Z",
+        "TempSituacaoCPF": "A",
+        "TempLimiteCredito": "0",
+        "TempRecReceita": "REGULAR",
+        "TempFacSigaMe": "N",
+        "TempStatNome": "",
+        "TempCodDecisao": "PA04"
+    }},
+    "MessageType": "Integration Object",
+    "MessageId": ""
+}}"

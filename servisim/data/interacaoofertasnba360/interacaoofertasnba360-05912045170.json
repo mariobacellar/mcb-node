@@ -1,0 +1,9 @@
+<InteracaoOferta360OutputMessage>
+    <DadosOferta>
+        <GastoPropostoOferta/>
+    </DadosOferta>
+    <ControleDoServico>
+        <Codigo/>
+        <Mensagem/>
+    </ControleDoServico>
+</InteracaoOferta360OutputMessage>

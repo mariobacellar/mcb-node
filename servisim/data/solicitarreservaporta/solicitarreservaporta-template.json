@@ -1,0 +1,42 @@
+{
+	"SolicitarReservaPortaResponse": {
+		"ResponseControl": {
+			"reason": "",
+			"code": "0000"
+		},
+		"GrupoResponse": {
+			"velocidadeMaxima": "1MB",
+			"DDD": "21",
+			"indicadorDeObrigatoriedadeDePorta": "N",
+			"dslamReserva": "",
+			"CodLocalidadeEstReser": "",
+			"shelfReserva": "",
+			"NumTerminalReser": "",
+			"UF": "RJ",
+			"slotReserva": "",
+			"SecaoReser": "",
+			"ParPrimarioReser": "0",
+			"ciglaEstacao": "CDS",
+			"codigoLiteralLocalCircuito": "",
+			"numeroCircuito": "",
+			"portaReserva": "",
+			"DDDTerminalReser": "",
+			"viabilidadeSVOI": "S",
+			"codigoLocalidadeEstacao": "RJO",
+			"ParSecundarioReser": "0",
+			"numeroTerminal": "22011039",
+			"siglaABL": "",
+			"indicadorDePortaReservada": "N",
+			"velocidadeAtual": "1MB",
+			"EstacaoReser": "",
+			"codigoLiteralLocalABL": "",
+			"CaboReser": "",
+			"numeroFisicoTerminal": "24265443",
+			"criterioBYPASS": "1",
+			"servico": "INSADSL",
+			"rackReserva": "",
+			"bandaDisponivel": "1MB",
+			"CaixaReser": ""
+		}
+	}
+}

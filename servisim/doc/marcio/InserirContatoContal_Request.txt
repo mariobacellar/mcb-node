@@ -1,0 +1,107 @@
+{
+	"DataRequest": {
+		"MessageHeaderApi": {
+			"App": "OA0848",
+			"Timestamp": "2019-08-08T18:33:04",
+			"TransactionId": "OA0848:SOA0005V1.0:20190808183304425:000:00000000186993705OI404685"
+		},
+		"inserirContatoContaRequest": {
+			"ListaContatos": {
+				"Contato": {
+					"EnderecoEmail": "naopossui@oi.com.br",
+					"HorarioContato": "",
+					"DataInicioResidencia": "1998-01-01",
+					"Comentarios": "",
+					"FormaContatoPreferencial": "",
+					"Sexo": "M",
+					"IndicadorProspect": "0",
+					"OcupacaoSecundaria": "",
+					"LembreteSenha": "",
+					"Profissao": "VENDEDORES E ASSEMELHADOS",
+					"CodigoPontoVenda": "0001026137",
+					"FaixaRendaMensal": "11 - De R$ 2.501 a R$ 2.750",
+					"Nome": "LOURIVALDO MANOEL DE OLIVEIRA",
+					"TipoResidenciaCliente": "Própria",
+					"OcupacaoPrincipal": "Assalariado",
+					"NomeNaRedeSocialPrincipal": "",
+					"DataNascimento": "1939-06-15",
+					"IdiomaCliente": "",
+					"CategoriaCliente": "",
+					"IndicadorChamadaTelefoneResidencial": "0",
+					"NomeMae": "MIRANDOLINA ALVES DE OLIVEIRA",
+					"NaturalidadeCliente": "",
+					"CargoProfissional": "Outros",
+					"IndicadorEnvioFax": "0",
+					"PaginaWeb": "",
+					"IndicadorEnvioEmail": "0",
+					"IndicadordocumentoPendente": "0",
+					"StatusRelacionamentoMovel": "Contact Center",
+					"IndicadorChamadaCelular": "0",
+					"IdUsuario": "OI404685",
+					"IndicadorEnvioCarta": "0",
+					"EmpregadorCliente": "",
+					"EstadoCivil": "Casado",
+					"IndicadorChamadaTelefoneComercial": "0"
+				}
+			},
+			"OrigemRequisicao": "OA0848",
+			"ListaTelefones": {
+				"Telefone": [{
+						"Numero": "8134369381",
+						"Tipo": "Contato"
+					}, {
+						"Numero": "8134369381",
+						"Tipo": "Residencial"
+					}, {
+						"Numero": "8134369381",
+						"Tipo": "Comercial"
+					}
+				]
+			},
+			"ListaContas": {
+				"Conta": {
+					"IndicadorInadimplencia": "0",
+					"IndicadorFraude": "0",
+					"IdSegmentacao": "",
+					"IdClientePagador": "",
+					"IndicadorVitimaFraude": "0"
+				}
+			},
+			"ListaDocumentos": {
+				"Documento": [{
+						"OrgaoExpedidorDocumentoSecundario": "sds",
+						"DescricaoTipoDocumento": "CPF",
+						"NumeroDocumento": "06251072768"
+					}
+				]
+			},
+			"ListaEnderecos": {
+				"Endereco": {
+					"Logradouro": "DR LUIS IGNACIO ANDRADE LIMA",
+					"ListaComplementos": {
+						"Complemento": [{
+								"NumeroComplemento": "401",
+								"Sequencial": "1",
+								"TipoComplemento1": "AP"
+							}
+						]
+					},
+					"NumeroImovel": "300",
+					"CodigoLogradouro": "678121",
+					"CodigoOperadoraOiRegional": "12",
+					"Bairro": "JANGA",
+					"CodigoAglomerado": "0",
+					"CEP": "53435455",
+					"Municipio": "PAULISTA",
+					"UF": "PE",
+					"TipoLogradouro": "RUA",
+					"NumeroAglomerado": "0",
+					"CodigoLocalidade": "5827",
+					"BaseConsultaOrigem": "SERASA-STC",
+					"CodigoLiteralLocalidade": "PUI",
+					"Aglomerado": "0"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,134 @@
+AlterarContatoConta [/clientes/contacontato/v1/alterar]
+
+JSON REQUEST:
+{
+  "DataRequest": {
+    "MessageHeaderAPI": {
+      "App": "OA0848",
+      "Timestamp": "2019-08-02T01:33:05",
+      "TransactionId": "OA0848:SOA0005V1.0:20190802013305650:000:00000000342449080TR601390"
+    },
+    "AlterarContatoContaRequest": {
+      "ListaContatos": {
+        "Contato": {
+          "OcupacaoPrincipal": "Empresário",
+          "EnderecoEmail": "PONCIANOMAQUINAS@BOL.COM.BR",
+          "DataNascimento": "1962-05-31",
+          "IndicadorChamadaTelefoneResidencial": "0",
+          "NomeMae": "NOME NOME",
+          "DataInicioResidencia": "2000-03-10",
+          "CargoProfissional": "Outros",
+          "IndicadorEnvioFax": "0",
+          "Sexo": "M",
+          "IndicadorProspect": "0",
+          "IndicadorEnvioEmail": "0",
+          "IndicadordocumentoPendente": "0",
+          "StatusRelacionamentoMovel": "Contact Center",
+          "IndicadorChamadaCelular": "0",
+          "IdUsuario": "TR601390",
+          "IndicadorEnvioCarta": "0",
+          "Profissao": "ANALISTA DE SISTEMA",
+          "CodigoPontoVenda": "0001033422",
+          "TipoResidenciaCliente": "Própria",
+          "EstadoCivil": "Casado",
+          "FaixaRendaMensal": "22 - De R$ 7.501 a R$ 8.000",
+          "Nome": "LUIS CARLOS DO NASCIMENTO PONCIANO",
+          "IndicadorChamadaTelefoneComercial": "0"
+        }
+      },
+      "OrigemRequisicao": "OA0848",
+      "ListaTelefones": {
+        "Telefone": [
+          {
+            "Numero": "21999999999",
+            "Tipo": "Contato"
+          },
+          {
+            "Tipo": "Residencial"
+          },
+          {
+            "Numero": "2433775604",
+            "Tipo": "Comercial"
+          }
+        ]
+      },
+      "ListaContas": {
+        "Conta": {
+          "IdSegmentacao": "Residencial 8",
+          "TipoConta": "Cliente",
+          "IdContaCliente": "5091876603364"
+        }
+      },
+      "ListaDocumentos": {
+        "Documento": [
+          {
+            "OrgaoExpedidorDocumentoSecundario": "",
+            "DescricaoTipoDocumento": "CPF",
+            "NumeroDocumento": "82281874753"
+          },
+          {
+            "OrgaoExpedidorDocumentoSecundario": "IFP",
+            "DescricaoTipoDocumento": "Carteira de Identidade",
+            "NumeroDocumento": "00000059201400"
+          }
+        ]
+      },
+      "ListaEnderecos": {
+        "Endereco": {
+          "Logradouro": "S JOSE",
+          "ListaComplementos": {
+            "Complemento": [
+              {},
+              {},
+              {}
+            ]
+          },
+         "NumeroImovel": "6",
+          "CodigoLogradouro": "1045021",
+          "CodigoOperadoraOiRegional": "20",
+          "Bairro": "JAPUIBA",
+          "CodigoAglomerado": "0",
+          "CEP": "23934120",
+          "Municipio": "ANGRA DOS REIS",
+          "UF": "RJ",
+          "TipoLogradouro": "TV",
+          "NumeroAglomerado": "0",
+          "PontoReferencia": "AAAAAAA",
+          "CodigoLocalidade": "8861",
+          "BaseConsultaOrigem": "SERASA-STC",
+          "CodigoLiteralLocalidade": "ARS"
+        }
+      }
+    }
+  }
+}
+
+JSON RESPONSE:
+{
+  "DataResponse": {
+    "AlterarContatoContaResponse": {
+      "Descricao": "",
+      "Codigo": "0"
+    },
+    "MessageHeaderResponse": {
+      "Response": {
+        "Return": {
+          "Type": "S",
+          "Description": "Sucesso",
+          "NativeReturn": {
+            "Type": "S",
+            "Description": "-",
+            "AppId": "AN0448",
+            "Code": "0"
+          },
+          "Code": "00000"
+        }
+      },
+      "AppId": "OA0848",
+      "CorrelationId": "",
+      "Timestamp": "2019-08-01T22:33:07.97-03:00",
+      "BusinessId": "",
+      "TransactionId": "OA0848:SOA0005V1.0:20190802013305650:000:00000000342449080TR601390"
+    }
+  }
+}

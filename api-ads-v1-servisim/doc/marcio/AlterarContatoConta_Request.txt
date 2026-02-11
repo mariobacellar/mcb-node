@@ -1,0 +1,94 @@
+{
+	"DataRequest": {
+		"MessageHeaderAPI": {
+			"App": "OA0848",
+			"Timestamp": "2019-08-08T19:42:30",
+			"TransactionId": "OA0848:SOA0005V1.0:20190808194230141:000:00000000200148525TR264107"
+		},
+		"AlterarContatoContaRequest": {
+			"ListaContatos": {
+				"Contato": {
+					"EnderecoEmail": "gustavocarneiro05@gmail.com",
+					"DataInicioResidencia": "2002-02-20",
+					"Sexo": "M",
+					"IndicadorProspect": "0",
+					"Profissao": "MEDICO",
+					"CodigoPontoVenda": "0001034105",
+					"TipoResidenciaCliente": "Própria",
+					"FaixaRendaMensal": "31 - De R$ 14.001 a R$ 15.000",
+					"Nome": "LUIS GUSTAVO LOPES CARNEIRO",
+					"GrauEscolaridade": "Mestrado/Doutorado",
+					"OcupacaoPrincipal": "Assalariado",
+					"DataNascimento": "1976-10-05",
+					"IndicadorChamadaTelefoneResidencial": "0",
+					"NomeMae": "ROSELANE LOPES CARNEIRO",
+					"CargoProfissional": "Outros",
+					"IndicadorEnvioFax": "0",
+					"IndicadorEnvioEmail": "0",
+					"IndicadordocumentoPendente": "0",
+					"StatusRelacionamentoMovel": "Contact Center",
+					"IndicadorChamadaCelular": "0",
+					"IdUsuario": "TR264107",
+					"IndicadorEnvioCarta": "0",
+					"EstadoCivil": "Casado",
+					"IndicadorChamadaTelefoneComercial": "0"
+				}
+			},
+			"OrigemRequisicao": "OA0848",
+			"ListaTelefones": {
+				"Telefone": [{
+						"Numero": "61988877466",
+						"Tipo": "Contato"
+					}, {
+						"Tipo": "Residencial"
+					}, {
+						"Numero": "21992980842",
+						"Tipo": "Comercial"
+					}
+				]
+			},
+			"ListaContas": {
+				"Conta": {
+					"IdSegmentacao": "Residencial 2",
+					"TipoConta": "Cliente",
+					"IdContaCliente": "5097075395596"
+				}
+			},
+			"ListaDocumentos": {
+				"Documento": [{
+						"OrgaoExpedidorDocumentoSecundario": "",
+						"DescricaoTipoDocumento": "CPF",
+						"NumeroDocumento": "07459771708"
+					}, {
+						"OrgaoExpedidorDocumentoSecundario": "ifp",
+						"DescricaoTipoDocumento": "Carteira de Identidade",
+						"NumeroDocumento": "00000109245803"
+					}
+				]
+			},
+			"ListaEnderecos": {
+				"Endereco": {
+					"Logradouro": "SQN 108 BLOCO K",
+					"ListaComplementos": {
+						"Complemento": [{}, {}, {}
+						]
+					},
+					"NumeroImovel": "0",
+					"CodigoLogradouro": "2700073484",
+					"CodigoOperadoraOiRegional": "70",
+					"Bairro": "ASA NORTE",
+					"CodigoAglomerado": "0",
+					"CEP": "70744110",
+					"Municipio": "BRASILIA",
+					"UF": "DF",
+					"TipoLogradouro": "QUADRA",
+					"NumeroAglomerado": "0",
+					"PontoReferencia": "AAAAAAAA",
+					"CodigoLocalidade": "61000",
+					"BaseConsultaOrigem": "SERASA-STC",
+					"CodigoLiteralLocalidade": "BSA"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+ManutencaoReservaPorta [/recursos/portaadsl/v1/manter]
+
+JSON REQUEST:
+{
+  "ManutencaofacilidadeNumeroPortaRequest": {
+    "codLocalidade": "RJO",
+    "siglaUf": "RJ",
+    "velProduto": "15MB",
+    "numImovel": "145",
+    "IndRedeVizinho": "",
+    "compl1": "",
+    "MessageHeaderAPI": {
+      "App": "API",
+      "TransactionId": "OA0848:SOA0005V1.0:20190801225547607:000:00000000693338747TR601390"
+    },
+    "logradouro": "14125",
+    "categoriaTerminal": "11",
+    "nrcCliente": "2000005623599",
+    "tipoTerminal": "0",
+    "acao": "RESV"
+  }
+}
+
+JSON RESPONSE:
+{
+  "ManutencaofacilidadeNumeroPortaResponse": {
+    "siglaUf": "RJ",
+    "siglaEstacao": "ACAR",
+    "velProduto": "15MB",
+    "ResponseControl": {
+      "reason": "",
+      "code": "0000"
+    },
+    "indObrigReservaPorta": "S",
+    "localidadeTelefone": "RJO",
+    "IndRedeVizinho": "",
+    "localidadeInstalacao": "RJO",
+    "numParPrimario": "773",
+    "flgRedeDedicada": "N",
+    "numTelReserva": "30194387",
+    "siglaABL": "",
+    "numCaboPrimario": "AR9",
+    "numSecaoServico": "CAR",
+    "tipoCriterioBypass": "4",
+    "indReservaPorta": "S",
+    "indViabiliadadeSvoi": "S",
+    "localidadeEstacao": "RJO",
+    "localidadeABL": ""
+  }
+}

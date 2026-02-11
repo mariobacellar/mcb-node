@@ -1,0 +1,35 @@
+{
+	"DataRequest": {
+		"MessageHeaderAPI": {
+			"App": "OA0848",
+			"Timestamp": "2019-08-08T21:53:36.346",
+			"TransactionId": "OA0848:SOA0005V1.0:20190809005334300:000:00000000808980456OI413044"
+		},
+		"RegistrarNovaAnaliseCreditoRequest": {
+			"DataHoraConclusao": "2019-08-18T21:53:36.347",
+			"QuantidadeServicoSolicitado": "2",
+			"IndicadorPortabilidade": "",
+			"NomeProduto": "7 - 360",
+			"OrigemRequisicao": "OA0848",
+			"DataProposta": "2019-08-08T21:53:36.347",
+			"CodigoPlanoPreco": "Z",
+			"MotivoDecisao": "PP01",
+			"CalculoLinhaSolicitacao": "2",
+			"DescricaoCanal": "",
+			"IndicadorOiTV": "N",
+			"OpcaodeAnalise": "Ativação sem Aparelho Oi",
+			"NumeroProposta": "80000183921499",
+			"QuantidadeServicosAtivos": "2",
+			"CodigoPontoVenda": "0001033095",
+			"QuantidadeServicosPermitidos": "2",
+			"ListaDocumentos": {
+				"Documento": {
+					"DescricaoTipoDocumento": "CPF",
+					"NumeroDocumento": "06842215943"
+				}
+			},
+			"TipoAnalise": "2 - Analise 2a Etapa",
+			"Decisao": "POST PAY"
+		}
+	}
+}

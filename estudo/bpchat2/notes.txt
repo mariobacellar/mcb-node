@@ -1,0 +1,5 @@
+How to Build a Real-time Chat App With NodeJS, Socket.IO, and MongoDB
+https://dev.to/rexeze/how-to-build-a-real-time-chat-app-with-nodejs-socketio-and-mongodb-2kho
+
+How to Build a Real-time Chat App With NodeJS, Socket.IO, and MongoDB
+https://blog.usejournal.com/how-to-build-a-real-time-chat-app-with-nodejs-socket-io-and-mongodb-7a4c9472edd1

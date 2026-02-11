@@ -1,0 +1,19 @@
+{
+	"ManutencaofacilidadeNumeroPortaRequest": {
+		"codLocalidade": "RJO",
+		"siglaUf": "RJ",
+		"velProduto": "5MB",
+		"numImovel": "707",
+		"IndRedeVizinho": "",
+		"compl1": "",
+		"MessageHeaderAPI": {
+			"App": "API",
+			"TransactionId": "OA0848:SOA0005V1.0:20190808020312983:000:00000000453284558TR601390"
+		},
+		"logradouro": "1377",
+		"categoriaTerminal": "11",
+		"nrcCliente": "11303544",
+		"tipoTerminal": "0",
+		"acao": "RESV"
+	}
+}

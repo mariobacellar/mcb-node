@@ -1,0 +1,13 @@
+Criando um chat com Node.js e Socket.io
+https://www.luiztools.com.br/post/criando-um-chat-com-nodejs-e-socketio/?gclid=CjwKCAjw04vpBRB3EiwA0IieaqfaSj8Ffn8a1tlAYvRfC5xoLHkgcooMpmpVpSGjjOl3L5YcxmDsoBoCZOUQAvD_BwE
+
+
+Autenticação em Node.js com Passport
+https://www.luiztools.com.br/post/autenticacao-em-node-js-com-passport/
+
+
+Autenticação JSON Web Token (JWT) em Node.js
+https://www.luiztools.com.br/post/autenticacao-json-web-token-jwt-em-nodejs/
+
+Tutorial CRUD em Node.js com driver nativo do MongoDB
+https://www.luiztools.com.br/post/tutorial-crud-em-node-js-com-driver-nativo-do-mongodb/

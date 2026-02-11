@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>BarPraia - Garçon</title>
+	<meta http-equiv="Content-Type" const="text/html;charset=UTF-8" />
+
+	<link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" src="home.css">
+
+<!--
+ 	<link   href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+ -->
+</head>
+
+<style>
+	hr { 
+	  display: block;
+	  margin-top: 0.5em;
+	  margin-bottom: 0.5em;
+	  margin-left: auto;
+	  margin-right: auto;
+	  border-style: inset;
+	  border-width: 1px;
+	} 
+</style>
+
+<body>
+
+	<section id="navArea">
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		  <a class="navbar-brand" href="/">BarPraia - Garçon</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+		    <ul class="navbar-nav mr-auto">
+		    
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Atendimento<span class="sr-only">(current)</span></a>
+		      </li>
+
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Perfil</a>
+		      </li>
+		      
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Consulta</a>
+		        <div   class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a   class="dropdown-item" href="#">Vendas</a>
+		          <a   class="dropdown-item" href="#">Custos</a>
+		          <div class="dropdown-divider"></div>
+		          <a   class="dropdown-item" href="#">Produtos</a>
+		          <a   class="dropdown-item" href="#">Clientes</a>
+		        </div>
+		      </li>
+		      
+	<!-- 	      <li class="nav-item">
+		        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+		      </li>
+	 -->
+		    </ul>
+
+	<!-- 	    <form class="form-inline my-2 my-lg-0">
+		      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Procurar</button>
+		    </form>
+	 -->
+		  </div>
+
+		</nav>	
+	</section>
+
+	<div class="container-fluid" id="areaProduto">
+				
+		<form class="form-horizontal" action="/produtos/<%=produto.id%>/update?_method=PUT"" method="post">
+
+			<input  type="hidden" name="_method" value="PUT">
+
+			<div class="form-group col-md-2">
+				<label for="inputEstado">Categoria</label>
+				<select id="fieldCategoria" name="fieldCategoria" class="form-control">
+					<option value="beber"      <%=(produto.categoria == "beber"     ) ? "selected" : "" %> >De Beber</option>
+					<option value="comer"      <%=(produto.categoria == "comer"     ) ? "selected" : "" %> >De Comer</option>
+					<option value="vestir"     <%=(produto.categoria == "vestir"    ) ? "selected" : "" %> >De Vestir</option>
+					<option value="passar"     <%=(produto.categoria == "passar"    ) ? "selected" : "" %> >De Passar (Comsético)</option>
+					<option value="brincar"    <%=(produto.categoria == "brincar"   ) ? "selected" : "" %> >De Brincar</option>
+					<option value="servico"    <%=(produto.categoria == "servico"   ) ? "selected" : "" %> >De Viver (Eventos e Serviços)</option>
+					<option value="mobiliario" <%=(produto.categoria == "mobiliario") ? "selected" : "" %> >De Usar (Mobiliário, Cadeira, Espreguiçadeiras</option>
+				</select>
+			</div>
+			
+			<div class="form-group col-md-14">
+			  <label class="col-md-4 control-label" for="idprodutoestoque">Produto</label>  
+			  <div class="col-md-4">
+			  	<input id="fieldNome" type="text" name="fieldNome" placeholder="Digite o nome do produto..." class="form-control input-md" required="true" value="<%=produto.nome%>">
+			  </div>
+			</div>
+
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="quantidadeprodutoentrada">Quantidade Atual</label>  
+			  <div class="col-md-2">
+			  <input id="fieldQtd"    type="text" name="fieldQtd"  placeholder="1" class="form-control input-md" required="false" value="<%=produto.qtd%>">
+			  </div>
+			</div>
+
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="pccusto">R$ Custo</label>  
+			  <div class="col-md-2">
+			  <input id="fieldPcusto" type="text" name="fieldPcusto" placeholder="0.00" class="form-control input-md" required="" value="<%=produto.pcusto%>">
+			  </div>
+			</div>
+
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="pccusto">R$ Venda</label>  
+			  <div class="col-md-2">
+			  <input id="fieldPvenda" type="text" name="fieldPvenda" placeholder="0.00" class="form-control input-md" required="" value="<%=produto.pvenda%>">
+			  </div>
+			</div>
+
+			<div class="container">
+				<div class="col-md-4">
+					<button type="submit" class="btn btn-success">Gravar</button>
+				</div>
+			</div>
+
+		</form>	
+		
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

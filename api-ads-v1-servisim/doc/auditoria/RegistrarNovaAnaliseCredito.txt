@@ -1,0 +1,65 @@
+RegistrarNovaAnaliseCredito [/clientes/analises/oitotal/v1/credito/registrar]
+
+JSON REQUEST:
+{
+  "DataRequest": {
+    "MessageHeaderAPI": {
+      "App": "OA0848",
+      "TransactionId": "123456789011010101010",
+      "Timestamp": "2018-08-16T10:52:36.467"
+    },
+    "RegistrarNovaAnaliseCreditoRequest": {
+      "OrigemRequisicao": "OA0848",
+      "CodigoPontoVenda": "0001001622",
+      "QuantidadeServicoSolicitado": "2",
+      "DataProposta": "2018-08-16T10:52:36.467",
+      "QuantidadeServicosAtivos": "1",
+      "QuantidadeServicosPermitidos": "4",
+      "NumeroProposta": "90002236952543",
+      "DescricaoCanal": "Dealer",
+      "IndicadorOiTV": "Y",
+      "OpcaodeAnalise": "Ativação com Aparelho Oi",
+      "CodigoPlanoPreco": "Z",
+      "IndicadorPortabilidade": "N",
+      "NomeProduto": "7 - 360",
+      "TipoAnalise": "4 - Analise 2a Etapa",
+      "DataHoraConclusao": "2018-08-16T10:52:36.467",
+      "MotivoDecisao": "PP01",
+      "Decisao": "POST PAY",
+      "CalculoLinhaSolicitacao": "",
+      "ListaDocumentos": {
+        "Documento": {
+          "DescricaoTipoDocumento": "CPF",
+          "NumeroDocumento": "21354687540"
+        }
+      }
+    }
+  }
+}
+
+
+JSON RESPONSE:
+{
+    "DataResponse": {
+        "MessageHeaderResponse": {
+            "Response": {
+                "Return": {
+                    "Type": "S",
+                    "Description": "Sucesso",
+                    "NativeReturn": {
+                        "Type": "S",
+                        "Description": "Aprovada na análise de crédito Oi",
+                        "AppId": "AN0448",
+                        "Code": "0"
+                    },
+                    "Code": "00000"
+                }
+            },
+            "AppId": "OA0848",
+            "CorrelationId": "",
+            "Timestamp": "2019-08-08T15:43:51.699-03:00",
+            "BusinessId": "",
+            "TransactionId": "123456789011010101010"
+        }
+    }
+}

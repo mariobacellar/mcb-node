@@ -1,0 +1,29 @@
+{
+	"SolicitarReservaPortaRequest": {
+		"MessageHeaderAPI": {
+			"App": "OiVende",
+			"TransationId": "API:20180116180642644"
+		},
+		"GrupoRequest": {
+			"siglaUF": "RJ",
+			"codigoLiteralLocalABLE": "",
+			"matriculaSolicitante": "TR557555",
+			"CodLocalidadeEstNova": "",
+			"EstacaoNova": "",
+			"DDD": "21",
+			"numeroTerminal": "22011039",
+			"indicadorMultiproduto": "N",
+			"CaixaNova": "",
+			"viabilidadeSVOIE": "S",
+			"velocidadeVendida": "1MB",
+			"sistemaDeOrigem": "OIVENDE",
+			"CaboNova": "",
+			"siglaArmarioBLE": "",
+			"velocidadeAtual": "1MB",
+			"criterioBYPASS": "1",
+			"velocidadeMaximaE": "1MB",
+			"SecaoNova": "",
+			"acao": "I"
+		}
+	}
+}

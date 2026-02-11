@@ -1,0 +1,35 @@
+config: 
+  target: "https://mvnocloud.com.br"
+  http: 
+    timeout: 10
+  ensure:
+  payload: 
+    fields: 
+      - contrato
+    path: contratos.csv
+  phases: 
+    - 
+      arrivalRate: 5
+      duration: 60
+      name: "Fase de aquecimento do teste - 5 user / 1min"
+    - 
+      arrivalRate: 5
+      duration: 120
+      name: "Aumentando a carga - 5 user / 2mim"
+      rampTo: 50
+    - 
+      arrivalRate: 50
+      duration: 600
+      name: "Carga sustentada - 50 user / 10min"
+
+scenarios: 
+  - 
+    flow: 
+      - 
+        post: 
+          json: 
+            Numero_contrato: 161811
+            metodo: consultar_saldo
+            token: 6A56E7E77E464217B95D03C1E481F8D278655F74BEC94638AB
+          url: "/MvnoRest"
+    name: "Consulta saldo"

@@ -1,0 +1,50 @@
+{
+	"DataRequest": {
+		"MessageHeaderAPI": {
+			"App": "OA0848",
+			"Timestamp": "2019-08-08T19:42:33",
+			"TransactionId": "OA0848:SOA0005V1.0:20190808194230141:000:00000000200148525TR264107"
+		},
+		"RegistrarContaFaturaRequest": {
+			"ContaFatura": {
+				"UF": "DF",
+				"FormatoFatura": "Fatura Resumida",
+				"CicloFaturamento": "V01",
+				"LoginSiebel63": "TR264107",
+				"Agencia": "",
+				"CodigoPontoVenda": "1034105",
+				"NomeClienteFatura": "LUIS GUSTAVO LOPES CARNEIRO",
+				"IndicaAdesaoDebitoAutomatico": "0",
+				"TipoCobranca": "Boleto Bancario",
+				"NomeBanco": "",
+				"ContaCorrenteCliente": ""
+			},
+			"Identificacao": {
+				"TipoDocumento": "CPF",
+				"NumeroDocumento": "07459771708"
+			},
+			"Telefone": {
+				"Numero": "61988877466",
+				"Tipo": "Residencial"
+			},
+			"Endereco": {
+				"Logradouro": "SQN 108 BLOCO K",
+				"EnderecoComposto": "",
+				"IndicadorVerificacao": "",
+				"NumeroImovel": "0",
+				"CodigoLogradouro": "2700073484",
+				"Bairro": "ASA NORTE",
+				"CodigoAglomerado": "0",
+				"CEP": "70744110",
+				"Municipio": "BRASILIA",
+				"Localidade": "BSA",
+				"TipoLogradouro": "QUADRA",
+				"NumeroAglomerado": "0",
+				"PontoReferencia": "AAAAAAAA",
+				"CodigoLocalidade": "61000",
+				"EstadoInternacional": "DF",
+				"Aglomerado": "0"
+			}
+		}
+	}
+}

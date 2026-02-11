@@ -1,0 +1,2029 @@
+Started phase 0, duration: 10s @ 23:08:53(-0300) 2019-08-11
+Report @ 23:09:03(-0300) 2019-08-11
+Elapsed time: 10 seconds
+  Scenarios launched:  499
+  Scenarios completed: 0
+  Requests completed:  169
+  RPS sent: 67.58
+  Request latency:
+    min: 6601.2
+    max: 6666.2
+    median: 6603.7
+    p95: 6614.5
+    p99: 6643.8
+  Codes:
+    200: 169
+
+Report @ 23:09:13(-0300) 2019-08-11
+Elapsed time: 20 seconds
+  Scenarios launched:  1
+  Scenarios completed: 0
+  Requests completed:  672
+  RPS sent: 67.47
+  Request latency:
+    min: 6600.7
+    max: 6636.4
+    median: 6603.6
+    p95: 6613
+    p99: 6624.4
+  Codes:
+    200: 672
+
+Report @ 23:09:23(-0300) 2019-08-11
+Elapsed time: 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  838
+  RPS sent: 83.95
+  Request latency:
+    min: 6600.3
+    max: 6630.4
+    median: 6602.8
+    p95: 6612.3
+    p99: 6623.9
+  Codes:
+    200: 838
+
+Report @ 23:09:33(-0300) 2019-08-11
+Elapsed time: 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  677
+  RPS sent: 67.67
+  Request latency:
+    min: 6600.4
+    max: 6620.9
+    median: 6602.4
+    p95: 6607.1
+    p99: 6610.2
+  Codes:
+    200: 677
+
+Report @ 23:09:43(-0300) 2019-08-11
+Elapsed time: 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  832
+  RPS sent: 83.4
+  Request latency:
+    min: 6600.3
+    max: 6626.5
+    median: 6602.6
+    p95: 6610
+    p99: 6615.4
+  Codes:
+    200: 832
+
+Report @ 23:09:53(-0300) 2019-08-11
+Elapsed time: 1 minute, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  694
+  RPS sent: 69.47
+  Request latency:
+    min: 6600.4
+    max: 6627.7
+    median: 6602.3
+    p95: 6607.5
+    p99: 6613.4
+  Codes:
+    200: 694
+
+Report @ 23:10:03(-0300) 2019-08-11
+Elapsed time: 1 minute, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  815
+  RPS sent: 81.58
+  Request latency:
+    min: 6600.4
+    max: 6620.4
+    median: 6602.1
+    p95: 6608.5
+    p99: 6616.4
+  Codes:
+    200: 815
+
+Report @ 23:10:13(-0300) 2019-08-11
+Elapsed time: 1 minute, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  703
+  RPS sent: 70.37
+  Request latency:
+    min: 6600.1
+    max: 6614.9
+    median: 6601.8
+    p95: 6605.9
+    p99: 6611.1
+  Codes:
+    200: 703
+
+Report @ 23:10:23(-0300) 2019-08-11
+Elapsed time: 1 minute, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  807
+  RPS sent: 80.7
+  Request latency:
+    min: 6600.1
+    max: 6616.2
+    median: 6602
+    p95: 6607
+    p99: 6611.8
+  Codes:
+    200: 807
+
+Report @ 23:10:33(-0300) 2019-08-11
+Elapsed time: 1 minute, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  713
+  RPS sent: 71.17
+  Request latency:
+    min: 6600.3
+    max: 6622.3
+    median: 6602.2
+    p95: 6607.6
+    p99: 6615.7
+  Codes:
+    200: 713
+
+Report @ 23:10:43(-0300) 2019-08-11
+Elapsed time: 1 minute, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  796
+  RPS sent: 79.8
+  Request latency:
+    min: 6600.2
+    max: 6630.8
+    median: 6602.2
+    p95: 6606.9
+    p99: 6612.2
+  Codes:
+    200: 796
+
+Report @ 23:10:53(-0300) 2019-08-11
+Elapsed time: 2 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  722
+  RPS sent: 72.24
+  Request latency:
+    min: 6600
+    max: 6623.4
+    median: 6602.1
+    p95: 6608.4
+    p99: 6617.9
+  Codes:
+    200: 722
+
+Report @ 23:11:03(-0300) 2019-08-11
+Elapsed time: 2 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  788
+  RPS sent: 78.98
+  Request latency:
+    min: 6600.1
+    max: 6628.6
+    median: 6602
+    p95: 6607.2
+    p99: 6615.2
+  Codes:
+    200: 788
+
+Report @ 23:11:13(-0300) 2019-08-11
+Elapsed time: 2 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  734
+  RPS sent: 73.52
+  Request latency:
+    min: 6600.3
+    max: 6620.5
+    median: 6602
+    p95: 6606.8
+    p99: 6611.1
+  Codes:
+    200: 734
+
+Report @ 23:11:23(-0300) 2019-08-11
+Elapsed time: 2 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  774
+  RPS sent: 77.5
+  Request latency:
+    min: 6600.1
+    max: 6624.3
+    median: 6602.2
+    p95: 6608
+    p99: 6612.1
+  Codes:
+    200: 774
+
+Report @ 23:11:33(-0300) 2019-08-11
+Elapsed time: 2 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  741
+  RPS sent: 74.32
+  Request latency:
+    min: 6600
+    max: 6626.2
+    median: 6602.2
+    p95: 6607.2
+    p99: 6614.1
+  Codes:
+    200: 741
+
+Report @ 23:11:43(-0300) 2019-08-11
+Elapsed time: 2 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  769
+  RPS sent: 76.98
+  Request latency:
+    min: 6600
+    max: 6641.8
+    median: 6602.2
+    p95: 6608.2
+    p99: 6614.9
+  Codes:
+    200: 769
+
+Report @ 23:11:53(-0300) 2019-08-11
+Elapsed time: 3 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  751
+  RPS sent: 75.08
+  Request latency:
+    min: 6600.2
+    max: 6621.5
+    median: 6602.1
+    p95: 6608.3
+    p99: 6612.4
+  Codes:
+    200: 751
+
+Report @ 23:12:03(-0300) 2019-08-11
+Elapsed time: 3 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  758
+  RPS sent: 75.9
+  Request latency:
+    min: 6600
+    max: 6622.4
+    median: 6602
+    p95: 6607.5
+    p99: 6612.5
+  Codes:
+    200: 758
+
+Report @ 23:12:13(-0300) 2019-08-11
+Elapsed time: 3 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  756
+  RPS sent: 75.68
+  Request latency:
+    min: 6600
+    max: 6630.2
+    median: 6602.1
+    p95: 6606.9
+    p99: 6615.8
+  Codes:
+    200: 756
+
+Report @ 23:12:23(-0300) 2019-08-11
+Elapsed time: 3 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  754
+  RPS sent: 75.38
+  Request latency:
+    min: 6600
+    max: 6622.2
+    median: 6602
+    p95: 6607.3
+    p99: 6616.2
+  Codes:
+    200: 754
+
+Report @ 23:12:33(-0300) 2019-08-11
+Elapsed time: 3 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  770
+  RPS sent: 77.1
+  Request latency:
+    min: 6600.1
+    max: 6638.5
+    median: 6602.2
+    p95: 6608.9
+    p99: 6620.8
+  Codes:
+    200: 770
+
+Report @ 23:12:43(-0300) 2019-08-11
+Elapsed time: 3 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  739
+  RPS sent: 74.12
+  Request latency:
+    min: 6600.1
+    max: 6622.2
+    median: 6602.3
+    p95: 6609.3
+    p99: 6613.5
+  Codes:
+    200: 739
+
+Report @ 23:12:53(-0300) 2019-08-11
+Elapsed time: 4 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  773
+  RPS sent: 77.35
+  Request latency:
+    min: 6600.2
+    max: 6624.4
+    median: 6602.2
+    p95: 6609
+    p99: 6614.4
+  Codes:
+    200: 773
+
+Report @ 23:13:03(-0300) 2019-08-11
+Elapsed time: 4 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  737
+  RPS sent: 73.8
+  Request latency:
+    min: 6599.9
+    max: 6622.5
+    median: 6602.1
+    p95: 6607.2
+    p99: 6614
+  Codes:
+    200: 737
+
+Report @ 23:13:13(-0300) 2019-08-11
+Elapsed time: 4 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  786
+  RPS sent: 78.58
+  Request latency:
+    min: 6600.1
+    max: 6627.1
+    median: 6602.2
+    p95: 6607.2
+    p99: 6618.4
+  Codes:
+    200: 786
+
+Report @ 23:13:23(-0300) 2019-08-11
+Elapsed time: 4 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  723
+  RPS sent: 72.47
+  Request latency:
+    min: 6600
+    max: 6631.5
+    median: 6602.1
+    p95: 6607
+    p99: 6614.2
+  Codes:
+    200: 723
+
+Report @ 23:13:33(-0300) 2019-08-11
+Elapsed time: 4 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  790
+  RPS sent: 79.22
+  Request latency:
+    min: 6600.1
+    max: 6620.5
+    median: 6602.2
+    p95: 6608.2
+    p99: 6613.9
+  Codes:
+    200: 790
+
+Report @ 23:13:43(-0300) 2019-08-11
+Elapsed time: 4 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  720
+  RPS sent: 72.17
+  Request latency:
+    min: 6600.1
+    max: 6623.5
+    median: 6602.1
+    p95: 6606.8
+    p99: 6611.2
+  Codes:
+    200: 720
+
+Report @ 23:13:53(-0300) 2019-08-11
+Elapsed time: 5 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  801
+  RPS sent: 80.26
+  Request latency:
+    min: 6600
+    max: 6621.2
+    median: 6602.2
+    p95: 6608.3
+    p99: 6616
+  Codes:
+    200: 801
+
+Report @ 23:14:03(-0300) 2019-08-11
+Elapsed time: 5 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  708
+  RPS sent: 70.87
+  Request latency:
+    min: 6600
+    max: 6618.5
+    median: 6602
+    p95: 6607.5
+    p99: 6612.8
+  Codes:
+    200: 708
+
+Report @ 23:14:13(-0300) 2019-08-11
+Elapsed time: 5 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  813
+  RPS sent: 81.46
+  Request latency:
+    min: 6600
+    max: 6621.6
+    median: 6602.3
+    p95: 6608.2
+    p99: 6615.4
+  Codes:
+    200: 813
+
+Report @ 23:14:23(-0300) 2019-08-11
+Elapsed time: 5 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  695
+  RPS sent: 69.5
+  Request latency:
+    min: 6600
+    max: 6626.8
+    median: 6602.2
+    p95: 6607.9
+    p99: 6616.3
+  Codes:
+    200: 695
+
+Report @ 23:14:33(-0300) 2019-08-11
+Elapsed time: 5 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  823
+  RPS sent: 82.3
+  Request latency:
+    min: 6600.1
+    max: 6619
+    median: 6602.1
+    p95: 6607.8
+    p99: 6614
+  Codes:
+    200: 823
+
+Report @ 23:14:43(-0300) 2019-08-11
+Elapsed time: 5 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  688
+  RPS sent: 69.01
+  Request latency:
+    min: 6600
+    max: 6647.2
+    median: 6601.7
+    p95: 6607.8
+    p99: 6614.5
+  Codes:
+    200: 688
+
+Report @ 23:14:53(-0300) 2019-08-11
+Elapsed time: 6 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  827
+  RPS sent: 82.7
+  Request latency:
+    min: 6600.1
+    max: 6623.7
+    median: 6601.9
+    p95: 6609.9
+    p99: 6615.9
+  Codes:
+    200: 827
+
+Report @ 23:15:03(-0300) 2019-08-11
+Elapsed time: 6 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  683
+  RPS sent: 68.44
+  Request latency:
+    min: 6600
+    max: 6622.8
+    median: 6601.7
+    p95: 6606.5
+    p99: 6615.2
+  Codes:
+    200: 683
+
+Report @ 23:15:13(-0300) 2019-08-11
+Elapsed time: 6 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  835
+  RPS sent: 83.5
+  Request latency:
+    min: 6600.1
+    max: 6620.5
+    median: 6601.8
+    p95: 6606.5
+    p99: 6611.6
+  Codes:
+    200: 835
+
+Report @ 23:15:23(-0300) 2019-08-11
+Elapsed time: 6 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  676
+  RPS sent: 67.67
+  Request latency:
+    min: 6600.1
+    max: 6612.9
+    median: 6601.7
+    p95: 6606.1
+    p99: 6609.9
+  Codes:
+    200: 676
+
+Report @ 23:15:33(-0300) 2019-08-11
+Elapsed time: 6 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  838
+  RPS sent: 83.88
+  Request latency:
+    min: 6600.1
+    max: 6620.8
+    median: 6601.9
+    p95: 6607
+    p99: 6611.7
+  Codes:
+    200: 838
+
+Report @ 23:15:43(-0300) 2019-08-11
+Elapsed time: 6 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  675
+  RPS sent: 67.57
+  Request latency:
+    min: 6599.9
+    max: 6621.1
+    median: 6601.7
+    p95: 6605.9
+    p99: 6611.4
+  Codes:
+    200: 675
+
+Report @ 23:15:53(-0300) 2019-08-11
+Elapsed time: 7 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  834
+  RPS sent: 83.57
+  Request latency:
+    min: 6600
+    max: 6626.5
+    median: 6601.8
+    p95: 6606.9
+    p99: 6612
+  Codes:
+    200: 834
+
+Report @ 23:16:03(-0300) 2019-08-11
+Elapsed time: 7 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  685
+  RPS sent: 68.57
+  Request latency:
+    min: 6600
+    max: 6619.3
+    median: 6601.7
+    p95: 6605.8
+    p99: 6611.1
+  Codes:
+    200: 685
+
+Report @ 23:16:13(-0300) 2019-08-11
+Elapsed time: 7 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  824
+  RPS sent: 82.38
+  Request latency:
+    min: 6600
+    max: 6617.9
+    median: 6602.1
+    p95: 6608.2
+    p99: 6613.2
+  Codes:
+    200: 824
+
+Report @ 23:16:23(-0300) 2019-08-11
+Elapsed time: 7 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  703
+  RPS sent: 70.47
+  Request latency:
+    min: 6600
+    max: 6622.1
+    median: 6601.9
+    p95: 6607.7
+    p99: 6615.4
+  Codes:
+    200: 703
+
+Report @ 23:16:33(-0300) 2019-08-11
+Elapsed time: 7 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  805
+  RPS sent: 80.66
+  Request latency:
+    min: 6600.1
+    max: 6624.3
+    median: 6601.9
+    p95: 6607.7
+    p99: 6614.5
+  Codes:
+    200: 805
+
+Report @ 23:16:43(-0300) 2019-08-11
+Elapsed time: 7 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  709
+  RPS sent: 70.97
+  Request latency:
+    min: 6600.2
+    max: 6625.7
+    median: 6601.8
+    p95: 6606.7
+    p99: 6610.8
+  Codes:
+    200: 709
+
+Report @ 23:16:53(-0300) 2019-08-11
+Elapsed time: 8 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  801
+  RPS sent: 80.26
+  Request latency:
+    min: 6600
+    max: 6621.5
+    median: 6602.2
+    p95: 6608.1
+    p99: 6614.4
+  Codes:
+    200: 801
+
+Report @ 23:17:03(-0300) 2019-08-11
+Elapsed time: 8 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  726
+  RPS sent: 72.67
+  Request latency:
+    min: 6600
+    max: 6630.5
+    median: 6601.9
+    p95: 6607.9
+    p99: 6617.6
+  Codes:
+    200: 726
+
+Report @ 23:17:13(-0300) 2019-08-11
+Elapsed time: 8 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  784
+  RPS sent: 78.4
+  Request latency:
+    min: 6600.1
+    max: 6631.3
+    median: 6602
+    p95: 6607.3
+    p99: 6613.7
+  Codes:
+    200: 784
+
+Report @ 23:17:23(-0300) 2019-08-11
+Elapsed time: 8 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  727
+  RPS sent: 72.85
+  Request latency:
+    min: 6600
+    max: 6645.7
+    median: 6601.9
+    p95: 6607.1
+    p99: 6624.4
+  Codes:
+    200: 727
+
+Report @ 23:17:33(-0300) 2019-08-11
+Elapsed time: 8 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  780
+  RPS sent: 78.16
+  Request latency:
+    min: 6600
+    max: 6636.8
+    median: 6602
+    p95: 6608.6
+    p99: 6617.3
+  Codes:
+    200: 780
+
+Report @ 23:17:43(-0300) 2019-08-11
+Elapsed time: 8 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  746
+  RPS sent: 74.6
+  Request latency:
+    min: 6599.9
+    max: 6619.7
+    median: 6601.9
+    p95: 6606
+    p99: 6610.7
+  Codes:
+    200: 746
+
+Report @ 23:17:53(-0300) 2019-08-11
+Elapsed time: 9 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  768
+  RPS sent: 76.88
+  Request latency:
+    min: 6600
+    max: 6619.5
+    median: 6601.8
+    p95: 6606.5
+    p99: 6612.5
+  Codes:
+    200: 768
+
+Report @ 23:18:03(-0300) 2019-08-11
+Elapsed time: 9 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  750
+  RPS sent: 75.15
+  Request latency:
+    min: 6600
+    max: 6618
+    median: 6601.9
+    p95: 6607.9
+    p99: 6613.3
+  Codes:
+    200: 750
+
+Report @ 23:18:13(-0300) 2019-08-11
+Elapsed time: 9 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  758
+  RPS sent: 75.95
+  Request latency:
+    min: 6600
+    max: 6621.5
+    median: 6601.8
+    p95: 6607.5
+    p99: 6611.6
+  Codes:
+    200: 758
+
+Report @ 23:18:23(-0300) 2019-08-11
+Elapsed time: 9 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  758
+  RPS sent: 75.8
+  Request latency:
+    min: 6600.1
+    max: 6637.7
+    median: 6601.9
+    p95: 6609.4
+    p99: 6626.4
+  Codes:
+    200: 758
+
+Report @ 23:18:33(-0300) 2019-08-11
+Elapsed time: 9 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  753
+  RPS sent: 75.38
+  Request latency:
+    min: 6599.8
+    max: 6623.8
+    median: 6602
+    p95: 6607
+    p99: 6611.7
+  Codes:
+    200: 753
+
+Report @ 23:18:43(-0300) 2019-08-11
+Elapsed time: 9 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  765
+  RPS sent: 76.86
+  Request latency:
+    min: 6600.1
+    max: 6626.5
+    median: 6602
+    p95: 6609.7
+    p99: 6617.1
+  Codes:
+    200: 765
+
+Report @ 23:18:53(-0300) 2019-08-11
+Elapsed time: 10 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  739
+  RPS sent: 74
+  Request latency:
+    min: 6600.2
+    max: 6624
+    median: 6602
+    p95: 6606.7
+    p99: 6611.2
+  Codes:
+    200: 739
+
+Report @ 23:19:03(-0300) 2019-08-11
+Elapsed time: 10 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  781
+  RPS sent: 78
+  Request latency:
+    min: 6600
+    max: 6619.1
+    median: 6601.9
+    p95: 6607.7
+    p99: 6614.7
+  Codes:
+    200: 781
+
+Report @ 23:19:13(-0300) 2019-08-11
+Elapsed time: 10 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  731
+  RPS sent: 73.2
+  Request latency:
+    min: 6600.1
+    max: 6625.8
+    median: 6602
+    p95: 6607.9
+    p99: 6618.1
+  Codes:
+    200: 731
+
+Report @ 23:19:23(-0300) 2019-08-11
+Elapsed time: 10 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  785
+  RPS sent: 78.28
+  Request latency:
+    min: 6600.2
+    max: 6618.2
+    median: 6601.9
+    p95: 6605.9
+    p99: 6612.1
+  Codes:
+    200: 785
+
+Report @ 23:19:33(-0300) 2019-08-11
+Elapsed time: 10 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  724
+  RPS sent: 72.7
+  Request latency:
+    min: 6599.9
+    max: 6648.8
+    median: 6601.9
+    p95: 6606.6
+    p99: 6619.1
+  Codes:
+    200: 724
+
+Report @ 23:19:43(-0300) 2019-08-11
+Elapsed time: 10 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  799
+  RPS sent: 80.04
+  Request latency:
+    min: 6600.1
+    max: 6671.6
+    median: 6602.5
+    p95: 6614.4
+    p99: 6635.7
+  Codes:
+    200: 799
+
+Report @ 23:19:53(-0300) 2019-08-11
+Elapsed time: 11 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  712
+  RPS sent: 71.3
+  Request latency:
+    min: 6600.1
+    max: 6623.3
+    median: 6601.9
+    p95: 6607.5
+    p99: 6613.1
+  Codes:
+    200: 712
+
+Report @ 23:20:03(-0300) 2019-08-11
+Elapsed time: 11 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  804
+  RPS sent: 80.48
+  Request latency:
+    min: 6600.1
+    max: 6635
+    median: 6602.2
+    p95: 6611.5
+    p99: 6620.5
+  Codes:
+    200: 804
+
+Report @ 23:20:13(-0300) 2019-08-11
+Elapsed time: 11 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  707
+  RPS sent: 70.67
+  Request latency:
+    min: 6600
+    max: 6618.4
+    median: 6601.9
+    p95: 6607.8
+    p99: 6614
+  Codes:
+    200: 707
+
+Report @ 23:20:23(-0300) 2019-08-11
+Elapsed time: 11 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  812
+  RPS sent: 81.3
+  Request latency:
+    min: 6600.1
+    max: 6628.3
+    median: 6602.2
+    p95: 6611.2
+    p99: 6624.9
+  Codes:
+    200: 812
+
+Report @ 23:20:33(-0300) 2019-08-11
+Elapsed time: 11 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  693
+  RPS sent: 69.37
+  Request latency:
+    min: 6599.9
+    max: 6617.9
+    median: 6601.9
+    p95: 6607
+    p99: 6612.8
+  Codes:
+    200: 693
+
+Report @ 23:20:43(-0300) 2019-08-11
+Elapsed time: 11 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  830
+  RPS sent: 83
+  Request latency:
+    min: 6599.8
+    max: 6628
+    median: 6602.1
+    p95: 6608.5
+    p99: 6612.1
+  Codes:
+    200: 830
+
+Report @ 23:20:53(-0300) 2019-08-11
+Elapsed time: 12 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  680
+  RPS sent: 67.97
+  Request latency:
+    min: 6600.1
+    max: 6612.2
+    median: 6601.9
+    p95: 6605.5
+    p99: 6609.2
+  Codes:
+    200: 680
+
+Report @ 23:21:03(-0300) 2019-08-11
+Elapsed time: 12 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  833
+  RPS sent: 83.4
+  Request latency:
+    min: 6599.9
+    max: 6619
+    median: 6602.1
+    p95: 6606.7
+    p99: 6612.1
+  Codes:
+    200: 833
+
+Report @ 23:21:13(-0300) 2019-08-11
+Elapsed time: 12 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  681
+  RPS sent: 68
+  Request latency:
+    min: 6600.1
+    max: 6617.6
+    median: 6601.9
+    p95: 6605.9
+    p99: 6610.2
+  Codes:
+    200: 681
+
+Report @ 23:21:23(-0300) 2019-08-11
+Elapsed time: 12 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  838
+  RPS sent: 83.6
+  Request latency:
+    min: 6599.8
+    max: 6639.9
+    median: 6602.1
+    p95: 6607.9
+    p99: 6619
+  Codes:
+    200: 838
+
+Report @ 23:21:33(-0300) 2019-08-11
+Elapsed time: 12 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  675
+  RPS sent: 67.87
+  Request latency:
+    min: 6600.1
+    max: 6617.6
+    median: 6601.8
+    p95: 6605.4
+    p99: 6609.2
+  Codes:
+    200: 675
+
+Report @ 23:21:43(-0300) 2019-08-11
+Elapsed time: 12 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  832
+  RPS sent: 83.2
+  Request latency:
+    min: 6600
+    max: 6642
+    median: 6602.1
+    p95: 6609.2
+    p99: 6616.1
+  Codes:
+    200: 832
+
+Report @ 23:21:53(-0300) 2019-08-11
+Elapsed time: 13 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  675
+  RPS sent: 67.7
+  Request latency:
+    min: 6599.9
+    max: 6623.8
+    median: 6602
+    p95: 6607.5
+    p99: 6611.2
+  Codes:
+    200: 675
+
+Report @ 23:22:03(-0300) 2019-08-11
+Elapsed time: 13 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  835
+  RPS sent: 83.58
+  Request latency:
+    min: 6600
+    max: 6631.2
+    median: 6602
+    p95: 6610.5
+    p99: 6617.6
+  Codes:
+    200: 835
+
+Report @ 23:22:13(-0300) 2019-08-11
+Elapsed time: 13 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  685
+  RPS sent: 68.64
+  Request latency:
+    min: 6600
+    max: 6622.5
+    median: 6602
+    p95: 6606.9
+    p99: 6612.5
+  Codes:
+    200: 685
+
+Report @ 23:22:23(-0300) 2019-08-11
+Elapsed time: 13 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  824
+  RPS sent: 82.4
+  Request latency:
+    min: 6600
+    max: 6628.6
+    median: 6602.1
+    p95: 6611
+    p99: 6618.6
+  Codes:
+    200: 824
+
+Report @ 23:22:33(-0300) 2019-08-11
+Elapsed time: 13 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  695
+  RPS sent: 69.37
+  Request latency:
+    min: 6600
+    max: 6616.5
+    median: 6602
+    p95: 6606.5
+    p99: 6611
+  Codes:
+    200: 695
+
+Report @ 23:22:43(-0300) 2019-08-11
+Elapsed time: 13 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  815
+  RPS sent: 81.7
+  Request latency:
+    min: 6600
+    max: 6627.5
+    median: 6602
+    p95: 6608
+    p99: 6618.4
+  Codes:
+    200: 815
+
+Report @ 23:22:53(-0300) 2019-08-11
+Elapsed time: 14 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  699
+  RPS sent: 70.04
+  Request latency:
+    min: 6600
+    max: 6626.7
+    median: 6601.9
+    p95: 6606.5
+    p99: 6614.5
+  Codes:
+    200: 699
+
+Report @ 23:23:03(-0300) 2019-08-11
+Elapsed time: 14 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  812
+  RPS sent: 81.2
+  Request latency:
+    min: 6600.1
+    max: 6630.8
+    median: 6602.3
+    p95: 6608.5
+    p99: 6616.7
+  Codes:
+    200: 812
+
+Report @ 23:23:13(-0300) 2019-08-11
+Elapsed time: 14 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  718
+  RPS sent: 72.02
+  Request latency:
+    min: 6600.1
+    max: 6640.7
+    median: 6602.1
+    p95: 6608.1
+    p99: 6614.1
+  Codes:
+    200: 718
+
+Report @ 23:23:23(-0300) 2019-08-11
+Elapsed time: 14 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  788
+  RPS sent: 78.72
+  Request latency:
+    min: 6600.1
+    max: 6617.6
+    median: 6602
+    p95: 6607.5
+    p99: 6614.8
+  Codes:
+    200: 788
+
+Report @ 23:23:33(-0300) 2019-08-11
+Elapsed time: 14 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  725
+  RPS sent: 72.94
+  Request latency:
+    min: 6600.1
+    max: 6654.8
+    median: 6601.9
+    p95: 6607.3
+    p99: 6617.2
+  Codes:
+    200: 725
+
+Report @ 23:23:43(-0300) 2019-08-11
+Elapsed time: 14 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  786
+  RPS sent: 78.68
+  Request latency:
+    min: 6600.3
+    max: 6684.9
+    median: 6602
+    p95: 6611.5
+    p99: 6632.6
+  Codes:
+    200: 786
+
+Report @ 23:23:53(-0300) 2019-08-11
+Elapsed time: 15 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  735
+  RPS sent: 73.45
+  Request latency:
+    min: 6600.1
+    max: 6692.3
+    median: 6602.2
+    p95: 6609.3
+    p99: 6616.1
+  Codes:
+    200: 735
+
+Report @ 23:24:03(-0300) 2019-08-11
+Elapsed time: 15 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  777
+  RPS sent: 77.72
+  Request latency:
+    min: 6600
+    max: 6629.8
+    median: 6602.1
+    p95: 6610.3
+    p99: 6624.7
+  Codes:
+    200: 777
+
+Report @ 23:24:13(-0300) 2019-08-11
+Elapsed time: 15 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  750
+  RPS sent: 75.4
+  Request latency:
+    min: 6600.2
+    max: 6629.1
+    median: 6602.2
+    p95: 6609
+    p99: 6616.4
+  Codes:
+    200: 750
+
+Report @ 23:24:23(-0300) 2019-08-11
+Elapsed time: 15 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  760
+  RPS sent: 76
+  Request latency:
+    min: 6600.1
+    max: 6620.2
+    median: 6601.9
+    p95: 6610.2
+    p99: 6616.2
+  Codes:
+    200: 760
+
+Report @ 23:24:33(-0300) 2019-08-11
+Elapsed time: 15 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  759
+  RPS sent: 76.13
+  Request latency:
+    min: 6600.1
+    max: 6624.6
+    median: 6602
+    p95: 6608.2
+    p99: 6613.3
+  Codes:
+    200: 759
+
+Report @ 23:24:43(-0300) 2019-08-11
+Elapsed time: 15 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  746
+  RPS sent: 74.6
+  Request latency:
+    min: 6600.1
+    max: 6633.7
+    median: 6602.1
+    p95: 6610
+    p99: 6621.3
+  Codes:
+    200: 746
+
+Report @ 23:24:53(-0300) 2019-08-11
+Elapsed time: 16 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  771
+  RPS sent: 77.18
+  Request latency:
+    min: 6600
+    max: 6624.4
+    median: 6602
+    p95: 6609
+    p99: 6614.1
+  Codes:
+    200: 771
+
+Report @ 23:25:03(-0300) 2019-08-11
+Elapsed time: 16 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  740
+  RPS sent: 74.07
+  Request latency:
+    min: 6600
+    max: 6628.7
+    median: 6601.9
+    p95: 6608
+    p99: 6612.7
+  Codes:
+    200: 740
+
+Report @ 23:25:13(-0300) 2019-08-11
+Elapsed time: 16 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  768
+  RPS sent: 76.88
+  Request latency:
+    min: 6599.9
+    max: 6641.7
+    median: 6602
+    p95: 6610.3
+    p99: 6623
+  Codes:
+    200: 768
+
+Report @ 23:25:23(-0300) 2019-08-11
+Elapsed time: 16 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  740
+  RPS sent: 74.07
+  Request latency:
+    min: 6600
+    max: 6631.6
+    median: 6601.9
+    p95: 6607.5
+    p99: 6615.5
+  Codes:
+    200: 740
+
+Report @ 23:25:33(-0300) 2019-08-11
+Elapsed time: 16 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  784
+  RPS sent: 78.38
+  Request latency:
+    min: 6600
+    max: 6630.6
+    median: 6602
+    p95: 6611
+    p99: 6620.4
+  Codes:
+    200: 784
+
+Report @ 23:25:43(-0300) 2019-08-11
+Elapsed time: 16 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  728
+  RPS sent: 72.9
+  Request latency:
+    min: 6600.1
+    max: 6622.6
+    median: 6601.9
+    p95: 6607.1
+    p99: 6614.3
+  Codes:
+    200: 728
+
+Report @ 23:25:53(-0300) 2019-08-11
+Elapsed time: 17 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  793
+  RPS sent: 79.38
+  Request latency:
+    min: 6600
+    max: 6630.4
+    median: 6602
+    p95: 6608.3
+    p99: 6612.9
+  Codes:
+    200: 793
+
+Report @ 23:26:03(-0300) 2019-08-11
+Elapsed time: 17 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  716
+  RPS sent: 71.82
+  Request latency:
+    min: 6599.8
+    max: 6620.2
+    median: 6601.9
+    p95: 6607.3
+    p99: 6613
+  Codes:
+    200: 716
+
+Report @ 23:26:13(-0300) 2019-08-11
+Elapsed time: 17 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  797
+  RPS sent: 79.62
+  Request latency:
+    min: 6599.9
+    max: 6619.1
+    median: 6602
+    p95: 6608.7
+    p99: 6613
+  Codes:
+    200: 797
+
+Report @ 23:26:23(-0300) 2019-08-11
+Elapsed time: 17 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  712
+  RPS sent: 71.27
+  Request latency:
+    min: 6599.9
+    max: 6629.5
+    median: 6601.8
+    p95: 6608.8
+    p99: 6614.4
+  Codes:
+    200: 712
+
+Report @ 23:26:33(-0300) 2019-08-11
+Elapsed time: 17 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  805
+  RPS sent: 80.66
+  Request latency:
+    min: 6600
+    max: 6625.7
+    median: 6602
+    p95: 6609.2
+    p99: 6616.9
+  Codes:
+    200: 805
+
+Report @ 23:26:43(-0300) 2019-08-11
+Elapsed time: 17 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  703
+  RPS sent: 70.37
+  Request latency:
+    min: 6600
+    max: 6632.7
+    median: 6602.1
+    p95: 6610.2
+    p99: 6619.8
+  Codes:
+    200: 703
+
+Report @ 23:26:53(-0300) 2019-08-11
+Elapsed time: 18 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  822
+  RPS sent: 82.36
+  Request latency:
+    min: 6600
+    max: 6629.1
+    median: 6602.1
+    p95: 6608.3
+    p99: 6618
+  Codes:
+    200: 822
+
+Report @ 23:27:03(-0300) 2019-08-11
+Elapsed time: 18 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  689
+  RPS sent: 68.94
+  Request latency:
+    min: 6599.9
+    max: 6616.7
+    median: 6602
+    p95: 6607.1
+    p99: 6612
+  Codes:
+    200: 689
+
+Report @ 23:27:13(-0300) 2019-08-11
+Elapsed time: 18 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  834
+  RPS sent: 83.5
+  Request latency:
+    min: 6600
+    max: 6628.9
+    median: 6602.1
+    p95: 6609.7
+    p99: 6616.6
+  Codes:
+    200: 834
+
+Report @ 23:27:23(-0300) 2019-08-11
+Elapsed time: 18 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  682
+  RPS sent: 68.34
+  Request latency:
+    min: 6599.9
+    max: 6622.9
+    median: 6601.7
+    p95: 6607.1
+    p99: 6612.3
+  Codes:
+    200: 682
+
+Report @ 23:27:33(-0300) 2019-08-11
+Elapsed time: 18 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  833
+  RPS sent: 83.63
+  Request latency:
+    min: 6600.1
+    max: 6656.3
+    median: 6602.1
+    p95: 6612.3
+    p99: 6630.3
+  Codes:
+    200: 833
+
+Report @ 23:27:43(-0300) 2019-08-11
+Elapsed time: 18 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  676
+  RPS sent: 67.67
+  Request latency:
+    min: 6599.9
+    max: 6622.4
+    median: 6601.8
+    p95: 6607.8
+    p99: 6612.7
+  Codes:
+    200: 676
+
+Report @ 23:27:53(-0300) 2019-08-11
+Elapsed time: 19 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  833
+  RPS sent: 83.38
+  Request latency:
+    min: 6600
+    max: 6642.1
+    median: 6601.9
+    p95: 6607.9
+    p99: 6630
+  Codes:
+    200: 833
+
+Report @ 23:28:03(-0300) 2019-08-11
+Elapsed time: 19 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  676
+  RPS sent: 67.8
+  Request latency:
+    min: 6600
+    max: 6625.4
+    median: 6601.8
+    p95: 6608.3
+    p99: 6615.2
+  Codes:
+    200: 676
+
+Report @ 23:28:13(-0300) 2019-08-11
+Elapsed time: 19 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  833
+  RPS sent: 83.38
+  Request latency:
+    min: 6600
+    max: 6634.5
+    median: 6602
+    p95: 6609.1
+    p99: 6619.8
+  Codes:
+    200: 833
+
+Report @ 23:28:23(-0300) 2019-08-11
+Elapsed time: 19 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  686
+  RPS sent: 68.67
+  Request latency:
+    min: 6600
+    max: 6623.3
+    median: 6601.7
+    p95: 6606.4
+    p99: 6612.8
+  Codes:
+    200: 686
+
+Report @ 23:28:33(-0300) 2019-08-11
+Elapsed time: 19 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  824
+  RPS sent: 82.4
+  Request latency:
+    min: 6599.9
+    max: 6622.8
+    median: 6601.9
+    p95: 6609
+    p99: 6619.9
+  Codes:
+    200: 824
+
+Report @ 23:28:43(-0300) 2019-08-11
+Elapsed time: 19 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  690
+  RPS sent: 69.07
+  Request latency:
+    min: 6599.7
+    max: 6623.8
+    median: 6601.7
+    p95: 6607
+    p99: 6618.1
+  Codes:
+    200: 690
+
+Report @ 23:28:53(-0300) 2019-08-11
+Elapsed time: 20 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  820
+  RPS sent: 82.25
+  Request latency:
+    min: 6599.8
+    max: 6633.2
+    median: 6601.9
+    p95: 6608.1
+    p99: 6624
+  Codes:
+    200: 820
+
+Report @ 23:29:03(-0300) 2019-08-11
+Elapsed time: 20 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  698
+  RPS sent: 69.87
+  Request latency:
+    min: 6599.9
+    max: 6614.5
+    median: 6601.9
+    p95: 6606.3
+    p99: 6609.9
+  Codes:
+    200: 698
+
+Report @ 23:29:13(-0300) 2019-08-11
+Elapsed time: 20 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  809
+  RPS sent: 81.06
+  Request latency:
+    min: 6600.1
+    max: 6618.7
+    median: 6602.2
+    p95: 6608.6
+    p99: 6613.6
+  Codes:
+    200: 809
+
+Report @ 23:29:23(-0300) 2019-08-11
+Elapsed time: 20 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  705
+  RPS sent: 70.71
+  Request latency:
+    min: 6600
+    max: 6621.6
+    median: 6601.9
+    p95: 6606.3
+    p99: 6611.4
+  Codes:
+    200: 705
+
+Report @ 23:29:33(-0300) 2019-08-11
+Elapsed time: 20 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  804
+  RPS sent: 80.48
+  Request latency:
+    min: 6600
+    max: 6620
+    median: 6601.9
+    p95: 6608.9
+    p99: 6615.9
+  Codes:
+    200: 804
+
+Report @ 23:29:43(-0300) 2019-08-11
+Elapsed time: 20 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  711
+  RPS sent: 71.21
+  Request latency:
+    min: 6600.1
+    max: 6623
+    median: 6601.8
+    p95: 6606.8
+    p99: 6616.3
+  Codes:
+    200: 711
+
+Report @ 23:29:53(-0300) 2019-08-11
+Elapsed time: 21 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  800
+  RPS sent: 79.92
+  Request latency:
+    min: 6600.1
+    max: 6643.5
+    median: 6602
+    p95: 6609.1
+    p99: 6618.7
+  Codes:
+    200: 800
+
+Report @ 23:30:03(-0300) 2019-08-11
+Elapsed time: 21 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  731
+  RPS sent: 73.2
+  Request latency:
+    min: 6599.7
+    max: 6623.4
+    median: 6601.8
+    p95: 6607.1
+    p99: 6616.9
+  Codes:
+    200: 731
+
+Report @ 23:30:13(-0300) 2019-08-11
+Elapsed time: 21 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  782
+  RPS sent: 78.28
+  Request latency:
+    min: 6600
+    max: 6621.3
+    median: 6602
+    p95: 6608.1
+    p99: 6615.4
+  Codes:
+    200: 782
+
+Report @ 23:30:23(-0300) 2019-08-11
+Elapsed time: 21 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  741
+  RPS sent: 74.32
+  Request latency:
+    min: 6600.1
+    max: 6619.3
+    median: 6601.8
+    p95: 6608.7
+    p99: 6615.9
+  Codes:
+    200: 741
+
+Report @ 23:30:33(-0300) 2019-08-11
+Elapsed time: 21 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  765
+  RPS sent: 76.58
+  Request latency:
+    min: 6600.1
+    max: 6619.9
+    median: 6601.8
+    p95: 6606.3
+    p99: 6610.3
+  Codes:
+    200: 765
+
+Report @ 23:30:43(-0300) 2019-08-11
+Elapsed time: 21 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  762
+  RPS sent: 76.2
+  Request latency:
+    min: 6600
+    max: 6622.7
+    median: 6601.8
+    p95: 6607.3
+    p99: 6614.3
+  Codes:
+    200: 762
+
+Report @ 23:30:53(-0300) 2019-08-11
+Elapsed time: 22 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  748
+  RPS sent: 74.95
+  Request latency:
+    min: 6599.8
+    max: 6621.8
+    median: 6602.1
+    p95: 6609.4
+    p99: 6614.1
+  Codes:
+    200: 748
+
+Report @ 23:31:03(-0300) 2019-08-11
+Elapsed time: 22 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 442
+  Requests completed:  652
+  RPS sent: 21
+  Request latency:
+    min: 6599.9
+    max: 6623.9
+    median: 6601.7
+    p95: 6605.1
+    p99: 6607.8
+  Codes:
+    200: 652
+
+Report @ 23:31:05(-0300) 2019-08-11
+Elapsed time: 22 minutes, 12 seconds
+  Scenarios launched:  0
+  Scenarios completed: 58
+  Requests completed:  58
+  RPS sent: NaN
+  Request latency:
+    min: 6600
+    max: 6612.2
+    median: 6601.6
+    p95: 6606.2
+    p99: 6612.2
+  Codes:
+    200: 58
+
+All virtual users finished
+Summary report @ 23:31:05(-0300) 2019-08-11
+  Scenarios launched:  500
+  Scenarios completed: 500
+  Requests completed:  100000
+  RPS sent: 75.06
+  Request latency:
+    min: 6599.7
+    max: 6692.3
+    median: 6602
+    p95: 6608
+    p99: 6615.8
+  Scenario counts:
+    0: 500 (100%)
+  Codes:
+    200: 100000
+
+Log file: RegistrarNovaAnaliseCredito.repo

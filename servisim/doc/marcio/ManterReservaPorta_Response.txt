@@ -1,0 +1,24 @@
+"{"ManutencaofacilidadeNumeroPortaResponse": {
+    "siglaUf": "RJ",
+    "siglaEstacao": "VIB",
+    "velProduto": "5MB",
+    "ResponseControl": {
+        "reason": "",
+        "code": "0000"
+    },
+    "indObrigReservaPorta": "S",
+    "localidadeTelefone": "RJO",
+    "IndRedeVizinho": "",
+    "localidadeInstalacao": "RJO",
+    "numParPrimario": "2260",
+    "flgRedeDedicada": "N",
+    "numTelReserva": "25787084",
+    "siglaABL": "",
+    "numCaboPrimario": "010",
+    "numSecaoServico": "1052",
+    "tipoCriterioBypass": "4",
+    "indReservaPorta": "S",
+    "indViabiliadadeSvoi": "S",
+    "localidadeEstacao": "RJO",
+    "localidadeABL": ""
+}}"

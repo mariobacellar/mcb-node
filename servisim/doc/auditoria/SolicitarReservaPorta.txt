@@ -1,0 +1,76 @@
+SolicitarReservaPorta [/recursos/portaadsl/v1/reservar]
+
+JSON REQUEST:
+{
+  "SolicitarReservaPortaRequest": {
+    "MessageHeaderAPI": {
+      "App": "OiVende",
+      "TransationId": "API:20180116180642644"
+    },
+    "GrupoRequest": {
+      "siglaUF": "PE",
+      "codigoLiteralLocalABLE": "",
+      "matriculaSolicitante": "OI403787",
+      "CodLocalidadeEstNova": "",
+      "EstacaoNova": "",
+      "DDD": "81",
+      "numeroTerminal": "32314819",
+      "indicadorMultiproduto": "N",
+      "CaixaNova": "",
+      "viabilidadeSVOIE": "S",
+      "velocidadeVendida": "10MB",
+      "sistemaDeOrigem": "OIVENDE",
+      "CaboNova": "",
+      "siglaArmarioBLE": "",
+      "velocidadeAtual": "10MB",
+      "criterioBYPASS": "1",
+      "velocidadeMaximaE": "10MB",
+      "SecaoNova": "",
+      "acao": "I"
+    }
+  }
+}
+
+JSON RESPONSE:
+{
+  "SolicitarReservaPortaResponse": {
+    "ResponseControl": {
+      "reason": "",
+      "code": "0000"
+    },
+    "GrupoResponse": {
+      "velocidadeMaxima": "10MB",
+      "DDD": "81",
+      "indicadorDeObrigatoriedadeDePorta": "N",
+      "dslamReserva": "",
+      "CodLocalidadeEstReser": "",
+      "shelfReserva": "",
+      "NumTerminalReser": "",
+      "UF": "PE",
+      "slotReserva": "",
+      "SecaoReser": "",
+      "ParPrimarioReser": "0",
+      "ciglaEstacao": "EBVT",
+      "codigoLiteralLocalCircuito": "",
+      "numeroCircuito": "",
+      "portaReserva": "",
+      "DDDTerminalReser": "",
+      "viabilidadeSVOI": "S",
+      "codigoLocalidadeEstacao": "RCE",
+      "ParSecundarioReser": "0",
+      "numeroTerminal": "32314819",
+      "siglaABL": "",
+      "indicadorDePortaReservada": "N",
+      "velocidadeAtual": "10MB",
+      "EstacaoReser": "",
+      "codigoLiteralLocalABL": "",
+      "CaboReser": "",
+      "numeroFisicoTerminal": "32210059",
+      "criterioBYPASS": "1",
+      "servico": "INSADSL",
+      "rackReserva": "",
+      "bandaDisponivel": "10MB",
+      "CaixaReser": ""
+    }
+  }
+}

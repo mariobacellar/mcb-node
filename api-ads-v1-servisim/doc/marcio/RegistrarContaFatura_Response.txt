@@ -1,0 +1,21 @@
+"{"DataResponse": {
+    "RegistrarContaFaturaResponse": {"NumeroContaFatura": "2376839641"},
+    "MessageHeaderResponse": {
+        "Response": {"Return": {
+            "Type": "S",
+            "Description": "Sucesso",
+            "NativeReturn": {
+                "Type": "S",
+                "Description": "-",
+                "AppId": "AN0448",
+                "Code": "0"
+            },
+            "Code": "00000"
+        }},
+        "AppId": "OA0848",
+        "CorrelationId": "",
+        "Timestamp": "2019-08-08T16:42:38.675-03:00",
+        "BusinessId": "",
+        "TransactionId": "OA0848:SOA0005V1.0:20190808194230141:000:00000000200148525TR264107"
+    }
+}}"

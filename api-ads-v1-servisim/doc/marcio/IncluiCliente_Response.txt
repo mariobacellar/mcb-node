@@ -1,0 +1,9 @@
+"{"IncluirClienteResponse": {
+    "ResponseControl": {
+        "reason": "ALTERACAO DE CLIENTE EFETUADA COM SUCESSO",
+        "code": "0000",
+        "detail": "ALTERACAO DE CLIENTE EFETUADA COM SUCESSO"
+    },
+    "WEMP-ENV": "20",
+    "WNRC-ENV": "11303544"
+}}"

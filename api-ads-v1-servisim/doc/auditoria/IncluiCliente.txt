@@ -1,0 +1,72 @@
+IncluirCliente [/clientes/cadastro/v1/dados/incluir]
+
+JSON REQUEST:
+{
+  "IncluirClienteRequest": {
+    "UFEXP": "RJ",
+    "CPFPROC": "00000000000",
+    "EMAIL": "TESTE@TESTE.COM",
+    "CODDOC": "RG",
+    "SEGMERC": "08",
+    "NUMDOC": "00007415030770",
+    "NREF2": "",
+    "RENDA": "3250",
+    "NREF1": "ALAN ALVES DE SOUSA",
+    "QTEMIC": "00000",
+    "DTNASC": "19780226",
+    "FILM": "JOANA ALVES DE SOUSA",
+    "EMP": "20",
+    "INDDEP": "1",
+    "INICEMP": "201408",
+    "CREF2": "21",
+    "TREF1": "988857575",
+    "TREF2": "99156219",
+    "CREF1": "21",
+    "RAMO": "00000",
+    "AGREF": "",
+    "RELCLI": "99",
+    "NOME": "ALAN ALVES DE SOUSA",
+    "ECIVIL": "4",
+    "DATAEXP": "20010101",
+    "OCUPRINC": "126",
+    "INICRES": "200001",
+    "IDENTDOC": "00000123456789",
+    "OCUP": "4",
+    "SITRES": "1",
+    "UNIDNEG": "VARRES",
+    "TIPODOC": "1",
+    "CLASSE": "1",
+    "MessageHeaderAPI": {
+      "App": "Oi360",
+      "TransactionId": "OA0848:SOA0005V1.0:20190808191730652:000:00000000924165955TR270597"
+    },
+    "NPROC": "",
+    "QTEDEP": "0",
+    "ORGAOEXP": "IFP",
+    "QTEFUNC": "00000",
+    "ORIGEM": "1",
+    "QTEFIL": "00000",
+    "MATRES": "E19540",
+    "INSCEST": "",
+    "NSOCIO": "",
+    "SEXO": "2",
+    "BCOREF": "000",
+    "NAC": "BRA",
+    "FAT": "000000000000000",
+    "INICFUND": "",
+    "CPFSOCIO": "00000000000"
+  }
+}
+
+JSON RESPONSE:
+{
+  "IncluirClienteResponse": {
+    "ResponseControl": {
+      "reason": "ALTERACAO DE CLIENTE EFETUADA COM SUCESSO",
+      "code": "0000",
+      "detail": "ALTERACAO DE CLIENTE EFETUADA COM SUCESSO"
+    },
+    "WEMP-ENV": "20",
+    "WNRC-ENV": "8147222"
+  }
+}

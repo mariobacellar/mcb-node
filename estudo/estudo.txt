@@ -1,0 +1,197 @@
+=====================================================================
+Chat - Bar Praia
+=====================================================================
+
+----------------------------------------------------------------------------------------------------------------------------------
+. Princípios https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web
+----------------------------------------------------------------------------------------------------------------------------------
+
+Heroku - Optimizing Node.js Application Concurrency: https://devcenter.heroku.com/articles/node-concurrency
+Heroku - Best Practices for Node.js Development: https://devcenter.heroku.com/articles/node-best-practices
+
+
+*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.
+
+.Gerenciadores de processos para aplicativos do Express. Ao executar aplicativos do Express para produção, é útil usar um gerenciador de processos para completar as seguintes tarefas: (https://expressjs.com/pt-br/advanced/pm.html)
+    -Reiniciar o aplicativo automaticamente se cair.
+	- Ganhe insights sobre o desempenho em tempo de execução e o consumo de recursos.
+  	-  Modifique configurações dinamicamente para melhorar o desempenho.
+   	- Controle a clusterização.
+. Use a compactação gzip. A compactação Gzip pode diminuir bastante o tamanho do corpo de resposta e assim aumentar a velocidade de um aplicativo da web. Use o middleware compression para fazer a compactação gzip no seu aplicativo do Express. Por exemplo: https://expressjs.com/pt-br/advanced/best-practice-performance.html
+
+. Melhores Práticas de Produção: desempenho e confiabilidade: https://expressjs.com/pt-br/advanced/best-practice-performance.html
+	* Itens a fazer no seu código. A seguir serão apresentados alguns itens que podem ser feitos no seu código para melhorar o desempenho dos aplicativos:
+    + Use a compactação gzip
+    + Não use funções síncronas
+    + Use o middleware para entregar arquivos estáticos
+    + Faça o registro de logs corretamente
+    + Lide com exceções adequadamente+ 
+    * Coisa a se fazer no seu ambiente / configuração. A seguir serão apresentados alguns itens que podem ser feitos no seu ambiente de sistema para melhorar o desempenho dos seus aplicativos:
+    + Configure o NODE_ENV para “produção”
+    + Assegure que o seu aplicativo reinicie automaticamente
+    + Execute seu aplicativo em um cluster
+    + Armazene em cache os resultados das solicitações
+    + Use um balanceador de carga
+    + Use um proxy reverso
+*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.
+. app.js - index.js - server.js - client.js - ... normalize-port
+
+		// app.js
+		var express = require('express'); 
+		var app = express(); 
+		var mongoose = require('mongoose');
+		
+		// Configuration 
+		app.configure('development', function(){ 
+		  app.set('dburilocalhost/mydevdb'); }); 
+		
+		app.configure('production', function(){ 
+		  app.set('dburimongodb://somedb.mongolab.com:1234/myproddb'); }); 
+		
+		global.db = (global.db ? global.db : mongoose.createConnection(app.settings.dburi));
+		
+		---
+		Ou (app.configure is completely removed from version 4.0! . abaixo é para manter compatibildade com vesoes antigas). app.configure is removed in Express 4.x. If you followed some outdated tutorials and wondering why it didn't work, You should remove app.configure(function(){ ... }. Like this:
+		---
+		var app = require(express);
+
+		app.configure(function(){
+		    app.set('port', process.env.PORT || config.port);
+		    app.use(express.logger('dev'));  /* 'default', 'short', 'tiny', 'dev' */
+		    app.use(express.bodyParser());
+		    app.use(express.static(path.join(__dirname, 'site')));
+		}
+
+
+
+		
+. Clusters / Workers: 
+	+ https://www.sitepoint.com/how-to-create-a-node-js-cluster-for-speeding-up-your-apps/
+	+ https://github.com/brianc/node-forky
+	+ https://gist.github.com/aseemk/4497350
+		var cluster = require('cluster');
+		var http = require('http');
+		var numCPUs = require('os').cpus().length;
+		var pid = process.pid;
+		var port = process.env['PORT'] || 8000;
+
+		if (cluster.isMaster) {
+		  console.log('Master:', pid);
+
+		  // Fork workers -- one less than the number of CPUs.
+		  for (var i = 1; i < numCPUs; i++) {
+		    cluster.fork();
+		  }
+
+		  cluster.on('death', function(worker) {
+		    console.error('DEATH:', worker.pid);
+		  });
+		} else {
+		  console.log('Worker:', pid);
+
+		  // Worker processes have a http server.
+		  http.createServer(function(req, res) {
+		    console.log('Request:', pid);
+		    res.writeHead(200);
+		    res.end("Hello world! (From process " + pid + ".)\n");
+		  }).listen(port);
+		}
+
+
+
+
+. Autenticação - JWT - Passaport - Sesssion - node.bcrypt.js
+	+ https://www.codementor.io/mayowa.a/how-to-build-a-simple-session-based-authentication-system-with-nodejs-from-scratch-6vn67mcy3
+	+ https://dustinpfister.github.io/2018/06/01/express-session/ [Using express-session for session data in express.js | Dustin John Pfister at github pages]
+	+ https://www.js-tutorials.com/nodejs-tutorial/nodejs-session-example-using-express-session/
+	+ https://dustinpfister.github.io/2018/06/01/express-session/
+. Autorização - Perfil 
+. Configs - express.configure ??? (dev e prod)
+	. Express - Router - Load - body-parser - 
+	. dotenv: https://appdividend.com/2019/06/06/what-is-process-env-in-node-js-environment-variables-in-node-js/
+	. static file: https://appdividend.com/2018/11/24/how-to-serve-static-files-in-express/
+	. Express Load e Consign: https://cursos.alura.com.br/forum/topico-nodejs-express-load-e-consign-45973
+	. Datas: moment.js - https://appdividend.com/2018/10/04/moment-js-tutorial-with-example-from-scratch/
+	. Express Error Handling Example Tutorial: https://appdividend.com/2018/09/16/express-error-handling-example-tutorial/
+	. How To Create Express HTTPS Server With A Self-Signed Certificate: https://appdividend.com/2018/09/10/create-express-https-server-with-a-self-signed-certificate/
+	. 
+. Logging / Audit (roarr, perfect-logger, Pino, Log4J, Node-Loggly, Bunyan, Winston, Morgan)
+
+	https://www.loggly.com/blog/node-js-libraries-make-sophisticated-logging-simpler/
+	https://stackify.com/node-js-logging/
+	https://getpino.io/
+	https://www.npmjs.com/package/perfect-logger
+	https://www.freecodecamp.org/news/roarr-the-perfect-json-logger-node-js-and-browser-935180bda529/
+	https://itnext.io/nodejs-logging-made-right-117a19e8b4ce
+. Router
+. Controller
+. Views - Handlebars
+. Mongoose - PostgreSQL - GrapQL
+. Express
+. Async/Await 
+	https://javascript.info/async-await
+. internationalize node js: https://www.google.com/search?client=ubuntu&hs=uI6&channel=fs&q=internationalize+node+js&sa=X&ved=0ahUKEwi69YagorfjAhW-LLkGHbGGDaUQ7xYILSgA&biw=1329&bih=594
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+CRUD:
+. express-locallibrary-tutorial:https://github.com/mdn/express-locallibrary-tutorial
+. https://github.com/mitocode21/node-crud
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+. ChatRoom
+----------------------------------------------------------------------------------------------------------------------------------
+https://github.com/thesadboy/ChatRoom
+https://github.com/493326889/node-multiple-rooms-chat
+https://github.com/smilli/nodejs-chat-complete
+https://github.com/d0nd3r3k/SimpleChat
+https://github.com/google/chatbase-node
+https://github.com/sedhossein/nodejs-socket-chatroom-with-mongodb
+
+This is a very simple single-room chat client using node.js, socket.io and the express module.
+- http://psitsmike.com/2011/09/node-js-and-socket-io-chat-tutorial/
+- http://psitsmike.com/2011/10/node-js-and-socket-io-multiroom-chat-tutorial/
+- https://github.com/mmukhin/psitsmike_example_1
+- https://github.com/mmukhin/psitsmike_example_2
+
+
+videoChat: https://github.com/imomin/videoChat
+
+https://socket.io/docs/rooms-and-namespaces/
+https://sabe.io/tutorials/how-to-build-real-time-chat-app-node-express-socket-io
+https://socket.io/get-started/chat#Getting-this-example
+https://king.host/blog/2018/11/chats-com-socketio-no-nodejs/
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+. Multi-Room Chat Application
+  = Rooms: https://socket.io/docs/rooms-and-namespaces/
+----------------------------------------------------------------------------------------------------------------------------------
+- https://github.com/uditalias/chat-nodejs [github.com/uditalias/chat-nodejs]
+= Explica como 
+	+ fazer chat para uma sala especifica (Vendedor <-> Concumidor)
+	+ fazer broadcast para avisar ao vendedor o que o cliente deseja 
+	+ fazer broadcast para avisar ao cliente que o vendedor esta chegando
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+. Chat em tempo real com NodeJS + Socket.io | Diego Fernandes: https://www.youtube.com/watch?v=-jXfKDYJJvo
+. Node.js & Socket.io Chat Part Three: Private Messaging: https://www.youtube.com/watch?v=k8o8-Q_-Qfk&t=2s
+. A simple example of setting-up dynamic "rooms" for socket.io clients to join: https://gist.github.com/crtr0/2896891
+. Dynamic rooms in Socket.io: https://stackoverflow.com/questions/41322878/dynamic-rooms-in-socket-io
+
+. Node.js Socket.io Introduction and Getting Started 01 : https://www.youtube.com/watch?v=soerr09FYCw&list=PLvXDmnBbOF7R2AVit9M9cjbmC7CC48tyD&index=1
+. Node.js Socket.io Namespaces, Rooms and Connections 02: https://www.youtube.com/watch?v=bxUlKDgpbWs&t=24s
+
+. Working with socket.io dynamic namespaces: https://www.alxolr.com/articles/working-with-socket-io-dynamic-namespaces
+. Namespaces: https://socket.io/docs/rooms-and-namespaces/
+
+
+. chatdemo - https://www.luiztools.com.br/post/criando-um-chat-com-nodejs-e-socketio/: https://github.com/lucianojec/chatdemo
+=====================================================================
+

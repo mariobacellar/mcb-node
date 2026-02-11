@@ -1,0 +1,1546 @@
+========================================================================================================================================================================
+AlterarContatoConta_Request	
+http://127.0.0.1:8089/clientes/contacontato/v1/alterar
+http://127.0.0.1:8089/clientes/contacontato/v1/alterar/breed
+
+{
+	"DataRequest": {
+		"MessageHeaderAPI": {
+			"App": "OA0848",
+			"Timestamp": "2019-08-08T19:42:30",
+			"TransactionId": "OA0848:SOA0005V1.0:20190808194230141:000:00000000200148525TR264107"
+		},
+		"AlterarContatoContaRequest": {
+			"ListaContatos": {
+				"Contato": {
+					"EnderecoEmail": "gustavocarneiro05@gmail.com",
+					"DataInicioResidencia": "2002-02-20",
+					"Sexo": "M",
+					"IndicadorProspect": "0",
+					"Profissao": "MEDICO",
+					"CodigoPontoVenda": "0001034105",
+					"TipoResidenciaCliente": "Própria",
+					"FaixaRendaMensal": "31 - De R$ 14.001 a R$ 15.000",
+					"Nome": "LUIS GUSTAVO LOPES CARNEIRO",
+					"GrauEscolaridade": "Mestrado/Doutorado",
+					"OcupacaoPrincipal": "Assalariado",
+					"DataNascimento": "1976-10-05",
+					"IndicadorChamadaTelefoneResidencial": "0",
+					"NomeMae": "ROSELANE LOPES CARNEIRO",
+					"CargoProfissional": "Outros",
+					"IndicadorEnvioFax": "0",
+					"IndicadorEnvioEmail": "0",
+					"IndicadordocumentoPendente": "0",
+					"StatusRelacionamentoMovel": "Contact Center",
+					"IndicadorChamadaCelular": "0",
+					"IdUsuario": "TR264107",
+					"IndicadorEnvioCarta": "0",
+					"EstadoCivil": "Casado",
+					"IndicadorChamadaTelefoneComercial": "0"
+				}
+			},
+			"OrigemRequisicao": "OA0848",
+			"ListaTelefones": {
+				"Telefone": [{
+						"Numero": "61988877466",
+						"Tipo": "Contato"
+					}, {
+						"Tipo": "Residencial"
+					}, {
+						"Numero": "21992980842",
+						"Tipo": "Comercial"
+					}
+				]
+			},
+			"ListaContas": {
+				"Conta": {
+					"IdSegmentacao": "Residencial 2",
+					"TipoConta": "Cliente",
+					"IdContaCliente": "5097075395596"
+				}
+			},
+			"ListaDocumentos": {
+				"Documento": [{
+						"OrgaoExpedidorDocumentoSecundario": "",
+						"DescricaoTipoDocumento": "CPF",
+						"NumeroDocumento": "07459771708"
+					}, {
+						"OrgaoExpedidorDocumentoSecundario": "ifp",
+						"DescricaoTipoDocumento": "Carteira de Identidade",
+						"NumeroDocumento": "00000109245803"
+					}
+				]
+			},
+			"ListaEnderecos": {
+				"Endereco": {
+					"Logradouro": "SQN 108 BLOCO K",
+					"ListaComplementos": {
+						"Complemento": [{}, {}, {}
+						]
+					},
+					"NumeroImovel": "0",
+					"CodigoLogradouro": "2700073484",
+					"CodigoOperadoraOiRegional": "70",
+					"Bairro": "ASA NORTE",
+					"CodigoAglomerado": "0",
+					"CEP": "70744110",
+					"Municipio": "BRASILIA",
+					"UF": "DF",
+					"TipoLogradouro": "QUADRA",
+					"NumeroAglomerado": "0",
+					"PontoReferencia": "AAAAAAAA",
+					"CodigoLocalidade": "61000",
+					"BaseConsultaOrigem": "SERASA-STC",
+					"CodigoLiteralLocalidade": "BSA"
+				}
+			}
+		}
+	}
+}
+========================================================================================================================================================================
+
+
+
+========================================================================================================================================================================
+IncluiCliente_Request	
+http://127.0.0.1:8089/clientes/cadastro/v1/dados/incluir
+http://127.0.0.1:8089/clientes/cadastro/v1/dados/incluir/breed
+
+
+{
+	"IncluirClienteRequest": {
+		"UFEXP": "RJ",
+		"CPFPROC": "00000000000",
+		"EMAIL": "gustavocarneiro05@gmail.com",
+		"CODDOC": "RG",
+		"SEGMERC": "08",
+		"NUMDOC": "00007459771708",
+		"NREF2": "",
+		"RENDA": "14500",
+		"NREF1": "LUIS GUSTAVO LOPES CARNEIRO",
+		"QTEMIC": "00000",
+		"DTNASC": "19761005",
+		"FILM": "ROSELANE LOPES CARNEIRO",
+		"EMP": "20",
+		"INDDEP": "0",
+		"INICEMP": "201508",
+		"CREF2": "21",
+		"TREF1": "988857575",
+		"TREF2": "99298084",
+		"CREF1": "21",
+		"RAMO": "00000",
+		"AGREF": "",
+		"RELCLI": "99",
+		"NOME": "LUIS GUSTAVO LOPES CARNEIRO",
+		"ECIVIL": "4",
+		"DATAEXP": "20010101",
+		"OCUPRINC": "109",
+		"INICRES": "200202",
+		"IDENTDOC": "00000109245803",
+		"OCUP": "4",
+		"SITRES": "1",
+		"UNIDNEG": "VARRES",
+		"TIPODOC": "1",
+		"CLASSE": "1",
+		"MessageHeaderAPI": {
+			"App": "Oi360",
+			"TransactionId": "OA0848:SOA0005V1.0:20190808180311681:000:00000000490215893TR270597"
+		},
+		"NPROC": "",
+		"QTEDEP": "0",
+		"ORGAOEXP": "DET",
+		"QTEFUNC": "00000",
+		"ORIGEM": "1",
+		"QTEFIL": "00000",
+		"MATRES": "E19540",
+		"INSCEST": "",
+		"NSOCIO": "",
+		"SEXO": "2",
+		"BCOREF": "000",
+		"NAC": "BRA",
+		"FAT": "000000000000000",
+		"INICFUND": "",
+		"CPFSOCIO": "00000000000"
+	}
+}
+
+========================================================================================================================================================================
+
+
+
+
+========================================================================================================================================================================
+InserirContatoConta_Request	
+http://127.0.0.1:8089/clientes/contacontato/v1/criar
+http://127.0.0.1:8089/clientes/contacontato/v1/criar/breed
+
+{
+	"DataRequest": {
+		"MessageHeaderApi": {
+			"App": "OA0848",
+			"Timestamp": "2019-08-08T18:33:04",
+			"TransactionId": "OA0848:SOA0005V1.0:20190808183304425:000:00000000186993705OI404685"
+		},
+		"inserirContatoContaRequest": {
+			"ListaContatos": {
+				"Contato": {
+					"EnderecoEmail": "naopossui@oi.com.br",
+					"HorarioContato": "",
+					"DataInicioResidencia": "1998-01-01",
+					"Comentarios": "",
+					"FormaContatoPreferencial": "",
+					"Sexo": "M",
+					"IndicadorProspect": "0",
+					"OcupacaoSecundaria": "",
+					"LembreteSenha": "",
+					"Profissao": "VENDEDORES E ASSEMELHADOS",
+					"CodigoPontoVenda": "0001026137",
+					"FaixaRendaMensal": "11 - De R$ 2.501 a R$ 2.750",
+					"Nome": "LOURIVALDO MANOEL DE OLIVEIRA",
+					"TipoResidenciaCliente": "Própria",
+					"OcupacaoPrincipal": "Assalariado",
+					"NomeNaRedeSocialPrincipal": "",
+					"DataNascimento": "1939-06-15",
+					"IdiomaCliente": "",
+					"CategoriaCliente": "",
+					"IndicadorChamadaTelefoneResidencial": "0",
+					"NomeMae": "MIRANDOLINA ALVES DE OLIVEIRA",
+					"NaturalidadeCliente": "",
+					"CargoProfissional": "Outros",
+					"IndicadorEnvioFax": "0",
+					"PaginaWeb": "",
+					"IndicadorEnvioEmail": "0",
+					"IndicadordocumentoPendente": "0",
+					"StatusRelacionamentoMovel": "Contact Center",
+					"IndicadorChamadaCelular": "0",
+					"IdUsuario": "OI404685",
+					"IndicadorEnvioCarta": "0",
+					"EmpregadorCliente": "",
+					"EstadoCivil": "Casado",
+					"IndicadorChamadaTelefoneComercial": "0"
+				}
+			},
+			"OrigemRequisicao": "OA0848",
+			"ListaTelefones": {
+				"Telefone": [{
+						"Numero": "8134369381",
+						"Tipo": "Contato"
+					}, {
+						"Numero": "8134369381",
+						"Tipo": "Residencial"
+					}, {
+						"Numero": "8134369381",
+						"Tipo": "Comercial"
+					}
+				]
+			},
+			"ListaContas": {
+				"Conta": {
+					"IndicadorInadimplencia": "0",
+					"IndicadorFraude": "0",
+					"IdSegmentacao": "",
+					"IdClientePagador": "",
+					"IndicadorVitimaFraude": "0"
+				}
+			},
+			"ListaDocumentos": {
+				"Documento": [{
+						"OrgaoExpedidorDocumentoSecundario": "sds",
+						"DescricaoTipoDocumento": "CPF",
+						"NumeroDocumento": "06251072768"
+					}
+				]
+			},
+			"ListaEnderecos": {
+				"Endereco": {
+					"Logradouro": "DR LUIS IGNACIO ANDRADE LIMA",
+					"ListaComplementos": {
+						"Complemento": [{
+								"NumeroComplemento": "401",
+								"Sequencial": "1",
+								"TipoComplemento1": "AP"
+							}
+						]
+					},
+					"NumeroImovel": "300",
+					"CodigoLogradouro": "678121",
+					"CodigoOperadoraOiRegional": "12",
+					"Bairro": "JANGA",
+					"CodigoAglomerado": "0",
+					"CEP": "53435455",
+					"Municipio": "PAULISTA",
+					"UF": "PE",
+					"TipoLogradouro": "RUA",
+					"NumeroAglomerado": "0",
+					"CodigoLocalidade": "5827",
+					"BaseConsultaOrigem": "SERASA-STC",
+					"CodigoLiteralLocalidade": "PUI",
+					"Aglomerado": "0"
+				}
+			}
+		}
+	}
+}
+
+
+========================================================================================================================================================================
+========================================================================================================================================================================
+
+
+========================================================================================================================================================================
+InteracaoOfertasNBA360_Request	???
+http://127.0.0.1:8089/interacaoofertasnba360
+http://127.0.0.1:8089/interacaoofertasnba360/breed
+
+[
+<ns1:InteracaoOfertasNBA360ConsultaTopOfertas360InputMessage
+    xmlns:ns1="urn:PegaRULES:SOAP:ServicosOiNBA360:Services">
+    <Customer>
+        <ACCOUNT_ID>05912045170</ACCOUNT_ID>
+        <ALAVANCA_MUD_OFER_FIXO></ALAVANCA_MUD_OFER_FIXO>
+        <ALAVANCA_MUD_OFER_VELOX></ALAVANCA_MUD_OFER_VELOX>
+        <AQUISICAO_VELOX_3_MESES></AQUISICAO_VELOX_3_MESES>
+        <ateste></ateste>
+        <CANCELAMENTO_LD_3_MESES></CANCELAMENTO_LD_3_MESES>
+        <CANCELAMENTO_OCT_3_MESES></CANCELAMENTO_OCT_3_MESES>
+        <CANCELAMENTO_TV_3_MESES></CANCELAMENTO_TV_3_MESES>
+        <CANCELAMENTO_VC_3_MESES></CANCELAMENTO_VC_3_MESES>
+        <CANCELAMENTO_VELOX_3_MESES></CANCELAMENTO_VELOX_3_MESES>
+        <Case_ID>1-12YXVODV</Case_ID>
+        <CATEGORIA_TERMINAL></CATEGORIA_TERMINAL>
+        <CategoriaLigacao></CategoriaLigacao>
+        <CD_UF_FATURAMENTO>DF</CD_UF_FATURAMENTO>
+        <Churn_Score>6</Churn_Score>
+        <CICLO_FATURAMENTO>Q01</CICLO_FATURAMENTO>
+        <ClienteRepasseICMS></ClienteRepasseICMS>
+        <CLUS_ADEQ_DADOS></CLUS_ADEQ_DADOS>
+        <CLUS_ADEQ_VOZ></CLUS_ADEQ_VOZ>
+        <CLUS_ARPU></CLUS_ARPU>
+        <CLUS_ARPUMP></CLUS_ARPUMP>
+        <CLUS_CHURN></CLUS_CHURN>
+        <CLUS_DISP></CLUS_DISP>
+        <CLUS_DIVIDA_COB></CLUS_DIVIDA_COB>
+        <CLUS_GRUPO></CLUS_GRUPO>
+        <CLUS_GRUPO_NE></CLUS_GRUPO_NE>
+        <CLUS_LIG></CLUS_LIG>
+        <CLUS_LIM_PL_DADOS></CLUS_LIM_PL_DADOS>
+        <CLUS_LIM_PL_VOZ></CLUS_LIM_PL_VOZ>
+        <CLUS_NIVEL_PROPENSAO></CLUS_NIVEL_PROPENSAO>
+        <CLUS_PAGAMENTO></CLUS_PAGAMENTO>
+        <CLUS_POS></CLUS_POS>
+        <CLUS_POSSE></CLUS_POSSE>
+        <CLUS_PRODCONC></CLUS_PRODCONC>
+        <CLUS_PRODINT></CLUS_PRODINT>
+        <CLUS_PROP_CLIENTE></CLUS_PROP_CLIENTE>
+        <CLUS_REC></CLUS_REC>
+        <CLUS_RISCO_INAD></CLUS_RISCO_INAD>
+        <CLUS_TIPO_PROPENSAO></CLUS_TIPO_PROPENSAO>
+        <CLUS_TV></CLUS_TV>
+        <CLUS_VALOR_ARPU></CLUS_VALOR_ARPU>
+        <CLUS_ZC></CLUS_ZC>
+        <CLUSTER_DBM></CLUSTER_DBM>
+        <CLV_Value>500</CLV_Value>
+        <COBERTURA_GLOBO></COBERTURA_GLOBO>
+        <COD_CAMPANHA_MOVEL>OT_MIG_JUL18_FID_2PBL_BL5_LD_VC-ALL_CBAS_OF0</COD_CAMPANHA_MOVEL>
+        <COD_FILIAL_R2></COD_FILIAL_R2>
+        <COD_IDENT_PESSOA>05912045170</COD_IDENT_PESSOA>
+        <COD_LOCALIDADE></COD_LOCALIDADE>
+        <COD_NACIONAL_LOCALIDADE></COD_NACIONAL_LOCALIDADE>
+        <COD_OFERTA_FIXO></COD_OFERTA_FIXO>
+        <COD_OFERTA_MOVEL>OT_MIG_JUL18_FID_2PBL_BL5_LD_VC-ALL_CBAS_OF0</COD_OFERTA_MOVEL>
+        <COD_OFERTA_VELOX></COD_OFERTA_VELOX>
+        <COD_PREFIXO_LOGRADOURO_COBR>QD</COD_PREFIXO_LOGRADOURO_COBR>
+        <COD_PREFIXO_LOGRADOURO_INST>QD</COD_PREFIXO_LOGRADOURO_INST>
+        <COD_PREFIXO_LOGRADOURO_MV_COBR></COD_PREFIXO_LOGRADOURO_MV_COBR>
+        <COD_PROP_CANC_FIXO></COD_PROP_CANC_FIXO>
+        <COD_REGIONAL>R2</COD_REGIONAL>
+        <COD_RISCO_COBR></COD_RISCO_COBR>
+        <COMPONENTE_CLUSTER_DBM1></COMPONENTE_CLUSTER_DBM1>
+        <COMPONENTE_CLUSTER_DBM2></COMPONENTE_CLUSTER_DBM2>
+        <COMPONENTE_CLUSTER_DBM3></COMPONENTE_CLUSTER_DBM3>
+        <COMPRA_LD_ULTIMO_3_MESES></COMPRA_LD_ULTIMO_3_MESES>
+        <COMPRA_OCT_ULTIMO_3_MESES></COMPRA_OCT_ULTIMO_3_MESES>
+        <COMPRA_TV_ULTIMO_3_MESES></COMPRA_TV_ULTIMO_3_MESES>
+        <COMPRA_VC_ULTIMO_3_MESES></COMPRA_VC_ULTIMO_3_MESES>
+        <CREDIT_SCORE></CREDIT_SCORE>
+        <CurrentSpending1P></CurrentSpending1P>
+        <CurrentSpending2P></CurrentSpending2P>
+        <CurrentSpendingVX></CurrentSpendingVX>
+        <DadosAdequada_AntigoPortifolio></DadosAdequada_AntigoPortifolio>
+        <DadosAdequada_NovoPortifolio></DadosAdequada_NovoPortifolio>
+        <DadosAdequada_OCT></DadosAdequada_OCT>
+        <DEGRAU_ATUAL></DEGRAU_ATUAL>
+        <DIA_VENCIMENTO_FATURA></DIA_VENCIMENTO_FATURA>
+        <DIA_VENCIMENTO_FATURA_FIXO></DIA_VENCIMENTO_FATURA_FIXO>
+        <DIA_VENCIMENTO_FATURA_MOVEL>20190716T030000.000 GMT</DIA_VENCIMENTO_FATURA_MOVEL>
+        <DOB></DOB>
+        <DT_APLICACAO_OFERTA_ATUAL></DT_APLICACAO_OFERTA_ATUAL>
+        <DT_ATIVACAO_FIXO>20161004T030000.000 GMT</DT_ATIVACAO_FIXO>
+        <DT_ATIVACAO_MOVEL>20170923T030000.000 GMT</DT_ATIVACAO_MOVEL>
+        <DT_ATIVACAO_TV>19700101</DT_ATIVACAO_TV>
+        <DT_ATIVACAO_VELOX>20161011T030000.000 GMT</DT_ATIVACAO_VELOX>
+        <DT_BLOQUEIO_REDE></DT_BLOQUEIO_REDE>
+        <DT_BUNDLE>20170923</DT_BUNDLE>
+        <DT_CONTRAT_RECARG_AUTO></DT_CONTRAT_RECARG_AUTO>
+        <DT_CORTE_FAT>20190703T030000.000 GMT</DT_CORTE_FAT>
+        <DT_FIDEL_MOVEL></DT_FIDEL_MOVEL>
+        <DT_FIM_CONTRATO></DT_FIM_CONTRATO>
+        <DT_FIM_DEGRAU></DT_FIM_DEGRAU>
+        <DT_FIM_OFERTA_FIXO></DT_FIM_OFERTA_FIXO>
+        <DT_FIM_OFERTA_VELOX></DT_FIM_OFERTA_VELOX>
+        <DT_INICIO_CONTRATO></DT_INICIO_CONTRATO>
+        <DT_INICIO_CONTRATO_VELOX></DT_INICIO_CONTRATO_VELOX>
+        <DT_INICIO_DEGRAU></DT_INICIO_DEGRAU>
+        <DT_INICIO_INADIMPLENCIA></DT_INICIO_INADIMPLENCIA>
+        <DT_INICIO_OFERTA_FIXO></DT_INICIO_OFERTA_FIXO>
+        <DT_INICIO_OFERTA_TV>19700101T000000.000 GMT</DT_INICIO_OFERTA_TV>
+        <DT_INICIO_OFERTA_VELOX></DT_INICIO_OFERTA_VELOX>
+        <DT_INSTAL_TERMINAL_FIXO></DT_INSTAL_TERMINAL_FIXO>
+        <DT_INSTAL_TERMINAL_VELOX></DT_INSTAL_TERMINAL_VELOX>
+        <DT_INSTAL_TV>19700101T000000.000 GMT</DT_INSTAL_TV>
+        <DT_MIGRACAO_PLANO>19700101</DT_MIGRACAO_PLANO>
+        <DT_NASCIMENTO>19950226</DT_NASCIMENTO>
+        <DT_REF_ATUALIZA_INADIMP></DT_REF_ATUALIZA_INADIMP>
+        <DT_REF_FATURAMENTO>20190701T030000.000 GMT</DT_REF_FATURAMENTO>
+        <DT_REF_OI_PONTOS>20180901T030000.000 GMT</DT_REF_OI_PONTOS>
+        <DT_RELACIONAMENTO_OI>20161004T030000.000 GMT</DT_RELACIONAMENTO_OI>
+        <DT_RELACIONAMENTO_VELOX></DT_RELACIONAMENTO_VELOX>
+        <DT_ULTIMA_MIGRACAO></DT_ULTIMA_MIGRACAO>
+        <DT_ULTIMA_OS_EXTERNA_TV>19700101</DT_ULTIMA_OS_EXTERNA_TV>
+        <DT_ULTIMA_OS_INTERNA_TV>19700101</DT_ULTIMA_OS_INTERNA_TV>
+        <DT_ULTIMA_RECLAMACAO_ODC></DT_ULTIMA_RECLAMACAO_ODC>
+        <DT_VENCIMENTO_FATURA_TV>19700101T000000.000 GMT</DT_VENCIMENTO_FATURA_TV>
+        <ESTADO_CIVIL></ESTADO_CIVIL>
+        <FixedPlanEq></FixedPlanEq>
+        <FRANQUIA_LD_FIXO_MOVEL_OUT></FRANQUIA_LD_FIXO_MOVEL_OUT>
+        <FRANQUIA_LOCAL_FIXO_MOVEL_OUT></FRANQUIA_LOCAL_FIXO_MOVEL_OUT>
+        <FranquiaVozAdequada_AntigoPortifolio></FranquiaVozAdequada_AntigoPortifolio>
+        <FranquiaVozAdequada_NovoPortifolio></FranquiaVozAdequada_NovoPortifolio>
+        <FranquiaVozAdequada_OCT></FranquiaVozAdequada_OCT>
+        <Full_Name>THALES SERPA DE ANDRADE</Full_Name>
+        <GENERO_CLIENTE>M</GENERO_CLIENTE>
+        <GRAU_MOD_RISCO_CREDITO></GRAU_MOD_RISCO_CREDITO>
+        <GRAU_PROP_CANCEL_FIXO></GRAU_PROP_CANCEL_FIXO>
+        <GRAU_PROP_COMPRA_TV></GRAU_PROP_COMPRA_TV>
+        <GRAU_PROP_COMPRA_VELOX></GRAU_PROP_COMPRA_VELOX>
+        <GRUPO_CONTROLE_A></GRUPO_CONTROLE_A>
+        <HierarquiaSiebelAtual></HierarquiaSiebelAtual>
+        <HierarquiaSiebelAtualOT></HierarquiaSiebelAtualOT>
+        <ID_BUNDLE>1-12YXVODV</ID_BUNDLE>
+        <ID_CLIENTE></ID_CLIENTE>
+        <ID_TERMINAL>1-12YXVODV</ID_TERMINAL>
+        <ID_TERMINAL_FIXO></ID_TERMINAL_FIXO>
+        <ID_TERMINAL_FIXO_OCT>6134654429</ID_TERMINAL_FIXO_OCT>
+        <ID_TERMINAL_TITULAR>61910146252</ID_TERMINAL_TITULAR>
+        <IDADE_CLIENTE></IDADE_CLIENTE>
+        <IND_3G_4G_OUTRO>0</IND_3G_4G_OUTRO>
+        <IND_ALT_OFERTA_MOVEL_MES></IND_ALT_OFERTA_MOVEL_MES>
+        <IND_ALTER_OFERTA_TV></IND_ALTER_OFERTA_TV>
+        <IND_ALTERA_OFER_3_MESES_FX></IND_ALTERA_OFER_3_MESES_FX>
+        <IND_ALTERA_OFER_3_MESES_VLX></IND_ALTERA_OFER_3_MESES_VLX>
+        <IND_ANTI_VIRUS></IND_ANTI_VIRUS>
+        <IND_AREA_BILHETADA></IND_AREA_BILHETADA>
+        <IND_BACKUP></IND_BACKUP>
+        <IND_BD_ABERTO></IND_BD_ABERTO>
+        <IND_BD_ABERTO_FIXO></IND_BD_ABERTO_FIXO>
+        <IND_BD_ABERTO_VELOX></IND_BD_ABERTO_VELOX>
+        <IND_BLACKLIST_ODC>0</IND_BLACKLIST_ODC>
+        <IND_BLACKLIST_OUTROS></IND_BLACKLIST_OUTROS>
+        <IND_BLM_OCT>0</IND_BLM_OCT>
+        <IND_CADASTRO_MODEM></IND_CADASTRO_MODEM>
+        <IND_CANC_INADIMPLENCIA_TV></IND_CANC_INADIMPLENCIA_TV>
+        <IND_CLIENTE_BUNDLE></IND_CLIENTE_BUNDLE>
+        <IND_CLIENTE_CRITICO_RET></IND_CLIENTE_CRITICO_RET>
+        <IND_CLIENTE_POSICIONADO></IND_CLIENTE_POSICIONADO>
+        <IND_COLABORADOR_OI></IND_COLABORADOR_OI>
+        <IND_CONTEST_IMPRO></IND_CONTEST_IMPRO>
+        <IND_CONTESTACAO_ABERTA></IND_CONTESTACAO_ABERTA>
+        <IND_CONTRATO_FIDEL_FIXO></IND_CONTRATO_FIDEL_FIXO>
+        <IND_CONTRATO_FIDEL_VELOX></IND_CONTRATO_FIDEL_VELOX>
+        <IND_CREDITO_CLIENTE>0</IND_CREDITO_CLIENTE>
+        <IND_CREDITO_CONFIANCA></IND_CREDITO_CONFIANCA>
+        <IND_DEBITO_AUTOMATICO></IND_DEBITO_AUTOMATICO>
+        <IND_DISP_OITV>0</IND_DISP_OITV>
+        <IND_DISP_SERVICO_DIGITAL></IND_DISP_SERVICO_DIGITAL>
+        <IND_DISP_VELOX></IND_DISP_VELOX>
+        <IND_ESTADO_ICMS></IND_ESTADO_ICMS>
+        <IND_FIDEL_RECARGA_AUTO></IND_FIDEL_RECARGA_AUTO>
+        <IND_FIM_OFERTA_3_MESES_FX></IND_FIM_OFERTA_3_MESES_FX>
+        <IND_FIM_OFERTA_3_MESES_VLX></IND_FIM_OFERTA_3_MESES_VLX>
+        <IND_FIXO_OUTRO>1</IND_FIXO_OUTRO>
+        <IND_HIST_COMBATE></IND_HIST_COMBATE>
+        <IND_HIST_PAY_PER_VIEW></IND_HIST_PAY_PER_VIEW>
+        <IND_HIST_PENVR></IND_HIST_PENVR>
+        <IND_HIST_PFC></IND_HIST_PFC>
+        <IND_INADIMPLENCIA></IND_INADIMPLENCIA>
+        <IND_INSAPOIO_ABERTO></IND_INSAPOIO_ABERTO>
+        <IND_LD>1</IND_LD>
+        <IND_LOCALIDADE_PNBL></IND_LOCALIDADE_PNBL>
+        <IND_MIGRACAO></IND_MIGRACAO>
+        <IND_MIGRACAO_AUTO></IND_MIGRACAO_AUTO>
+        <IND_MOVEL_OUTRO>0</IND_MOVEL_OUTRO>
+        <IND_MOVEL_POS_OUTRO>1</IND_MOVEL_POS_OUTRO>
+        <IND_MUD_DEGR_3_MESES_FX></IND_MUD_DEGR_3_MESES_FX>
+        <IND_MUD_DEGR_3_MESES_VLX></IND_MUD_DEGR_3_MESES_VLX>
+        <IND_OCT_OUTRO></IND_OCT_OUTRO>
+        <IND_OS_ABERTA></IND_OS_ABERTA>
+        <IND_OS_ABERTA_FIXO></IND_OS_ABERTA_FIXO>
+        <IND_OS_ABERTA_VELOX></IND_OS_ABERTA_VELOX>
+        <IND_PARCELAM_ABERTO_TV></IND_PARCELAM_ABERTO_TV>
+        <IND_PARCELAMENTO_ABERTO></IND_PARCELAMENTO_ABERTO>
+        <IND_PENDENCIA_JURIDICA></IND_PENDENCIA_JURIDICA>
+        <IND_PFC_EMPACOTADO></IND_PFC_EMPACOTADO>
+        <IND_PLANO_DVR></IND_PLANO_DVR>
+        <IND_PRODUTO_RURAL></IND_PRODUTO_RURAL>
+        <IND_RECARGA_AUTO>0</IND_RECARGA_AUTO>
+        <IND_RECEBEU_BONUS_RECARGA></IND_RECEBEU_BONUS_RECARGA>
+        <IND_RECEBEU_CRED_CONF></IND_RECEBEU_CRED_CONF>
+        <IND_SD></IND_SD>
+        <IND_SERV_BLOQ_INADIMP></IND_SERV_BLOQ_INADIMP>
+        <IND_SERV_BLOQ_RETIRADA></IND_SERV_BLOQ_RETIRADA>
+        <IND_SERVICO_BLOQUEADO></IND_SERVICO_BLOQUEADO>
+        <IND_SITIADA></IND_SITIADA>
+        <IND_SUSPEITA_FRAUDE></IND_SUSPEITA_FRAUDE>
+        <IND_SVA>1</IND_SVA>
+        <IND_TERMINO_OFERTA_TV></IND_TERMINO_OFERTA_TV>
+        <IND_TV_ASSOCIADA></IND_TV_ASSOCIADA>
+        <IND_TV_OUTRO>0</IND_TV_OUTRO>
+        <IND_VC>1</IND_VC>
+        <IND_VELOX_OCT>1</IND_VELOX_OCT>
+        <IND_VELOX_OUTRO>1</IND_VELOX_OUTRO>
+        <IND_WIFI></IND_WIFI>
+        <IND_WLL_OUTRO></IND_WLL_OUTRO>
+        <IND_ZONA_COMP_FIXO></IND_ZONA_COMP_FIXO>
+        <IND_ZONA_COMP_VELOX></IND_ZONA_COMP_VELOX>
+        <IND_ZONA_COMP_VELOX_EST></IND_ZONA_COMP_VELOX_EST>
+        <IndicadorDisponibilidadeVelox></IndicadorDisponibilidadeVelox>
+        <IsHeavyUser></IsHeavyUser>
+        <IsTerminalFicticio></IsTerminalFicticio>
+        <Lig_Fx_FX_LocalLD_CSP_Oi>0</Lig_Fx_FX_LocalLD_CSP_Oi>
+        <Lig_Fx_MvlOi_LocalLDCSPOi>7.3</Lig_Fx_MvlOi_LocalLDCSPOi>
+        <Lig_Fx_MvlOutras_Operadoras_LocalLDCSPOi>0.5</Lig_Fx_MvlOutras_Operadoras_LocalLDCSPOi>
+        <Lig_FxMvl_Outros_CSP>0</Lig_FxMvl_Outros_CSP>
+        <Lig_Mvl_Fx_LocalLDCSPOi>0</Lig_Mvl_Fx_LocalLDCSPOi>
+        <Lig_Mvl_Mvl_LocalLDCSPOi>0</Lig_Mvl_Mvl_LocalLDCSPOi>
+        <Lig_Mvl_MvlOi_LocalLDCSPOi>0</Lig_Mvl_MvlOi_LocalLDCSPOi>
+        <MAIOR_VELOC_VELOX_DISP></MAIOR_VELOC_VELOX_DISP>
+        <MAX_DIAS_ATRASO></MAX_DIAS_ATRASO>
+        <MEDIA_RECEIT_CLIEN_3_MESES></MEDIA_RECEIT_CLIEN_3_MESES>
+        <MEDIA_RECEITA_BASE_CLIENTE></MEDIA_RECEITA_BASE_CLIENTE>
+        <MEDIA_TRAFEGO_FIXO></MEDIA_TRAFEGO_FIXO>
+        <MediaAssinaturaLD></MediaAssinaturaLD>
+        <MediaAssinaturaSMS></MediaAssinaturaSMS>
+        <MediaExcedenteLDON></MediaExcedenteLDON>
+        <MediaExcedenteMovel>0.0</MediaExcedenteMovel>
+        <MediaExcedenteSMS></MediaExcedenteSMS>
+        <MediaUsoDadosAdequacao></MediaUsoDadosAdequacao>
+        <MediaUsoDadosAdequacao_Dep></MediaUsoDadosAdequacao_Dep>
+        <MediaUsoLDOFF></MediaUsoLDOFF>
+        <MediaUsoVozAdequacaoOCT></MediaUsoVozAdequacaoOCT>
+        <MediaUsoVozAdequacaoPOSAntigo></MediaUsoVozAdequacaoPOSAntigo>
+        <MediaUsoVozAdequacaoPOSNovo></MediaUsoVozAdequacaoPOSNovo>
+        <MensagemInformativaOperador></MensagemInformativaOperador>
+        <MensagemInformativaOperadorBlindagem></MensagemInformativaOperadorBlindagem>
+        <MensagemInformativaOperadorBPR></MensagemInformativaOperadorBPR>
+        <MensagemInformativaOperadorCobranca></MensagemInformativaOperadorCobranca>
+        <MensagemInformativaOperadorErroSVOi></MensagemInformativaOperadorErroSVOi>
+        <MensagemInformativaOperadorExecutarMacro></MensagemInformativaOperadorExecutarMacro>
+        <MensagemInformativaOperadorOSAberta></MensagemInformativaOperadorOSAberta>
+        <MensagemInformativaOperadorRaco></MensagemInformativaOperadorRaco>
+        <MensagemInformativaOperadorRE></MensagemInformativaOperadorRE>
+        <MensagemInformativaOperadorS2SConvergente></MensagemInformativaOperadorS2SConvergente>
+        <MODALIDADE_DE_PAGAMENTO></MODALIDADE_DE_PAGAMENTO>
+        <MotivoLigacao></MotivoLigacao>
+        <NIVEL_ESCOLARIDADE></NIVEL_ESCOLARIDADE>
+        <NIVEL_PROPENSAO>-1</NIVEL_PROPENSAO>
+        <NOME_BAIRRO_COBR>SETOR LESTE</NOME_BAIRRO_COBR>
+        <NOME_BAIRRO_FIXO_COBR></NOME_BAIRRO_FIXO_COBR>
+        <NOME_BAIRRO_INST>VL ESTRUTURAL GUARA</NOME_BAIRRO_INST>
+        <NOME_BAIRRO_MV_COBR></NOME_BAIRRO_MV_COBR>
+        <NOME_BAIRRO_TV_COBR></NOME_BAIRRO_TV_COBR>
+        <NOME_BAIRRO_TV_INST></NOME_BAIRRO_TV_INST>
+        <NOME_CAMPANHA_FIXO></NOME_CAMPANHA_FIXO>
+        <NOME_CAMPANHA_VELOX></NOME_CAMPANHA_VELOX>
+        <NOME_CLIENTE>THALES SERPA DE ANDRADE</NOME_CLIENTE>
+        <NOME_CODIGO_POSTAL_COBR>71261455</NOME_CODIGO_POSTAL_COBR>
+        <NOME_CODIGO_POSTAL_INST>71261455</NOME_CODIGO_POSTAL_INST>
+        <NOME_CODIGO_POSTAL_INST_2></NOME_CODIGO_POSTAL_INST_2>
+        <NOME_CODIGO_POSTAL_INST_3></NOME_CODIGO_POSTAL_INST_3>
+        <NOME_CODIGO_POSTAL_INST_4></NOME_CODIGO_POSTAL_INST_4>
+        <NOME_CODIGO_POSTAL_INST_5></NOME_CODIGO_POSTAL_INST_5>
+        <NOME_CODIGO_POSTAL_MV_COBR></NOME_CODIGO_POSTAL_MV_COBR>
+        <NOME_CODIGO_POSTAL_TV_COBR></NOME_CODIGO_POSTAL_TV_COBR>
+        <NOME_CODIGO_POSTAL_TV_INST></NOME_CODIGO_POSTAL_TV_INST>
+        <NOME_CURTO_TERRITORIO_COBR>DF</NOME_CURTO_TERRITORIO_COBR>
+        <NOME_CURTO_TERRITORIO_FIXO_INST></NOME_CURTO_TERRITORIO_FIXO_INST>
+        <NOME_CURTO_TERRITORIO_INST>DF</NOME_CURTO_TERRITORIO_INST>
+        <NOME_CURTO_TERRITORIO_INST_FIXO></NOME_CURTO_TERRITORIO_INST_FIXO>
+        <NOME_CURTO_TERRITORIO_MV_COBR></NOME_CURTO_TERRITORIO_MV_COBR>
+        <NOME_CURTO_TERRITORIO_MV_INST></NOME_CURTO_TERRITORIO_MV_INST>
+        <NOME_CURTO_TERRITORIO_TV_COBR></NOME_CURTO_TERRITORIO_TV_COBR>
+        <NOME_CURTO_TERRITORIO_TV_INST></NOME_CURTO_TERRITORIO_TV_INST>
+        <NOME_FRAN_BLM_OCT></NOME_FRAN_BLM_OCT>
+        <NOME_FRAN_DADOS_1_DEP_1></NOME_FRAN_DADOS_1_DEP_1>
+        <NOME_FRAN_DADOS_MOV_1></NOME_FRAN_DADOS_MOV_1>
+        <NOME_FRAN_DADOS_MOV_2></NOME_FRAN_DADOS_MOV_2>
+        <NOME_FRAN_DADOS_MOV_3></NOME_FRAN_DADOS_MOV_3>
+        <NOME_FRAN_LD_MOV_OFFNET_1></NOME_FRAN_LD_MOV_OFFNET_1>
+        <NOME_FRAN_LD_MOV_OFFNET_2></NOME_FRAN_LD_MOV_OFFNET_2>
+        <NOME_FRAN_LD_MOV_OFFNET_3></NOME_FRAN_LD_MOV_OFFNET_3>
+        <NOME_FRAN_LD_MOV_ONNET_1></NOME_FRAN_LD_MOV_ONNET_1>
+        <NOME_FRAN_LD_MOV_ONNET_2></NOME_FRAN_LD_MOV_ONNET_2>
+        <NOME_FRAN_LD_MOV_ONNET_3></NOME_FRAN_LD_MOV_ONNET_3>
+        <NOME_FRAN_LOC_IGR_MOV_ONNET_1></NOME_FRAN_LOC_IGR_MOV_ONNET_1>
+        <NOME_FRAN_LOC_IGR_MOV_ONNET_2></NOME_FRAN_LOC_IGR_MOV_ONNET_2>
+        <NOME_FRAN_LOC_IGR_MOV_ONNET_3></NOME_FRAN_LOC_IGR_MOV_ONNET_3>
+        <NOME_FRAN_LOC_MOV_OFFNET_1></NOME_FRAN_LOC_MOV_OFFNET_1>
+        <NOME_FRAN_LOC_MOV_OFFNET_2></NOME_FRAN_LOC_MOV_OFFNET_2>
+        <NOME_FRAN_LOC_MOV_OFFNET_3></NOME_FRAN_LOC_MOV_OFFNET_3>
+        <NOME_FRAN_LOC_MOV_ONNET_1></NOME_FRAN_LOC_MOV_ONNET_1>
+        <NOME_FRAN_LOC_MOV_ONNET_2></NOME_FRAN_LOC_MOV_ONNET_2>
+        <NOME_FRAN_LOC_MOV_ONNET_3></NOME_FRAN_LOC_MOV_ONNET_3>
+        <NOME_FRAN_SMS_MOV_1></NOME_FRAN_SMS_MOV_1>
+        <NOME_FRAN_SMS_MOV_2></NOME_FRAN_SMS_MOV_2>
+        <NOME_FRAN_SMS_MOV_3></NOME_FRAN_SMS_MOV_3>
+        <NOME_LOGRADOURO_COBR>Q 4</NOME_LOGRADOURO_COBR>
+        <NOME_LOGRADOURO_FIXO_COBR></NOME_LOGRADOURO_FIXO_COBR>
+        <NOME_LOGRADOURO_INST>4 CONJUNTO 1 SETOR LESTE</NOME_LOGRADOURO_INST>
+        <NOME_LOGRADOURO_MV_COBR></NOME_LOGRADOURO_MV_COBR>
+        <NOME_LOGRADOURO_TV_COBR></NOME_LOGRADOURO_TV_COBR>
+        <NOME_LOGRADOURO_TV_INST></NOME_LOGRADOURO_TV_INST>
+        <NOME_MIN_FRAN_SMS_MOV_1></NOME_MIN_FRAN_SMS_MOV_1>
+        <NOME_MIN_FRAN_SMS_MOV_2></NOME_MIN_FRAN_SMS_MOV_2>
+        <NOME_MIN_FRAN_SMS_MOV_3></NOME_MIN_FRAN_SMS_MOV_3>
+        <NOME_MUNICIPIO_COBR>GUARA</NOME_MUNICIPIO_COBR>
+        <NOME_MUNICIPIO_FIXO_COBR></NOME_MUNICIPIO_FIXO_COBR>
+        <NOME_MUNICIPIO_INST>BRASILIA</NOME_MUNICIPIO_INST>
+        <NOME_MUNICIPIO_INST_FIXO></NOME_MUNICIPIO_INST_FIXO>
+        <NOME_MUNICIPIO_MV_COBR></NOME_MUNICIPIO_MV_COBR>
+        <NOME_MUNICIPIO_MV_INST></NOME_MUNICIPIO_MV_INST>
+        <NOME_MUNICIPIO_TV_COBR></NOME_MUNICIPIO_TV_COBR>
+        <NOME_MUNICIPIO_TV_INST></NOME_MUNICIPIO_TV_INST>
+        <NOME_OFERTA_FIXO></NOME_OFERTA_FIXO>
+        <NOME_OFERTA_VELOX></NOME_OFERTA_VELOX>
+        <NOME_RECARGA_AUTO></NOME_RECARGA_AUTO>
+        <NOME_UNID_COBR>LT 35 CJ 1</NOME_UNID_COBR>
+        <NOME_UNID_FIXO_COBR></NOME_UNID_FIXO_COBR>
+        <NOME_UNID_INST>LT35</NOME_UNID_INST>
+        <NOME_UNID_MV_COBR></NOME_UNID_MV_COBR>
+        <NOME_UNID_TV_COBR></NOME_UNID_TV_COBR>
+        <NOME_UNID_TV_INST></NOME_UNID_TV_INST>
+        <NU_CIRCUITO></NU_CIRCUITO>
+        <NU_CIRCUITO_MACRO></NU_CIRCUITO_MACRO>
+        <NU_SCORE_PROPENSAO_POS>30</NU_SCORE_PROPENSAO_POS>
+        <NU_SCORE_PROPENSAO_TV>10</NU_SCORE_PROPENSAO_TV>
+        <NUM_ALEATORIO>0.29367</NUM_ALEATORIO>
+        <NUM_CONTRATO_TV></NUM_CONTRATO_TV>
+        <NUM_DDD></NUM_DDD>
+        <NUM_EDIFICACAO_COBR></NUM_EDIFICACAO_COBR>
+        <NUM_EDIFICACAO_FIXO_COBR></NUM_EDIFICACAO_FIXO_COBR>
+        <NUM_EDIFICACAO_INST>0</NUM_EDIFICACAO_INST>
+        <NUM_EDIFICACAO_MV_COBR></NUM_EDIFICACAO_MV_COBR>
+        <NUM_EDIFICACAO_TV_COBR></NUM_EDIFICACAO_TV_COBR>
+        <NUM_EDIFICACAO_TV_INST></NUM_EDIFICACAO_TV_INST>
+        <NUM_ID_CONTRATO_TV_SINN></NUM_ID_CONTRATO_TV_SINN>
+        <NUM_PARCELA_RESTA_TX_HAB></NUM_PARCELA_RESTA_TX_HAB>
+        <NUM_RECARGA_AUTO>0.0</NUM_RECARGA_AUTO>
+        <NUM_TEL_ALT></NUM_TEL_ALT>
+        <NUM_TEL_RES></NUM_TEL_RES>
+        <NUM_TELEFONE_COBRANCA></NUM_TELEFONE_COBRANCA>
+        <NUM_TOTAL_PARCELA_TX_HAB></NUM_TOTAL_PARCELA_TX_HAB>
+        <NUM_ULTIMA_OS_EXTERNA_TV></NUM_ULTIMA_OS_EXTERNA_TV>
+        <NUM_ULTIMA_OS_INTERNA_TV></NUM_ULTIMA_OS_INTERNA_TV>
+        <OCUPACAO_CLIENTE></OCUPACAO_CLIENTE>
+        <OfertaLDAntigoAdequada></OfertaLDAntigoAdequada>
+        <OfertaLDNovoAdequada></OfertaLDNovoAdequada>
+        <OfertaLDOCTAdequada></OfertaLDOCTAdequada>
+        <OfertaSMSAntigoAdequada></OfertaSMSAntigoAdequada>
+        <OfertaSMSNovoAdequada></OfertaSMSNovoAdequada>
+        <OfertaSMSOCTAdequada></OfertaSMSOCTAdequada>
+        <OfertaVozAntigoAdequada></OfertaVozAntigoAdequada>
+        <OfertaVozNovoAdequada></OfertaVozNovoAdequada>
+        <OfertaVozOCTAdequada></OfertaVozOCTAdequada>
+        <OfertaVozOiTotal_AntigoPortifolioAdequada></OfertaVozOiTotal_AntigoPortifolioAdequada>
+        <OfertaVozOiTotal_NovoPortifolioAdequada></OfertaVozOiTotal_NovoPortifolioAdequada>
+        <PACOTE_LD></PACOTE_LD>
+        <PACOTE_LDI></PACOTE_LDI>
+        <PACOTE_SD></PACOTE_SD>
+        <PLANO_BUNDLE>OI TOTAL FIXO &#43; BANDA LARGA 1 NA CONTA</PLANO_BUNDLE>
+        <PLANO_FIXO>Ilimitado</PLANO_FIXO>
+        <PLANO_FIXO_MACRO></PLANO_FIXO_MACRO>
+        <PLANO_MOVEL>Oi Total Fixo &#43; Banda Larga Básico</PLANO_MOVEL>
+        <PLANO_TV></PLANO_TV>
+        <PLANO_VELOX></PLANO_VELOX>
+        <POSSUI_VELOX_MACRO></POSSUI_VELOX_MACRO>
+        <PRAZO_RESTANTE_FIDEL_FIXO>0.0</PRAZO_RESTANTE_FIDEL_FIXO>
+        <PRAZO_RESTANTE_FIDEL_MOVEL></PRAZO_RESTANTE_FIDEL_MOVEL>
+        <PRAZO_RESTANTE_FIDEL_VELOX>0.0</PRAZO_RESTANTE_FIDEL_VELOX>
+        <PrimeiroNomeCliente>THALES</PrimeiroNomeCliente>
+        <pxCaseID></pxCaseID>
+        <pxObjClass>Oi-Administration-MKTNBA-Data-Customer</pxObjClass>
+        <pyTemplateInputBox></pyTemplateInputBox>
+        <pzInsKey></pzInsKey>
+        <QtdeContatosRentabilizacao></QtdeContatosRentabilizacao>
+        <QtdeContatosRetencao></QtdeContatosRetencao>
+        <QTE_BD_3_MESES></QTE_BD_3_MESES>
+        <QTE_BD_FECHADO_3_MESES></QTE_BD_FECHADO_3_MESES>
+        <QTE_BD_FORA_PRAZO_3_MESES></QTE_BD_FORA_PRAZO_3_MESES>
+        <QTE_BD_PENDENCIA_3_MESES></QTE_BD_PENDENCIA_3_MESES>
+        <QTE_CHAM_ORIG_DENTRO_PACOTE></QTE_CHAM_ORIG_DENTRO_PACOTE>
+        <QTE_CHAM_ORIG_FORA_PACOTE></QTE_CHAM_ORIG_FORA_PACOTE>
+        <QTE_CHAM_ORIG_LD_FF>179.2</QTE_CHAM_ORIG_LD_FF>
+        <QTE_CHAM_ORIG_LD_FM>0</QTE_CHAM_ORIG_LD_FM>
+        <QTE_CHAM_ORIG_LD_VC>0</QTE_CHAM_ORIG_LD_VC>
+        <QTE_CHAM_ORIG_LDI></QTE_CHAM_ORIG_LDI>
+        <QTE_CHAM_ORIG_LDI_MOV></QTE_CHAM_ORIG_LDI_MOV>
+        <QTE_CHAM_ORIG_LOC_FF></QTE_CHAM_ORIG_LOC_FF>
+        <QTE_CHAM_ORIG_LOC_FM>0.5</QTE_CHAM_ORIG_LOC_FM>
+        <QTE_CHAM_ORIG_LOC_VC>7.3</QTE_CHAM_ORIG_LOC_VC>
+        <QTE_CHAM_ORIG_OF_NET></QTE_CHAM_ORIG_OF_NET>
+        <QTE_CHAM_ORIG_ON_NET></QTE_CHAM_ORIG_ON_NET>
+        <QTE_CHAMADA_CONEXAO_DIAL_UP></QTE_CHAMADA_CONEXAO_DIAL_UP>
+        <QTE_DEGRAU_FIXO></QTE_DEGRAU_FIXO>
+        <QTE_DEGRAU_VELOX></QTE_DEGRAU_VELOX>
+        <QTE_DIAS_ATRASO_PAG></QTE_DIAS_ATRASO_PAG>
+        <QTE_DIAS_FIDEL_TV>0</QTE_DIAS_FIDEL_TV>
+        <QTE_DIAS_INADIMPLENCIA_MOVEL></QTE_DIAS_INADIMPLENCIA_MOVEL>
+        <QTE_DIAS_INADIMPLENCIA_TV></QTE_DIAS_INADIMPLENCIA_TV>
+        <QTE_DIAS_PEND_FIDEL_TV>0</QTE_DIAS_PEND_FIDEL_TV>
+        <QTE_FATURAS_ABERTA></QTE_FATURAS_ABERTA>
+        <QTE_INSAP_FECHADO_3_MESES></QTE_INSAP_FECHADO_3_MESES>
+        <QTE_INSAP_FORA_PRAZO_3_MESES></QTE_INSAP_FORA_PRAZO_3_MESES>
+        <QTE_INSAP_PENDENCIA_3_MESES></QTE_INSAP_PENDENCIA_3_MESES>
+        <QTE_INSAPOIO_SIAC_3_MESES></QTE_INSAPOIO_SIAC_3_MESES>
+        <QTE_MESES_DURACAO_CONTRATO></QTE_MESES_DURACAO_CONTRATO>
+        <QTE_MIN_FRAN_BLM_OCT>0.0</QTE_MIN_FRAN_BLM_OCT>
+        <QTE_MIN_FRAN_DADOS_MOV_1></QTE_MIN_FRAN_DADOS_MOV_1>
+        <QTE_MIN_FRAN_DADOS_MOV_2></QTE_MIN_FRAN_DADOS_MOV_2>
+        <QTE_MIN_FRAN_DADOS_MOV_3></QTE_MIN_FRAN_DADOS_MOV_3>
+        <QTE_MIN_FRAN_LD_FF>99999</QTE_MIN_FRAN_LD_FF>
+        <QTE_MIN_FRAN_LD_FF_AVULSO></QTE_MIN_FRAN_LD_FF_AVULSO>
+        <QTE_MIN_FRAN_LD_FM></QTE_MIN_FRAN_LD_FM>
+        <QTE_MIN_FRAN_LD_MOV_OFFNET_1></QTE_MIN_FRAN_LD_MOV_OFFNET_1>
+        <QTE_MIN_FRAN_LD_MOV_OFFNET_2></QTE_MIN_FRAN_LD_MOV_OFFNET_2>
+        <QTE_MIN_FRAN_LD_MOV_OFFNET_3></QTE_MIN_FRAN_LD_MOV_OFFNET_3>
+        <QTE_MIN_FRAN_LD_MOV_ONNET_1></QTE_MIN_FRAN_LD_MOV_ONNET_1>
+        <QTE_MIN_FRAN_LD_MOV_ONNET_2></QTE_MIN_FRAN_LD_MOV_ONNET_2>
+        <QTE_MIN_FRAN_LD_MOV_ONNET_3></QTE_MIN_FRAN_LD_MOV_ONNET_3>
+        <QTE_MIN_FRAN_LDI></QTE_MIN_FRAN_LDI>
+        <QTE_MIN_FRAN_LDI_2></QTE_MIN_FRAN_LDI_2>
+        <QTE_MIN_FRAN_LDI_3></QTE_MIN_FRAN_LDI_3>
+        <QTE_MIN_FRAN_LOC_FF></QTE_MIN_FRAN_LOC_FF>
+        <QTE_MIN_FRAN_LOC_FF_MACRO></QTE_MIN_FRAN_LOC_FF_MACRO>
+        <QTE_MIN_FRAN_LOC_FM>99999</QTE_MIN_FRAN_LOC_FM>
+        <QTE_MIN_FRAN_LOC_MOV_OFFNET_1></QTE_MIN_FRAN_LOC_MOV_OFFNET_1>
+        <QTE_MIN_FRAN_LOC_MOV_OFFNET_2></QTE_MIN_FRAN_LOC_MOV_OFFNET_2>
+        <QTE_MIN_FRAN_LOC_MOV_OFFNET_3></QTE_MIN_FRAN_LOC_MOV_OFFNET_3>
+        <QTE_MIN_FRAN_LOC_MOV_ONNET_1></QTE_MIN_FRAN_LOC_MOV_ONNET_1>
+        <QTE_MIN_FRAN_LOC_MOV_ONNET_2></QTE_MIN_FRAN_LOC_MOV_ONNET_2>
+        <QTE_MIN_FRAN_LOC_MOV_ONNET_3></QTE_MIN_FRAN_LOC_MOV_ONNET_3>
+        <QTE_MIN_FRAN_SMS_MOV_1></QTE_MIN_FRAN_SMS_MOV_1>
+        <QTE_MIN_FRAN_SMS_MOV_2></QTE_MIN_FRAN_SMS_MOV_2>
+        <QTE_MIN_FRAN_SMS_MOV_3></QTE_MIN_FRAN_SMS_MOV_3>
+        <QTE_MIN_LD_FM_OFFNET_EXCED></QTE_MIN_LD_FM_OFFNET_EXCED>
+        <QTE_MIN_LD_FM_ONNET_EXCED></QTE_MIN_LD_FM_ONNET_EXCED>
+        <QTE_MIN_LOC_FF_ON_1></QTE_MIN_LOC_FF_ON_1>
+        <QTE_MIN_LOC_FF_ON_2></QTE_MIN_LOC_FF_ON_2>
+        <QTE_MIN_LOC_FF_ON_3></QTE_MIN_LOC_FF_ON_3>
+        <QTE_MIN_LOC_FM_OFFNET_EXCED></QTE_MIN_LOC_FM_OFFNET_EXCED>
+        <QTE_MIN_LOC_FM_ONNET_EXCED></QTE_MIN_LOC_FM_ONNET_EXCED>
+        <QTE_MIN_ORIG_DADOS_MOV_1>0</QTE_MIN_ORIG_DADOS_MOV_1>
+        <QTE_MIN_ORIG_DADOS_MOV_2>0</QTE_MIN_ORIG_DADOS_MOV_2>
+        <QTE_MIN_ORIG_DADOS_MOV_3>0</QTE_MIN_ORIG_DADOS_MOV_3>
+        <QTE_MIN_ORIG_DADOS_TIT_MOV_MEDIA></QTE_MIN_ORIG_DADOS_TIT_MOV_MEDIA>
+        <QTE_MIN_ORIG_DENTRO_PACOTE></QTE_MIN_ORIG_DENTRO_PACOTE>
+        <QTE_MIN_ORIG_FF_EXCEDENTE></QTE_MIN_ORIG_FF_EXCEDENTE>
+        <QTE_MIN_ORIG_FORA_PACOTE></QTE_MIN_ORIG_FORA_PACOTE>
+        <QTE_MIN_ORIG_LD_FF></QTE_MIN_ORIG_LD_FF>
+        <QTE_MIN_ORIG_LD_FF_2></QTE_MIN_ORIG_LD_FF_2>
+        <QTE_MIN_ORIG_LD_FF_3></QTE_MIN_ORIG_LD_FF_3>
+        <QTE_MIN_ORIG_LD_FF_MED></QTE_MIN_ORIG_LD_FF_MED>
+        <QTE_MIN_ORIG_LD_FF_OFF_EXCED></QTE_MIN_ORIG_LD_FF_OFF_EXCED>
+        <QTE_MIN_ORIG_LD_FF_ON_EXCED></QTE_MIN_ORIG_LD_FF_ON_EXCED>
+        <QTE_MIN_ORIG_LD_FM>0</QTE_MIN_ORIG_LD_FM>
+        <QTE_MIN_ORIG_LD_FM_2>0</QTE_MIN_ORIG_LD_FM_2>
+        <QTE_MIN_ORIG_LD_FM_3>0</QTE_MIN_ORIG_LD_FM_3>
+        <QTE_MIN_ORIG_LD_FM_MED></QTE_MIN_ORIG_LD_FM_MED>
+        <QTE_MIN_ORIG_LD_FM_OFFNET_1>0</QTE_MIN_ORIG_LD_FM_OFFNET_1>
+        <QTE_MIN_ORIG_LD_FM_OFFNET_2>0</QTE_MIN_ORIG_LD_FM_OFFNET_2>
+        <QTE_MIN_ORIG_LD_FM_OFFNET_3>0</QTE_MIN_ORIG_LD_FM_OFFNET_3>
+        <QTE_MIN_ORIG_LD_MF_1>0</QTE_MIN_ORIG_LD_MF_1>
+        <QTE_MIN_ORIG_LD_MF_2>0</QTE_MIN_ORIG_LD_MF_2>
+        <QTE_MIN_ORIG_LD_MF_3>0</QTE_MIN_ORIG_LD_MF_3>
+        <QTE_MIN_ORIG_LD_MM_OFFNET_1>0</QTE_MIN_ORIG_LD_MM_OFFNET_1>
+        <QTE_MIN_ORIG_LD_MM_OFFNET_2>0</QTE_MIN_ORIG_LD_MM_OFFNET_2>
+        <QTE_MIN_ORIG_LD_MM_OFFNET_3>0</QTE_MIN_ORIG_LD_MM_OFFNET_3>
+        <QTE_MIN_ORIG_LD_MM_ONNET_1>0</QTE_MIN_ORIG_LD_MM_ONNET_1>
+        <QTE_MIN_ORIG_LD_MM_ONNET_2>0</QTE_MIN_ORIG_LD_MM_ONNET_2>
+        <QTE_MIN_ORIG_LD_MM_ONNET_3>0</QTE_MIN_ORIG_LD_MM_ONNET_3>
+        <QTE_MIN_ORIG_LD_MOV_OFFNET_1>0</QTE_MIN_ORIG_LD_MOV_OFFNET_1>
+        <QTE_MIN_ORIG_LD_MOV_OFFNET_2>0</QTE_MIN_ORIG_LD_MOV_OFFNET_2>
+        <QTE_MIN_ORIG_LD_MOV_OFFNET_3>0</QTE_MIN_ORIG_LD_MOV_OFFNET_3>
+        <QTE_MIN_ORIG_LD_MOV_OFFNET_MEDIA></QTE_MIN_ORIG_LD_MOV_OFFNET_MEDIA>
+        <QTE_MIN_ORIG_LD_MOV_ONNET_1>0</QTE_MIN_ORIG_LD_MOV_ONNET_1>
+        <QTE_MIN_ORIG_LD_MOV_ONNET_2>0</QTE_MIN_ORIG_LD_MOV_ONNET_2>
+        <QTE_MIN_ORIG_LD_MOV_ONNET_3>0</QTE_MIN_ORIG_LD_MOV_ONNET_3>
+        <QTE_MIN_ORIG_LD_MOV_ONNET_MEDIA></QTE_MIN_ORIG_LD_MOV_ONNET_MEDIA>
+        <QTE_MIN_ORIG_LD_OUTROCSP>0</QTE_MIN_ORIG_LD_OUTROCSP>
+        <QTE_MIN_ORIG_LD_OUTROCSP_2>0</QTE_MIN_ORIG_LD_OUTROCSP_2>
+        <QTE_MIN_ORIG_LD_OUTROCSP_3>0</QTE_MIN_ORIG_LD_OUTROCSP_3>
+        <QTE_MIN_ORIG_LD_OUTROCSP_F_1>0</QTE_MIN_ORIG_LD_OUTROCSP_F_1>
+        <QTE_MIN_ORIG_LD_OUTROCSP_F_2>0</QTE_MIN_ORIG_LD_OUTROCSP_F_2>
+        <QTE_MIN_ORIG_LD_OUTROCSP_F_3>0</QTE_MIN_ORIG_LD_OUTROCSP_F_3>
+        <QTE_MIN_ORIG_LD_VC></QTE_MIN_ORIG_LD_VC>
+        <QTE_MIN_ORIG_LDI></QTE_MIN_ORIG_LDI>
+        <QTE_MIN_ORIG_LDI_2></QTE_MIN_ORIG_LDI_2>
+        <QTE_MIN_ORIG_LDI_3></QTE_MIN_ORIG_LDI_3>
+        <QTE_MIN_ORIG_LOC_FF>0</QTE_MIN_ORIG_LOC_FF>
+        <QTE_MIN_ORIG_LOC_FF_2>0</QTE_MIN_ORIG_LOC_FF_2>
+        <QTE_MIN_ORIG_LOC_FF_3>0</QTE_MIN_ORIG_LOC_FF_3>
+        <QTE_MIN_ORIG_LOC_FF_MED></QTE_MIN_ORIG_LOC_FF_MED>
+        <QTE_MIN_ORIG_LOC_FM>7.3</QTE_MIN_ORIG_LOC_FM>
+        <QTE_MIN_ORIG_LOC_FM_2>9.4</QTE_MIN_ORIG_LOC_FM_2>
+        <QTE_MIN_ORIG_LOC_FM_3>4.8</QTE_MIN_ORIG_LOC_FM_3>
+        <QTE_MIN_ORIG_LOC_FM_MED></QTE_MIN_ORIG_LOC_FM_MED>
+        <QTE_MIN_ORIG_LOC_FM_OFFNET_1>0.5</QTE_MIN_ORIG_LOC_FM_OFFNET_1>
+        <QTE_MIN_ORIG_LOC_FM_OFFNET_2>9.1</QTE_MIN_ORIG_LOC_FM_OFFNET_2>
+        <QTE_MIN_ORIG_LOC_FM_OFFNET_3>13.2</QTE_MIN_ORIG_LOC_FM_OFFNET_3>
+        <QTE_MIN_ORIG_LOC_FM_ON></QTE_MIN_ORIG_LOC_FM_ON>
+        <QTE_MIN_ORIG_LOC_FM_ON_2></QTE_MIN_ORIG_LOC_FM_ON_2>
+        <QTE_MIN_ORIG_LOC_FM_ON_3></QTE_MIN_ORIG_LOC_FM_ON_3>
+        <QTE_MIN_ORIG_LOC_IGR_ONNET_1>0</QTE_MIN_ORIG_LOC_IGR_ONNET_1>
+        <QTE_MIN_ORIG_LOC_IGR_ONNET_2>0</QTE_MIN_ORIG_LOC_IGR_ONNET_2>
+        <QTE_MIN_ORIG_LOC_IGR_ONNET_3>0</QTE_MIN_ORIG_LOC_IGR_ONNET_3>
+        <QTE_MIN_ORIG_LOC_MF_1>0</QTE_MIN_ORIG_LOC_MF_1>
+        <QTE_MIN_ORIG_LOC_MF_2>0</QTE_MIN_ORIG_LOC_MF_2>
+        <QTE_MIN_ORIG_LOC_MF_3>0</QTE_MIN_ORIG_LOC_MF_3>
+        <QTE_MIN_ORIG_LOC_MM_ONNET_1>0</QTE_MIN_ORIG_LOC_MM_ONNET_1>
+        <QTE_MIN_ORIG_LOC_MM_ONNET_2>0</QTE_MIN_ORIG_LOC_MM_ONNET_2>
+        <QTE_MIN_ORIG_LOC_MM_ONNET_3>0</QTE_MIN_ORIG_LOC_MM_ONNET_3>
+        <QTE_MIN_ORIG_LOC_MOV_OFFNET_1>0</QTE_MIN_ORIG_LOC_MOV_OFFNET_1>
+        <QTE_MIN_ORIG_LOC_MOV_OFFNET_2>0</QTE_MIN_ORIG_LOC_MOV_OFFNET_2>
+        <QTE_MIN_ORIG_LOC_MOV_OFFNET_3>0</QTE_MIN_ORIG_LOC_MOV_OFFNET_3>
+        <QTE_MIN_ORIG_LOC_MOV_OFFNET_MEDIA></QTE_MIN_ORIG_LOC_MOV_OFFNET_MEDIA>
+        <QTE_MIN_ORIG_LOC_MOV_ONNET_1>0</QTE_MIN_ORIG_LOC_MOV_ONNET_1>
+        <QTE_MIN_ORIG_LOC_MOV_ONNET_2>0</QTE_MIN_ORIG_LOC_MOV_ONNET_2>
+        <QTE_MIN_ORIG_LOC_MOV_ONNET_3>0</QTE_MIN_ORIG_LOC_MOV_ONNET_3>
+        <QTE_MIN_ORIG_LOC_MOV_ONNET_MEDIA></QTE_MIN_ORIG_LOC_MOV_ONNET_MEDIA>
+        <QTE_MIN_ORIG_LOC_MV_OFFNET_1>0</QTE_MIN_ORIG_LOC_MV_OFFNET_1>
+        <QTE_MIN_ORIG_LOC_MV_OFFNET_2>0</QTE_MIN_ORIG_LOC_MV_OFFNET_2>
+        <QTE_MIN_ORIG_LOC_MV_OFFNET_3>0</QTE_MIN_ORIG_LOC_MV_OFFNET_3>
+        <QTE_MIN_ORIG_LOC_VC></QTE_MIN_ORIG_LOC_VC>
+        <QTE_MIN_ORIG_OFF_NET></QTE_MIN_ORIG_OFF_NET>
+        <QTE_MIN_ORIG_ON_NET></QTE_MIN_ORIG_ON_NET>
+        <QTE_MIN_ORIG_SMS_MOV_1>0</QTE_MIN_ORIG_SMS_MOV_1>
+        <QTE_MIN_ORIG_SMS_MOV_2>0</QTE_MIN_ORIG_SMS_MOV_2>
+        <QTE_MIN_ORIG_SMS_MOV_3>0</QTE_MIN_ORIG_SMS_MOV_3>
+        <QTE_MIN_ORIG_TOTAL></QTE_MIN_ORIG_TOTAL>
+        <QTE_MIN_ORIG_TOTAL_MED></QTE_MIN_ORIG_TOTAL_MED>
+        <QTE_MIN_RECEB_LD></QTE_MIN_RECEB_LD>
+        <QTE_MIN_RECEB_LOC_MF></QTE_MIN_RECEB_LOC_MF>
+        <QTE_MINUTO_CONEXAO_DIAL_UP></QTE_MINUTO_CONEXAO_DIAL_UP>
+        <QTE_MOD_3_MESES></QTE_MOD_3_MESES>
+        <QTE_MOD_FECHADO_3_MESES></QTE_MOD_FECHADO_3_MESES>
+        <QTE_MOD_FORA_PRAZO_3_MESES></QTE_MOD_FORA_PRAZO_3_MESES>
+        <QTE_MOD_PENDENCIA_3_MESES></QTE_MOD_PENDENCIA_3_MESES>
+        <QTE_ORIG_LD_CSPOI_1></QTE_ORIG_LD_CSPOI_1>
+        <QTE_ORIG_LD_CSPOI_2></QTE_ORIG_LD_CSPOI_2>
+        <QTE_ORIG_LD_CSPOI_3></QTE_ORIG_LD_CSPOI_3>
+        <QTE_ORIG_LD_CSPOI_OFFNET_1>0</QTE_ORIG_LD_CSPOI_OFFNET_1>
+        <QTE_ORIG_LD_CSPOI_OFFNET_2>0</QTE_ORIG_LD_CSPOI_OFFNET_2>
+        <QTE_ORIG_LD_CSPOI_OFFNET_3>0</QTE_ORIG_LD_CSPOI_OFFNET_3>
+        <QTE_ORIG_LD_CSPOI_ONNET_1>0</QTE_ORIG_LD_CSPOI_ONNET_1>
+        <QTE_ORIG_LD_CSPOI_ONNET_2>0</QTE_ORIG_LD_CSPOI_ONNET_2>
+        <QTE_ORIG_LD_CSPOI_ONNET_3>0</QTE_ORIG_LD_CSPOI_ONNET_3>
+        <QTE_ORIG_LD_CSPOUT_OFFNET_1>0</QTE_ORIG_LD_CSPOUT_OFFNET_1>
+        <QTE_ORIG_LD_CSPOUT_OFFNET_2>0</QTE_ORIG_LD_CSPOUT_OFFNET_2>
+        <QTE_ORIG_LD_CSPOUT_OFFNET_3>0</QTE_ORIG_LD_CSPOUT_OFFNET_3>
+        <QTE_ORIG_LD_CSPOUT_ONNET_1>0</QTE_ORIG_LD_CSPOUT_ONNET_1>
+        <QTE_ORIG_LD_CSPOUT_ONNET_2>0</QTE_ORIG_LD_CSPOUT_ONNET_2>
+        <QTE_ORIG_LD_CSPOUT_ONNET_3>0</QTE_ORIG_LD_CSPOUT_ONNET_3>
+        <QTE_OS_3_MESES></QTE_OS_3_MESES>
+        <QTE_OS_FECHADO_3_MESES></QTE_OS_FECHADO_3_MESES>
+        <QTE_OS_FORA_PRAZO_3_MESES></QTE_OS_FORA_PRAZO_3_MESES>
+        <QTE_OS_PENDENCIA_3_MESES></QTE_OS_PENDENCIA_3_MESES>
+        <QTE_PONTO_ADICIONAL></QTE_PONTO_ADICIONAL>
+        <QTE_PRODUTOS_FIXO></QTE_PRODUTOS_FIXO>
+        <QTE_PRODUTOS_MOVEL_POS></QTE_PRODUTOS_MOVEL_POS>
+        <QTE_PRODUTOS_MOVEL_PRE>0</QTE_PRODUTOS_MOVEL_PRE>
+        <QTE_PRODUTOS_TV></QTE_PRODUTOS_TV>
+        <QTE_PRODUTOS_VELOX></QTE_PRODUTOS_VELOX>
+        <QTE_RECARGA_AUTO_01></QTE_RECARGA_AUTO_01>
+        <QTE_RECARGA_AUTO_10></QTE_RECARGA_AUTO_10>
+        <QTE_RECARGA_AUTO_15></QTE_RECARGA_AUTO_15>
+        <QTE_RECARGA_AUTO_20></QTE_RECARGA_AUTO_20>
+        <QTE_RECARGA_PREPAGO_1></QTE_RECARGA_PREPAGO_1>
+        <QTE_RECARGA_PREPAGO_2></QTE_RECARGA_PREPAGO_2>
+        <QTE_RECARGA_PREPAGO_3></QTE_RECARGA_PREPAGO_3>
+        <QTE_RECLAMACAO_ODC></QTE_RECLAMACAO_ODC>
+        <QTE_TOTAL_CHAM_ORIG></QTE_TOTAL_CHAM_ORIG>
+        <QTE_TOTAL_CHAM_RECEB></QTE_TOTAL_CHAM_RECEB>
+        <QTE_TOTAL_DEPENDENTES></QTE_TOTAL_DEPENDENTES>
+        <QTE_TOTAL_MIN_ORIG></QTE_TOTAL_MIN_ORIG>
+        <QTE_TOTAL_MIN_RECEB></QTE_TOTAL_MIN_RECEB>
+        <QTE_TOTAL_TERMINAIS></QTE_TOTAL_TERMINAIS>
+        <QTE_TRAFEGO_DADOS_1></QTE_TRAFEGO_DADOS_1>
+        <QTE_TRAFEGO_DADOS_2></QTE_TRAFEGO_DADOS_2>
+        <QTE_TRAFEGO_DADOS_3></QTE_TRAFEGO_DADOS_3>
+        <QteDiasOfertaFixo></QteDiasOfertaFixo>
+        <QteDiasOfertaVelox></QteDiasOfertaVelox>
+        <REGIAO>R2</REGIAO>
+        <Relationship_Start_Date>19700101T000000.000 GMT</Relationship_Start_Date>
+        <SALDO_OI_PONTOS>1101</SALDO_OI_PONTOS>
+        <SCORE_CREDITO_SERASA></SCORE_CREDITO_SERASA>
+        <Segment></Segment>
+        <SGMTO_COMPORTAMENTO></SGMTO_COMPORTAMENTO>
+        <SGMTO_MOSAIC></SGMTO_MOSAIC>
+        <SGMTO_RELACIONAMENTO></SGMTO_RELACIONAMENTO>
+        <SIGLA_CENTRAL></SIGLA_CENTRAL>
+        <SIGLA_ESTACAO></SIGLA_ESTACAO>
+        <STATUS_CONTRATO_TV></STATUS_CONTRATO_TV>
+        <STATUS_OI_PONTOS>ACEITO</STATUS_OI_PONTOS>
+        <STATUS_RELACIONAMENTO_FIXO></STATUS_RELACIONAMENTO_FIXO>
+        <STATUS_RELACIONAMENTO_MOVEL></STATUS_RELACIONAMENTO_MOVEL>
+        <STATUS_RELACIONAMENTO_OI></STATUS_RELACIONAMENTO_OI>
+        <STATUS_RELACIONAMENTO_VELOX></STATUS_RELACIONAMENTO_VELOX>
+        <STATUS_TERMINAL>ATIVA</STATUS_TERMINAL>
+        <SubSegment></SubSegment>
+        <TEMPO_ATIVACAO_FIXO></TEMPO_ATIVACAO_FIXO>
+        <TEMPO_ATIVACAO_FIXO_OUTRO></TEMPO_ATIVACAO_FIXO_OUTRO>
+        <TEMPO_ATIVACAO_MOVEL></TEMPO_ATIVACAO_MOVEL>
+        <TEMPO_ATIVACAO_VELOX></TEMPO_ATIVACAO_VELOX>
+        <TEMPO_ATIVACAO_VELOX_OUTRO></TEMPO_ATIVACAO_VELOX_OUTRO>
+        <TEMPO_OFERTA_ATUAL_FIXO></TEMPO_OFERTA_ATUAL_FIXO>
+        <TEMPO_OFERTA_ATUAL_VELOX></TEMPO_OFERTA_ATUAL_VELOX>
+        <TEMPO_RELACIONAMENTO_FIXO></TEMPO_RELACIONAMENTO_FIXO>
+        <TEMPO_RELACIONAMENTO_OI>2</TEMPO_RELACIONAMENTO_OI>
+        <TEMPO_RESTA_FIDEL_REC_AUTO_M></TEMPO_RESTA_FIDEL_REC_AUTO_M>
+        <TEMPO_ULTIMA_MIGRACAO></TEMPO_ULTIMA_MIGRACAO>
+        <TEMPO_VIG_CONTR_FIDEL_VELOX></TEMPO_VIG_CONTR_FIDEL_VELOX>
+        <TEMPO_VIGENCIA_RECARG_AUTO></TEMPO_VIGENCIA_RECARG_AUTO>
+        <TIPO_PROPENSAO>I</TIPO_PROPENSAO>
+        <TotalExcedenteMovel1>0.0</TotalExcedenteMovel1>
+        <TotalExcedenteMovel2>0.0</TotalExcedenteMovel2>
+        <TotalExcedenteMovel3>0.0</TotalExcedenteMovel3>
+        <TP_BANDA_LARGA_OCT></TP_BANDA_LARGA_OCT>
+        <TP_BUNDLE>2P BL</TP_BUNDLE>
+        <TP_CAMPANHA_MOVEL></TP_CAMPANHA_MOVEL>
+        <TP_CATEGORIA_TERMINAL></TP_CATEGORIA_TERMINAL>
+        <TP_CHAMADA_AUTORIZADA></TP_CHAMADA_AUTORIZADA>
+        <TP_CONTRATO></TP_CONTRATO>
+        <TP_FIDELIZACAO_CLIENTE></TP_FIDELIZACAO_CLIENTE>
+        <TP_FORMA_PAGAMENTO></TP_FORMA_PAGAMENTO>
+        <TP_FORMA_PAGAMENTO_MOVEL></TP_FORMA_PAGAMENTO_MOVEL>
+        <TP_PESSOA>Física</TP_PESSOA>
+        <TP_PLANO_CLIENTE>OIT</TP_PLANO_CLIENTE>
+        <TP_PLANO_MOVEL>OIT</TP_PLANO_MOVEL>
+        <TP_PRODUTO>OiTotal</TP_PRODUTO>
+        <TP_PRODUTO_FIXO></TP_PRODUTO_FIXO>
+        <TP_PRODUTO_MACRO></TP_PRODUTO_MACRO>
+        <TP_PRODUTO_MOVEL></TP_PRODUTO_MOVEL>
+        <TP_PRODUTO_OITOTAL>FixoVelox</TP_PRODUTO_OITOTAL>
+        <TP_RECARGA_AUTO></TP_RECARGA_AUTO>
+        <TP_TECNOLOGIA></TP_TECNOLOGIA>
+        <TP_TERMINAL>4</TP_TERMINAL>
+        <TP_TITULARIDADE>PRINCIPAL</TP_TITULARIDADE>
+        <TP_ULTIMA_OS_EXTERNA_TV></TP_ULTIMA_OS_EXTERNA_TV>
+        <UFCliente></UFCliente>
+        <ULT_DT_PAG_CONTA></ULT_DT_PAG_CONTA>
+        <UNIDADE_NEGOCIO_DIR></UNIDADE_NEGOCIO_DIR>
+        <VAL_ASS_DADOS_1_DEP_TOTAL></VAL_ASS_DADOS_1_DEP_TOTAL>
+        <VAL_ASSINAT_PORTIF_DESC_VX></VAL_ASSINAT_PORTIF_DESC_VX>
+        <VAL_ASSINAT_PORTIF_VX></VAL_ASSINAT_PORTIF_VX>
+        <VAL_ASSINATURA_DADOS_1>0</VAL_ASSINATURA_DADOS_1>
+        <VAL_ASSINATURA_DADOS_2>0</VAL_ASSINATURA_DADOS_2>
+        <VAL_ASSINATURA_DADOS_3>0</VAL_ASSINATURA_DADOS_3>
+        <VAL_ASSINATURA_DEP_MAX></VAL_ASSINATURA_DEP_MAX>
+        <VAL_ASSINATURA_FIXO>15.45</VAL_ASSINATURA_FIXO>
+        <VAL_ASSINATURA_FIXO_2>15.45</VAL_ASSINATURA_FIXO_2>
+        <VAL_ASSINATURA_FIXO_3>15.45</VAL_ASSINATURA_FIXO_3>
+        <VAL_ASSINATURA_FIXO_LIQ></VAL_ASSINATURA_FIXO_LIQ>
+        <VAL_ASSINATURA_FIXO_VELOX></VAL_ASSINATURA_FIXO_VELOX>
+        <VAL_ASSINATURA_LD>0</VAL_ASSINATURA_LD>
+        <VAL_ASSINATURA_LD_2>0</VAL_ASSINATURA_LD_2>
+        <VAL_ASSINATURA_LD_3>0</VAL_ASSINATURA_LD_3>
+        <VAL_ASSINATURA_LD_LIQ></VAL_ASSINATURA_LD_LIQ>
+        <VAL_ASSINATURA_LD_MOV_1>0</VAL_ASSINATURA_LD_MOV_1>
+        <VAL_ASSINATURA_LD_MOV_2>0</VAL_ASSINATURA_LD_MOV_2>
+        <VAL_ASSINATURA_LD_MOV_3>0</VAL_ASSINATURA_LD_MOV_3>
+        <VAL_ASSINATURA_LDI>0</VAL_ASSINATURA_LDI>
+        <VAL_ASSINATURA_LDI_1></VAL_ASSINATURA_LDI_1>
+        <VAL_ASSINATURA_LDI_2></VAL_ASSINATURA_LDI_2>
+        <VAL_ASSINATURA_LDI_3></VAL_ASSINATURA_LDI_3>
+        <VAL_ASSINATURA_MOVEL_1>0</VAL_ASSINATURA_MOVEL_1>
+        <VAL_ASSINATURA_MOVEL_2>0</VAL_ASSINATURA_MOVEL_2>
+        <VAL_ASSINATURA_MOVEL_3>0</VAL_ASSINATURA_MOVEL_3>
+        <VAL_ASSINATURA_SD></VAL_ASSINATURA_SD>
+        <VAL_ASSINATURA_SD_2></VAL_ASSINATURA_SD_2>
+        <VAL_ASSINATURA_SD_3></VAL_ASSINATURA_SD_3>
+        <VAL_ASSINATURA_SD_LIQ>15.43</VAL_ASSINATURA_SD_LIQ>
+        <VAL_ASSINATURA_SD_LIQ_2>15.43</VAL_ASSINATURA_SD_LIQ_2>
+        <VAL_ASSINATURA_SD_LIQ_3>15.43</VAL_ASSINATURA_SD_LIQ_3>
+        <VAL_ASSINATURA_SMS_1>0</VAL_ASSINATURA_SMS_1>
+        <VAL_ASSINATURA_SMS_2>0</VAL_ASSINATURA_SMS_2>
+        <VAL_ASSINATURA_SMS_3>0</VAL_ASSINATURA_SMS_3>
+        <VAL_ASSINATURA_TV></VAL_ASSINATURA_TV>
+        <VAL_ASSINATURA_TV_2></VAL_ASSINATURA_TV_2>
+        <VAL_ASSINATURA_TV_3></VAL_ASSINATURA_TV_3>
+        <VAL_ASSINATURA_VC>0</VAL_ASSINATURA_VC>
+        <VAL_ASSINATURA_VC_2>0</VAL_ASSINATURA_VC_2>
+        <VAL_ASSINATURA_VC_3>0</VAL_ASSINATURA_VC_3>
+        <VAL_ASSINATURA_VC_LIQ></VAL_ASSINATURA_VC_LIQ>
+        <VAL_ASSINATURA_VELOX>29.29</VAL_ASSINATURA_VELOX>
+        <VAL_ASSINATURA_VELOX_2>29.29</VAL_ASSINATURA_VELOX_2>
+        <VAL_ASSINATURA_VELOX_3>29.29</VAL_ASSINATURA_VELOX_3>
+        <VAL_ASSINATURA_VELOX_LIQ></VAL_ASSINATURA_VELOX_LIQ>
+        <VAL_BRT_BLOQUEIO></VAL_BRT_BLOQUEIO>
+        <VAL_CAPACIDADE_PAGTO></VAL_CAPACIDADE_PAGTO>
+        <VAL_CHAM_ORIG_DENTRO_PACOTE></VAL_CHAM_ORIG_DENTRO_PACOTE>
+        <VAL_CHAM_ORIG_FORA_PACOTE></VAL_CHAM_ORIG_FORA_PACOTE>
+        <VAL_CHAM_ORIG_LD_FF></VAL_CHAM_ORIG_LD_FF>
+        <VAL_CHAM_ORIG_LD_FM></VAL_CHAM_ORIG_LD_FM>
+        <VAL_CHAM_ORIG_LD_VC></VAL_CHAM_ORIG_LD_VC>
+        <VAL_CHAM_ORIG_LDI></VAL_CHAM_ORIG_LDI>
+        <VAL_CHAM_ORIG_LOC_FF></VAL_CHAM_ORIG_LOC_FF>
+        <VAL_CHAM_ORIG_LOC_FM></VAL_CHAM_ORIG_LOC_FM>
+        <VAL_CHAM_ORIG_LOC_VC></VAL_CHAM_ORIG_LOC_VC>
+        <VAL_CHAM_ORIG_OF_NET></VAL_CHAM_ORIG_OF_NET>
+        <VAL_CHAM_ORIG_ON_NET></VAL_CHAM_ORIG_ON_NET>
+        <VAL_EXCED_LD_CSPOI_OFFNET_1>0</VAL_EXCED_LD_CSPOI_OFFNET_1>
+        <VAL_EXCED_LD_CSPOI_OFFNET_2>0</VAL_EXCED_LD_CSPOI_OFFNET_2>
+        <VAL_EXCED_LD_CSPOI_OFFNET_3>0</VAL_EXCED_LD_CSPOI_OFFNET_3>
+        <VAL_EXCED_LD_CSPOI_ONNET_1>0</VAL_EXCED_LD_CSPOI_ONNET_1>
+        <VAL_EXCED_LD_CSPOI_ONNET_2>0</VAL_EXCED_LD_CSPOI_ONNET_2>
+        <VAL_EXCED_LD_CSPOI_ONNET_3>0</VAL_EXCED_LD_CSPOI_ONNET_3>
+        <VAL_EXCED_LD_CSPOUT_OFFNET_1>0</VAL_EXCED_LD_CSPOUT_OFFNET_1>
+        <VAL_EXCED_LD_CSPOUT_OFFNET_2>0</VAL_EXCED_LD_CSPOUT_OFFNET_2>
+        <VAL_EXCED_LD_CSPOUT_OFFNET_3>0</VAL_EXCED_LD_CSPOUT_OFFNET_3>
+        <VAL_EXCED_LD_CSPOUT_ONNET_1>0</VAL_EXCED_LD_CSPOUT_ONNET_1>
+        <VAL_EXCED_LD_CSPOUT_ONNET_2>0</VAL_EXCED_LD_CSPOUT_ONNET_2>
+        <VAL_EXCED_LD_CSPOUT_ONNET_3>0</VAL_EXCED_LD_CSPOUT_ONNET_3>
+        <VAL_EXCED_LOC_IGR_MOV_ONNET_1>0</VAL_EXCED_LOC_IGR_MOV_ONNET_1>
+        <VAL_EXCED_LOC_IGR_MOV_ONNET_2>0</VAL_EXCED_LOC_IGR_MOV_ONNET_2>
+        <VAL_EXCED_LOC_IGR_MOV_ONNET_3>0</VAL_EXCED_LOC_IGR_MOV_ONNET_3>
+        <VAL_EXCEDENTE_DADOS_MOV_1>0</VAL_EXCEDENTE_DADOS_MOV_1>
+        <VAL_EXCEDENTE_DADOS_MOV_2>0</VAL_EXCEDENTE_DADOS_MOV_2>
+        <VAL_EXCEDENTE_DADOS_MOV_3>0</VAL_EXCEDENTE_DADOS_MOV_3>
+        <VAL_EXCEDENTE_LD_31></VAL_EXCEDENTE_LD_31>
+        <VAL_EXCEDENTE_LD_31_2></VAL_EXCEDENTE_LD_31_2>
+        <VAL_EXCEDENTE_LD_31_3></VAL_EXCEDENTE_LD_31_3>
+        <VAL_EXCEDENTE_LD_FF>0</VAL_EXCEDENTE_LD_FF>
+        <VAL_EXCEDENTE_LD_FF_2>0</VAL_EXCEDENTE_LD_FF_2>
+        <VAL_EXCEDENTE_LD_FF_3>0</VAL_EXCEDENTE_LD_FF_3>
+        <VAL_EXCEDENTE_LD_FF_MED></VAL_EXCEDENTE_LD_FF_MED>
+        <VAL_EXCEDENTE_LD_FM></VAL_EXCEDENTE_LD_FM>
+        <VAL_EXCEDENTE_LD_MOV_OFFNET_1>0</VAL_EXCEDENTE_LD_MOV_OFFNET_1>
+        <VAL_EXCEDENTE_LD_MOV_OFFNET_2>0</VAL_EXCEDENTE_LD_MOV_OFFNET_2>
+        <VAL_EXCEDENTE_LD_MOV_OFFNET_3>0</VAL_EXCEDENTE_LD_MOV_OFFNET_3>
+        <VAL_EXCEDENTE_LD_MOV_ONNET_1>0</VAL_EXCEDENTE_LD_MOV_ONNET_1>
+        <VAL_EXCEDENTE_LD_MOV_ONNET_2>0</VAL_EXCEDENTE_LD_MOV_ONNET_2>
+        <VAL_EXCEDENTE_LD_MOV_ONNET_3>0</VAL_EXCEDENTE_LD_MOV_ONNET_3>
+        <VAL_EXCEDENTE_LDI>0</VAL_EXCEDENTE_LDI>
+        <VAL_EXCEDENTE_LDI_2>0</VAL_EXCEDENTE_LDI_2>
+        <VAL_EXCEDENTE_LDI_3>0</VAL_EXCEDENTE_LDI_3>
+        <VAL_EXCEDENTE_LOC_FF>0</VAL_EXCEDENTE_LOC_FF>
+        <VAL_EXCEDENTE_LOC_FF_2>0</VAL_EXCEDENTE_LOC_FF_2>
+        <VAL_EXCEDENTE_LOC_FF_3>0</VAL_EXCEDENTE_LOC_FF_3>
+        <VAL_EXCEDENTE_LOC_FF_MED></VAL_EXCEDENTE_LOC_FF_MED>
+        <VAL_EXCEDENTE_LOC_FM></VAL_EXCEDENTE_LOC_FM>
+        <VAL_EXCEDENTE_LOC_FM_2></VAL_EXCEDENTE_LOC_FM_2>
+        <VAL_EXCEDENTE_LOC_FM_3></VAL_EXCEDENTE_LOC_FM_3>
+        <VAL_EXCEDENTE_LOC_FM_MED></VAL_EXCEDENTE_LOC_FM_MED>
+        <VAL_EXCEDENTE_LOC_MOV_OFFNET_1>0</VAL_EXCEDENTE_LOC_MOV_OFFNET_1>
+        <VAL_EXCEDENTE_LOC_MOV_OFFNET_2>0</VAL_EXCEDENTE_LOC_MOV_OFFNET_2>
+        <VAL_EXCEDENTE_LOC_MOV_OFFNET_3>0</VAL_EXCEDENTE_LOC_MOV_OFFNET_3>
+        <VAL_EXCEDENTE_LOC_MOV_ONNET_1>0</VAL_EXCEDENTE_LOC_MOV_ONNET_1>
+        <VAL_EXCEDENTE_LOC_MOV_ONNET_2>0</VAL_EXCEDENTE_LOC_MOV_ONNET_2>
+        <VAL_EXCEDENTE_LOC_MOV_ONNET_3>0</VAL_EXCEDENTE_LOC_MOV_ONNET_3>
+        <VAL_EXCEDENTE_OUTROS_MOV_1>0</VAL_EXCEDENTE_OUTROS_MOV_1>
+        <VAL_EXCEDENTE_OUTROS_MOV_2>2.09</VAL_EXCEDENTE_OUTROS_MOV_2>
+        <VAL_EXCEDENTE_OUTROS_MOV_3>0</VAL_EXCEDENTE_OUTROS_MOV_3>
+        <VAL_EXCEDENTE_SMS_MOV_1>0</VAL_EXCEDENTE_SMS_MOV_1>
+        <VAL_EXCEDENTE_SMS_MOV_2>0</VAL_EXCEDENTE_SMS_MOV_2>
+        <VAL_EXCEDENTE_SMS_MOV_3>0</VAL_EXCEDENTE_SMS_MOV_3>
+        <VAL_EXCEDENTE_TOTAL></VAL_EXCEDENTE_TOTAL>
+        <VAL_EXCEDENTE_TOTAL_MED></VAL_EXCEDENTE_TOTAL_MED>
+        <VAL_FATURA_FIXO_1>30.88</VAL_FATURA_FIXO_1>
+        <VAL_FATURA_FIXO_2>30.88</VAL_FATURA_FIXO_2>
+        <VAL_FATURA_FIXO_3>30.88</VAL_FATURA_FIXO_3>
+        <VAL_FATURA_LIGACAO_LD></VAL_FATURA_LIGACAO_LD>
+        <VAL_FATURA_LIGACAO_LDI></VAL_FATURA_LIGACAO_LDI>
+        <VAL_FATURA_LIGACAO_LOCAL></VAL_FATURA_LIGACAO_LOCAL>
+        <VAL_FATURA_MOVEL_1>0</VAL_FATURA_MOVEL_1>
+        <VAL_FATURA_MOVEL_2>0</VAL_FATURA_MOVEL_2>
+        <VAL_FATURA_MOVEL_3>0</VAL_FATURA_MOVEL_3>
+        <VAL_FATURA_TOTAL>80.77</VAL_FATURA_TOTAL>
+        <VAL_FATURA_TOTAL_2>82.86</VAL_FATURA_TOTAL_2>
+        <VAL_FATURA_TOTAL_3>80.77</VAL_FATURA_TOTAL_3>
+        <VAL_FATURA_TOTAL_MED></VAL_FATURA_TOTAL_MED>
+        <VAL_FATURA_TV_1></VAL_FATURA_TV_1>
+        <VAL_FATURA_TV_2></VAL_FATURA_TV_2>
+        <VAL_FATURA_TV_3></VAL_FATURA_TV_3>
+        <VAL_FATURA_VELOX_1>49.89</VAL_FATURA_VELOX_1>
+        <VAL_FATURA_VELOX_2>49.89</VAL_FATURA_VELOX_2>
+        <VAL_FATURA_VELOX_3>49.89</VAL_FATURA_VELOX_3>
+        <VAL_FRANQUIA_FIXO></VAL_FRANQUIA_FIXO>
+        <VAL_FRANQUIA_FIXO_LIQ></VAL_FRANQUIA_FIXO_LIQ>
+        <VAL_INADIMPLECIA_TV></VAL_INADIMPLECIA_TV>
+        <VAL_INADIMPLENCIA></VAL_INADIMPLENCIA>
+        <VAL_INADIMPLENCIA_MOVEL>161.54</VAL_INADIMPLENCIA_MOVEL>
+        <VAL_LIQ_BLM>0</VAL_LIQ_BLM>
+        <VAL_LIQ_BLM_2>0</VAL_LIQ_BLM_2>
+        <VAL_LIQ_BLM_3>0</VAL_LIQ_BLM_3>
+        <VAL_LIQ_EXCED_LD_FM_OFFNET>0</VAL_LIQ_EXCED_LD_FM_OFFNET>
+        <VAL_LIQ_EXCED_LD_FM_OFFNET_2>0</VAL_LIQ_EXCED_LD_FM_OFFNET_2>
+        <VAL_LIQ_EXCED_LD_FM_OFFNET_3>0</VAL_LIQ_EXCED_LD_FM_OFFNET_3>
+        <VAL_LIQ_EXCED_LD_FM_ONNET>0</VAL_LIQ_EXCED_LD_FM_ONNET>
+        <VAL_LIQ_EXCED_LD_FM_ONNET_2>0</VAL_LIQ_EXCED_LD_FM_ONNET_2>
+        <VAL_LIQ_EXCED_LD_FM_ONNET_3>0</VAL_LIQ_EXCED_LD_FM_ONNET_3>
+        <VAL_LIQ_EXCED_LD_MF_1>0</VAL_LIQ_EXCED_LD_MF_1>
+        <VAL_LIQ_EXCED_LD_MF_2>0</VAL_LIQ_EXCED_LD_MF_2>
+        <VAL_LIQ_EXCED_LD_MF_3>0</VAL_LIQ_EXCED_LD_MF_3>
+        <VAL_LIQ_EXCED_LD_MM_OFFNET_1>0</VAL_LIQ_EXCED_LD_MM_OFFNET_1>
+        <VAL_LIQ_EXCED_LD_MM_OFFNET_2>0</VAL_LIQ_EXCED_LD_MM_OFFNET_2>
+        <VAL_LIQ_EXCED_LD_MM_OFFNET_3>0</VAL_LIQ_EXCED_LD_MM_OFFNET_3>
+        <VAL_LIQ_EXCED_LD_MM_ONNET_1>0</VAL_LIQ_EXCED_LD_MM_ONNET_1>
+        <VAL_LIQ_EXCED_LD_MM_ONNET_2>0</VAL_LIQ_EXCED_LD_MM_ONNET_2>
+        <VAL_LIQ_EXCED_LD_MM_ONNET_3>0</VAL_LIQ_EXCED_LD_MM_ONNET_3>
+        <VAL_LIQ_EXCED_LD_OUTROCSP_1>0</VAL_LIQ_EXCED_LD_OUTROCSP_1>
+        <VAL_LIQ_EXCED_LD_OUTROCSP_2>0</VAL_LIQ_EXCED_LD_OUTROCSP_2>
+        <VAL_LIQ_EXCED_LD_OUTROCSP_3>0</VAL_LIQ_EXCED_LD_OUTROCSP_3>
+        <VAL_LIQ_EXCED_LD_OUTROCSP_F_1>0</VAL_LIQ_EXCED_LD_OUTROCSP_F_1>
+        <VAL_LIQ_EXCED_LD_OUTROCSP_F_2>0</VAL_LIQ_EXCED_LD_OUTROCSP_F_2>
+        <VAL_LIQ_EXCED_LD_OUTROCSP_F_3>0</VAL_LIQ_EXCED_LD_OUTROCSP_F_3>
+        <VAL_LIQ_EXCED_LDI_MOV>0</VAL_LIQ_EXCED_LDI_MOV>
+        <VAL_LIQ_EXCED_LDI_MOV_2>0</VAL_LIQ_EXCED_LDI_MOV_2>
+        <VAL_LIQ_EXCED_LDI_MOV_3>0</VAL_LIQ_EXCED_LDI_MOV_3>
+        <VAL_LIQ_EXCED_LOC_FM_OFFNET>0</VAL_LIQ_EXCED_LOC_FM_OFFNET>
+        <VAL_LIQ_EXCED_LOC_FM_OFFNET_1>0</VAL_LIQ_EXCED_LOC_FM_OFFNET_1>
+        <VAL_LIQ_EXCED_LOC_FM_OFFNET_2>0</VAL_LIQ_EXCED_LOC_FM_OFFNET_2>
+        <VAL_LIQ_EXCED_LOC_FM_OFFNET_3>0</VAL_LIQ_EXCED_LOC_FM_OFFNET_3>
+        <VAL_LIQ_EXCED_LOC_FM_ONNET>0</VAL_LIQ_EXCED_LOC_FM_ONNET>
+        <VAL_LIQ_EXCED_LOC_FM_ONNET_2>0</VAL_LIQ_EXCED_LOC_FM_ONNET_2>
+        <VAL_LIQ_EXCED_LOC_FM_ONNET_3>0</VAL_LIQ_EXCED_LOC_FM_ONNET_3>
+        <VAL_LIQ_EXCED_LOC_MF_1>0</VAL_LIQ_EXCED_LOC_MF_1>
+        <VAL_LIQ_EXCED_LOC_MF_2>0</VAL_LIQ_EXCED_LOC_MF_2>
+        <VAL_LIQ_EXCED_LOC_MF_3>0</VAL_LIQ_EXCED_LOC_MF_3>
+        <VAL_LIQ_EXCED_LOC_MM_OFFNET_1>0</VAL_LIQ_EXCED_LOC_MM_OFFNET_1>
+        <VAL_LIQ_EXCED_LOC_MM_OFFNET_2>0</VAL_LIQ_EXCED_LOC_MM_OFFNET_2>
+        <VAL_LIQ_EXCED_LOC_MM_OFFNET_3>0</VAL_LIQ_EXCED_LOC_MM_OFFNET_3>
+        <VAL_LIQ_EXCED_LOC_MM_ONNET_1>0</VAL_LIQ_EXCED_LOC_MM_ONNET_1>
+        <VAL_LIQ_EXCED_LOC_MM_ONNET_2>0</VAL_LIQ_EXCED_LOC_MM_ONNET_2>
+        <VAL_LIQ_EXCED_LOC_MM_ONNET_3>0</VAL_LIQ_EXCED_LOC_MM_ONNET_3>
+        <VAL_LIQ_EXCEDENTE_FF></VAL_LIQ_EXCEDENTE_FF>
+        <VAL_LIQ_EXCEDENTE_LD_OFFNET></VAL_LIQ_EXCEDENTE_LD_OFFNET>
+        <VAL_LIQ_EXCEDENTE_LD_ONNET></VAL_LIQ_EXCEDENTE_LD_ONNET>
+        <VAL_LIQ_LOCAL_FM></VAL_LIQ_LOCAL_FM>
+        <VAL_MEDIA_RECARGA></VAL_MEDIA_RECARGA>
+        <VAL_MULTA_FIDEL_TV></VAL_MULTA_FIDEL_TV>
+        <VAL_PEND_FIDEL_FIXO></VAL_PEND_FIDEL_FIXO>
+        <VAL_PEND_FIDEL_RECARGA_AUTO></VAL_PEND_FIDEL_RECARGA_AUTO>
+        <VAL_PEND_FIDEL_TV></VAL_PEND_FIDEL_TV>
+        <VAL_PEND_FIDEL_VELOX></VAL_PEND_FIDEL_VELOX>
+        <VAL_PEND_TAXA_HABILIT></VAL_PEND_TAXA_HABILIT>
+        <VAL_PORTIF_OFERTA_FIXO></VAL_PORTIF_OFERTA_FIXO>
+        <VAL_PORTIF_OFERTA_VELOX></VAL_PORTIF_OFERTA_VELOX>
+        <VAL_PRO_RATA_FIXO></VAL_PRO_RATA_FIXO>
+        <VAL_PRO_RATA_VELOX></VAL_PRO_RATA_VELOX>
+        <VAL_RECARGA_PREPAGO_1>0</VAL_RECARGA_PREPAGO_1>
+        <VAL_RECARGA_PREPAGO_2>0</VAL_RECARGA_PREPAGO_2>
+        <VAL_RECARGA_PREPAGO_3>0</VAL_RECARGA_PREPAGO_3>
+        <VAL_RENDA_FAMILIAR></VAL_RENDA_FAMILIAR>
+        <VAL_SVA_VELOX></VAL_SVA_VELOX>
+        <VAL_SVA_VELOX_LIQ>20.6</VAL_SVA_VELOX_LIQ>
+        <VAL_SVA_VELOX_LIQ_2>20.6</VAL_SVA_VELOX_LIQ_2>
+        <VAL_SVA_VELOX_LIQ_3>20.6</VAL_SVA_VELOX_LIQ_3>
+        <VAL_TOTAL_ASSINATURA_DEP_1>0</VAL_TOTAL_ASSINATURA_DEP_1>
+        <VAL_TOTAL_ASSINATURA_DEP_2>0</VAL_TOTAL_ASSINATURA_DEP_2>
+        <VAL_TOTAL_ASSINATURA_DEP_3>0</VAL_TOTAL_ASSINATURA_DEP_3>
+        <VAL_TOTAL_ASSINATURA_TV></VAL_TOTAL_ASSINATURA_TV>
+        <VAL_TOTAL_CHAM_ORIG></VAL_TOTAL_CHAM_ORIG>
+        <VAL_TOTAL_CHAM_RECEB></VAL_TOTAL_CHAM_RECEB>
+        <VAL_TOTAL_FIDEL_RECARG_AUTO></VAL_TOTAL_FIDEL_RECARG_AUTO>
+        <VAL_TOTAL_OFERTA_REBATE></VAL_TOTAL_OFERTA_REBATE>
+        <VAL_TOTAL_REAJUSTE></VAL_TOTAL_REAJUSTE>
+        <VAL_TOTAL_RECARGA_AUTO>0</VAL_TOTAL_RECARGA_AUTO>
+        <VAL_TOTAL_TAXA_HABILIT></VAL_TOTAL_TAXA_HABILIT>
+        <VALOR_MULTA_FIDEL></VALOR_MULTA_FIDEL>
+        <VEL_VELOX_1>15360</VEL_VELOX_1>
+        <VEL_VELOX_2>15360</VEL_VELOX_2>
+        <VEL_VELOX_3>15360</VEL_VELOX_3>
+        <VELOC_VELOX_CONTRATADA>0</VELOC_VELOX_CONTRATADA>
+        <VelVeloxCliente></VelVeloxCliente>
+        <VelVeloxDisponivel></VelVeloxDisponivel>
+        <VL_OFERTA_DEGRAU_FIXO></VL_OFERTA_DEGRAU_FIXO>
+        <VL_OFERTA_DEGRAU_VELOX></VL_OFERTA_DEGRAU_VELOX>
+        <DIA_VENCIMENTO_FATURA_OITOTAL>20190716T030000.000 GMT</DIA_VENCIMENTO_FATURA_OITOTAL>
+        <DT_FIDEL_OITOTAL></DT_FIDEL_OITOTAL>
+        <FRAN_DADOS_OT_1></FRAN_DADOS_OT_1>
+        <FRAN_DADOS_OT_2></FRAN_DADOS_OT_2>
+        <FRAN_DADOS_OT_3></FRAN_DADOS_OT_3>
+        <FRAN_SMS_OT_1></FRAN_SMS_OT_1>
+        <FRAN_SMS_OT_2></FRAN_SMS_OT_2>
+        <FRAN_SMS_OT_3></FRAN_SMS_OT_3>
+        <IND_OS_EXTERNA_ABERTA_TV></IND_OS_EXTERNA_ABERTA_TV>
+        <IND_OS_INTERNA_ABERTA_TV></IND_OS_INTERNA_ABERTA_TV>
+        <NO_PCT_FRAN_FIXO></NO_PCT_FRAN_FIXO>
+        <PLANO_OITOTAL>Oi Total Fixo &#43; Banda Larga Básico</PLANO_OITOTAL>
+        <PRAZO_RESTANTE_FIDEL_OITOTAL>0.0</PRAZO_RESTANTE_FIDEL_OITOTAL>
+        <QTE_DADOS_OT_1></QTE_DADOS_OT_1>
+        <QTE_DADOS_OT_2></QTE_DADOS_OT_2>
+        <QTE_DADOS_OT_3></QTE_DADOS_OT_3>
+        <QTE_DIAS_FATURA_ABERTA></QTE_DIAS_FATURA_ABERTA>
+        <QTE_MIN_ORIG_LOC_OFFNET_OT_1>0.0</QTE_MIN_ORIG_LOC_OFFNET_OT_1>
+        <QTE_MIN_ORIG_LOC_OFFNET_OT_2>0.0</QTE_MIN_ORIG_LOC_OFFNET_OT_2>
+        <QTE_MIN_ORIG_LOC_OFFNET_OT_3>0.0</QTE_MIN_ORIG_LOC_OFFNET_OT_3>
+        <QTE_MIN_ORIG_LOC_ONNET_FX_1></QTE_MIN_ORIG_LOC_ONNET_FX_1>
+        <QTE_MIN_ORIG_LOC_ONNET_OT_1>0.0</QTE_MIN_ORIG_LOC_ONNET_OT_1>
+        <QTE_MIN_ORIG_LOC_ONNET_OT_2>0.0</QTE_MIN_ORIG_LOC_ONNET_OT_2>
+        <QTE_MIN_ORIG_LOC_ONNET_OT_3>0.0</QTE_MIN_ORIG_LOC_ONNET_OT_3>
+        <QTE_ORIG_LD_CSPOI_OFFNET_OT_1>0.0</QTE_ORIG_LD_CSPOI_OFFNET_OT_1>
+        <QTE_ORIG_LD_CSPOI_OFFNET_OT_2>0.0</QTE_ORIG_LD_CSPOI_OFFNET_OT_2>
+        <QTE_ORIG_LD_CSPOI_OFFNET_OT_3>0.0</QTE_ORIG_LD_CSPOI_OFFNET_OT_3>
+        <QTE_ORIG_LD_CSPOI_ONNET_OT_1>0.0</QTE_ORIG_LD_CSPOI_ONNET_OT_1>
+        <QTE_ORIG_LD_CSPOI_ONNET_OT_2>0.0</QTE_ORIG_LD_CSPOI_ONNET_OT_2>
+        <QTE_ORIG_LD_CSPOI_ONNET_OT_3>0.0</QTE_ORIG_LD_CSPOI_ONNET_OT_3>
+        <QTE_ORIG_LD_CSPOUT_OFFNET_OT_1>0</QTE_ORIG_LD_CSPOUT_OFFNET_OT_1>
+        <QTE_ORIG_LD_CSPOUT_OFFNET_OT_2>0</QTE_ORIG_LD_CSPOUT_OFFNET_OT_2>
+        <QTE_ORIG_LD_CSPOUT_OFFNET_OT_3>0</QTE_ORIG_LD_CSPOUT_OFFNET_OT_3>
+        <QTE_ORIG_LD_CSPOUT_ONNET_OT_1>0</QTE_ORIG_LD_CSPOUT_ONNET_OT_1>
+        <QTE_ORIG_LD_CSPOUT_ONNET_OT_2>0</QTE_ORIG_LD_CSPOUT_ONNET_OT_2>
+        <QTE_ORIG_LD_CSPOUT_ONNET_OT_3>0</QTE_ORIG_LD_CSPOUT_ONNET_OT_3>
+        <QTE_SMS_OT_1></QTE_SMS_OT_1>
+        <QTE_SMS_OT_2></QTE_SMS_OT_2>
+        <QTE_SMS_OT_3></QTE_SMS_OT_3>
+        <VAL_ASSINATURA_OITOTAL_1>60.169999999999995</VAL_ASSINATURA_OITOTAL_1>
+        <VAL_ASSINATURA_OITOTAL_2>60.169999999999995</VAL_ASSINATURA_OITOTAL_2>
+        <VAL_ASSINATURA_OITOTAL_3>60.169999999999995</VAL_ASSINATURA_OITOTAL_3>
+        <VAL_EXCED_LD_CSPOI_OFFNET_OT_1>0.0</VAL_EXCED_LD_CSPOI_OFFNET_OT_1>
+        <VAL_EXCED_LD_CSPOI_OFFNET_OT_2>0.0</VAL_EXCED_LD_CSPOI_OFFNET_OT_2>
+        <VAL_EXCED_LD_CSPOI_OFFNET_OT_3>0.0</VAL_EXCED_LD_CSPOI_OFFNET_OT_3>
+        <VAL_EXCED_LD_CSPOI_ONNET_OT_1>0.0</VAL_EXCED_LD_CSPOI_ONNET_OT_1>
+        <VAL_EXCED_LD_CSPOI_ONNET_OT_2>0.0</VAL_EXCED_LD_CSPOI_ONNET_OT_2>
+        <VAL_EXCED_LD_CSPOI_ONNET_OT_3>0.0</VAL_EXCED_LD_CSPOI_ONNET_OT_3>
+        <VAL_EXCED_LD_CSPOUT_OFFNET_OT_1>0</VAL_EXCED_LD_CSPOUT_OFFNET_OT_1>
+        <VAL_EXCED_LD_CSPOUT_OFFNET_OT_2>0</VAL_EXCED_LD_CSPOUT_OFFNET_OT_2>
+        <VAL_EXCED_LD_CSPOUT_OFFNET_OT_3>0</VAL_EXCED_LD_CSPOUT_OFFNET_OT_3>
+        <VAL_EXCED_LD_CSPOUT_ONNET_OT_1>0</VAL_EXCED_LD_CSPOUT_ONNET_OT_1>
+        <VAL_EXCED_LD_CSPOUT_ONNET_OT_2>0</VAL_EXCED_LD_CSPOUT_ONNET_OT_2>
+        <VAL_EXCED_LD_CSPOUT_ONNET_OT_3>0</VAL_EXCED_LD_CSPOUT_ONNET_OT_3>
+        <VAL_EXCEDENTE_DADOS_OT_1></VAL_EXCEDENTE_DADOS_OT_1>
+        <VAL_EXCEDENTE_DADOS_OT_2></VAL_EXCEDENTE_DADOS_OT_2>
+        <VAL_EXCEDENTE_DADOS_OT_3></VAL_EXCEDENTE_DADOS_OT_3>
+        <VAL_EXCEDENTE_LOC_OFFNET_OT_1>0.0</VAL_EXCEDENTE_LOC_OFFNET_OT_1>
+        <VAL_EXCEDENTE_LOC_OFFNET_OT_2>0.0</VAL_EXCEDENTE_LOC_OFFNET_OT_2>
+        <VAL_EXCEDENTE_LOC_OFFNET_OT_3>0.0</VAL_EXCEDENTE_LOC_OFFNET_OT_3>
+        <VAL_EXCEDENTE_LOC_ONNET_OT_1>0.0</VAL_EXCEDENTE_LOC_ONNET_OT_1>
+        <VAL_EXCEDENTE_LOC_ONNET_OT_2>0.0</VAL_EXCEDENTE_LOC_ONNET_OT_2>
+        <VAL_EXCEDENTE_LOC_ONNET_OT_3>0.0</VAL_EXCEDENTE_LOC_ONNET_OT_3>
+        <VAL_EXCEDENTE_OUTROS_OT_1>0</VAL_EXCEDENTE_OUTROS_OT_1>
+        <VAL_EXCEDENTE_OUTROS_OT_2>2.09</VAL_EXCEDENTE_OUTROS_OT_2>
+        <VAL_EXCEDENTE_OUTROS_OT_3>0</VAL_EXCEDENTE_OUTROS_OT_3>
+        <VAL_EXCEDENTE_SMS_OT_1></VAL_EXCEDENTE_SMS_OT_1>
+        <VAL_EXCEDENTE_SMS_OT_2></VAL_EXCEDENTE_SMS_OT_2>
+        <VAL_EXCEDENTE_SMS_OT_3></VAL_EXCEDENTE_SMS_OT_3>
+        <VAL_FATURAS_NAO_PAGAS></VAL_FATURAS_NAO_PAGAS>
+    </Customer>
+    <IntentName>Todas as Ofertas</IntentName>
+    <Oferta>
+        <pyName>PARTICIPANTE</pyName>
+        <pyIssue>Oferta</pyIssue>
+        <pyGroup>OiTotal_Alone</pyGroup>
+    </Oferta>
+    <Resposta>
+        <Value>later</Value>
+        <Behaviour></Behaviour>
+    </Resposta>
+    <WorkObjectID>OA-200321089</WorkObjectID>
+</ns1:InteracaoOfertasNBA360ConsultaTopOfertas360InputMessage> ]
+
+========================================================================================================================================================================
+========================================================================================================================================================================
+
+
+========================================================================================================================================================================
+ManterReservaPorta_Request	
+http://127.0.0.1:8089/recursos/portaadsl/v1/manter
+http://127.0.0.1:8089/recursos/portaadsl/v1/manter/breed
+
+{
+	"ManutencaofacilidadeNumeroPortaRequest": {
+		"codLocalidade": "RJO",
+		"siglaUf": "RJ",
+		"velProduto": "5MB",
+		"numImovel": "707",
+		"IndRedeVizinho": "",
+		"compl1": "",
+		"MessageHeaderAPI": {
+			"App": "API",
+			"TransactionId": "OA0848:SOA0005V1.0:20190808020312983:000:00000000453284558TR601390"
+		},
+		"logradouro": "1377",
+		"categoriaTerminal": "11",
+		"nrcCliente": "11303544",
+		"tipoTerminal": "0",
+		"acao": "RESV"
+	}
+}
+========================================================================================================================================================================
+
+========================================================================================================================================================================
+RegistrarContaFatura_Request	
+http://127.0.0.1:8089/clientes/faturas/v1/registro/registrar
+http://127.0.0.1:8089/clientes/faturas/v1/registro/registrar/breed
+
+{
+	"DataRequest": {
+		"MessageHeaderAPI": {
+			"App": "OA0848",
+			"Timestamp": "2019-08-08T19:42:33",
+			"TransactionId": "OA0848:SOA0005V1.0:20190808194230141:000:00000000200148525TR264107"
+		},
+		"RegistrarContaFaturaRequest": {
+			"ContaFatura": {
+				"UF": "DF",
+				"FormatoFatura": "Fatura Resumida",
+				"CicloFaturamento": "V01",
+				"LoginSiebel63": "TR264107",
+				"Agencia": "",
+				"CodigoPontoVenda": "1034105",
+				"NomeClienteFatura": "LUIS GUSTAVO LOPES CARNEIRO",
+				"IndicaAdesaoDebitoAutomatico": "0",
+				"TipoCobranca": "Boleto Bancario",
+				"NomeBanco": "",
+				"ContaCorrenteCliente": ""
+			},
+			"Identificacao": {
+				"TipoDocumento": "CPF",
+				"NumeroDocumento": "07459771708"
+			},
+			"Telefone": {
+				"Numero": "61988877466",
+				"Tipo": "Residencial"
+			},
+			"Endereco": {
+				"Logradouro": "SQN 108 BLOCO K",
+				"EnderecoComposto": "",
+				"IndicadorVerificacao": "",
+				"NumeroImovel": "0",
+				"CodigoLogradouro": "2700073484",
+				"Bairro": "ASA NORTE",
+				"CodigoAglomerado": "0",
+				"CEP": "70744110",
+				"Municipio": "BRASILIA",
+				"Localidade": "BSA",
+				"TipoLogradouro": "QUADRA",
+				"NumeroAglomerado": "0",
+				"PontoReferencia": "AAAAAAAA",
+				"CodigoLocalidade": "61000",
+				"EstadoInternacional": "DF",
+				"Aglomerado": "0"
+			}
+		}
+	}
+}
+
+
+========================================================================================================================================================================
+
+
+
+========================================================================================================================================================================
+RegistrarNovaAnaliseCredito_Request	
+http://127.0.0.1:8089/clientes/analises/oitotal/v1/credito/registrar
+
+{
+	"DataRequest": {
+		"MessageHeaderAPI": {
+			"App": "OA0848",
+			"Timestamp": "2019-08-08T21:53:36.346",
+			"TransactionId": "OA0848:SOA0005V1.0:20190809005334300:000:00000000808980456OI413044"
+		},
+		"RegistrarNovaAnaliseCreditoRequest": {
+			"DataHoraConclusao": "2019-08-18T21:53:36.347",
+			"QuantidadeServicoSolicitado": "2",
+			"IndicadorPortabilidade": "",
+			"NomeProduto": "7 - 360",
+			"OrigemRequisicao": "OA0848",
+			"DataProposta": "2019-08-08T21:53:36.347",
+			"CodigoPlanoPreco": "Z",
+			"MotivoDecisao": "PP01",
+			"CalculoLinhaSolicitacao": "2",
+			"DescricaoCanal": "",
+			"IndicadorOiTV": "N",
+			"OpcaodeAnalise": "Ativação sem Aparelho Oi",
+			"NumeroProposta": "80000183921499",
+			"QuantidadeServicosAtivos": "2",
+			"CodigoPontoVenda": "0001033095",
+			"QuantidadeServicosPermitidos": "2",
+			"ListaDocumentos": {
+				"Documento": {
+					"DescricaoTipoDocumento": "CPF",
+					"NumeroDocumento": "06842215943"
+				}
+			},
+			"TipoAnalise": "2 - Analise 2a Etapa",
+			"Decisao": "POST PAY"
+		}
+	}
+}
+
+========================================================================================================================================================================
+
+
+
+
+========================================================================================================================================================================
+SolicitarAnaliseCreditoOiTotal_Request	
+http://127.0.0.1:8089/clientes/analises/v1/oitotal/credito
+http://127.0.0.1:8089/clientes/analises/v1/oitotal/credito/breed
+
+{
+   "SolicitarAnaliseCreditoRequest": {
+      "TempChar04": "N",
+      "TempNum01": "0",
+      "TempChar05": "0",
+      "TempChar02": "0",
+      "TempGrauComportamentoMKTG": "0",
+      "FlagOiTV": "S",
+      "TempChar03": "N",
+      "TempScoredeRiscoComportamental": "0",
+      "TempNum05": "0",
+      "TempChar01": "0",
+      "TempNum04": "0",
+      "TempNum03": "0",
+      "TempNum02": "0",
+      "TempNum09": "0",
+      "TempNum08": "0",
+      "TempNum07": "0",
+      "TempAlias": "ANA DA SILVA",
+      "TempNum06": "0",
+      "TempNomeMae": "MARIA DA SILVA",
+      "TempNacionalidadeCapital": "BR",
+      "TempProdLinhaNegocio": "0",
+      "TempTipoDoc": "CPF",
+      "TempProduto": "21",
+      "TempScoredeRisco": "0",
+      "TempName": "ANA DA SILVA",
+      "TempDataFundacao": "0",
+      "TempDivergenciaSERASA": "N",
+      "TempTipoResidencia": "Propria",
+      "TempChar08": "0",
+      "TempChar09": "0",
+      "TempIndFraude": "N",
+      "TempTipodeAnalise": "4",
+      "TempChar06": "0",
+      "TempNomeFornecedor2": "0",
+      "TempChar07": "0",
+      "TempNomeFornecedor3": "0",
+      "TempNumLinhasSolicitadas": "1",
+      "TempCargoAutorizado2": "0",
+      "TempLimiteCreditoExistente": "0",
+      "TempNumFuncionarios": "0",
+      "PrimaryContactName": "0",
+      "TempCEP": "70744110",
+      "TempFaixaFaturamentoAnual": "0",
+      "TempCargoAutorizado1": "0",
+      "TempRamoAtividadeDesc": "0",
+      "TempNumDocumento": "18462088232",
+      "TempCodigoBanco": "0",
+      "TempEndCEP": "0",
+      "TempEstadoCivil": "S",
+      "TempNumMAvulsoSolicitadas": "0",
+      "TempIndInadimplente": "N",
+      "TempProfissao": "ANALISTA DE CREDITO",
+      "TempDataAtivacaoMaisAntiga": "0",
+      "TempNumAgenciaReferencia": "0",
+      "TempCRMOrigem": "SBL6",
+      "TempSituacaoCPF": "R",
+      "TempCPFAutorizado1": "0",
+      "TempCPFAutorizado2": "0",
+      "TempEndComplemento": "0",
+      "TempNumBancoReferencia": "0",
+      "TempIdentDebitoAutomatico": "0",
+      "TempScoreComportamentoMKTG": "0",
+      "TempStatNome": "0",
+      "TempIdentDoc": "0",
+      "TempState": "DF",
+      "TempLinhadeNegocio": "MOVE",
+      "TempEndNumeroPorta": "",
+      "TempEndCidade": "BRASILIA",
+      "TempResidenteDesde": "00/00/0000",
+      "TempMainPhoneNumber": "+5561986162208",
+      "MessageHeaderAPI": {
+         "App": "SBL6"
+      },
+      "TempSexo": "0",
+      "TempNumProposta": "90002236952542",
+      "TempGraudeRiscoPCS": "0",
+      "TempTelFornecedor1": "0",
+      "TempNomeFornecedor1": "0",
+      "TempNum10": "0",
+      "TempTelFornecedor3": "0",
+      "TempTelFornecedor2": "0",
+      "TempDataNascimento": "01/01/1980",
+      "TempAccountStatus": "Potencial",
+      "TempChar10": "0",
+      "TempOcupacao": "Empresário",
+      "TempEndBairro": "ASA NORTE",
+      "TempNumLinhasAtivas": "0",
+      "TempComplemento": "0000",
+      "TempNumDependentes": "0",
+      "TempNomeAutorizado1": "0",
+      "TempNomeAutorizado2": "0",
+      "TempNumeroPorta": "0",
+      "TempPDV": "0001001621",
+      "TempRecReceita": "Y",
+      "TempNomeRua": "0",
+      "TempResPhoneNumber": "0"
+   }
+}
+========================================================================================================================================================================
+
+
+
+
+
+========================================================================================================================================================================
+SolicitarReservaPorta_Request
+http://127.0.0.1:8089/recursos/portaadsl/v1/reservar
+http://127.0.0.1:8089/recursos/portaadsl/v1/reservar/breed
+
+{
+	"SolicitarReservaPortaRequest": {
+		"MessageHeaderAPI": {
+			"App": "OiVende",
+			"TransationId": "API:20180116180642644"
+		},
+		"GrupoRequest": {
+			"siglaUF": "RJ",
+			"codigoLiteralLocalABLE": "",
+			"matriculaSolicitante": "TR557555",
+			"CodLocalidadeEstNova": "",
+			"EstacaoNova": "",
+			"DDD": "21",
+			"numeroTerminal": "22011039",
+			"indicadorMultiproduto": "N",
+			"CaixaNova": "",
+			"viabilidadeSVOIE": "S",
+			"velocidadeVendida": "1MB",
+			"sistemaDeOrigem": "OIVENDE",
+			"CaboNova": "",
+			"siglaArmarioBLE": "",
+			"velocidadeAtual": "1MB",
+			"criterioBYPASS": "1",
+			"velocidadeMaximaE": "1MB",
+			"SecaoNova": "",
+			"acao": "I"
+		}
+	}
+}
+
+========================================================================================================================================================================
+
+
+
+

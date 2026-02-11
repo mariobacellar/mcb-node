@@ -1,0 +1,37 @@
+https://github.com/apigee/apigeetool-node
+
+
+//Instalar o apigeetool - somente se tiver o node instalado na sua máquina
+npm install -g apigeetool
+
+//Lista todos os proxies que foram feitos deployment
+apigeetool listdeployments -u {EMAIL_CONTA_APIGEE} -p {SENHA_CONTA_APIGEE} -o {NOME_ORGANIZACAO} -e {AMBIENTE}
+
+//Faz download do bundle do proxy do apigee, basicamente bundle significa a estrutura básica que deve ser um proxy do apigee, por isso é importante começar um novo proxy no Apigee e depois fazer o download do projeto usando esse comando.
+apigeetool fetchproxy -u {EMAIL_CONTA_APIGEE} -p {SENHA_CONTA_APIGEE} -o {NOME_ORGANIZACAO} -n {NOME_PROXY} -r {REVISAO_PROXY}
+
+//Faz o push/envio do projeto para o apigee, vai criar uma nova versão e fazer deploy desta versão no Apigee
+apigeetool deployproxy -u {EMAIL_CONTA_APIGEE} -p {SENHA_CONTA_APIGEE} -o {NOME_ORGANIZACAO} -e {NOME_AMBIENTE} -n {NOME_PROXY} -d {DIRETORIO_PROJETO}
+
+//Faz o push/envio do projeto para uma revisão existente de um proxy, não criar uma nova revisão
+apigeetool deployexistingrevision -u {EMAIL_CONTA_APIGEE} -p {SENHA_CONTA_APIGEE} -o {NOME_ORGANIZACAO} -e {NOME_AMBIENTE} -n {NOME_PROXY} -r {REVISAO_PROXY}
+
+//Lista todos os shared flows que foram feitos deployment
+apigeetool listsharedflowdeployments -u {EMAIL_CONTA_APIGEE} -p {SENHA_CONTA_APIGEE} -o {NOME_ORGANIZACAO} -e {NOME_AMBIENTE}
+
+//Faz download do bundle do shared flow do apigee, basicamente bundle significa a estrutura básica que deve ser um shared flow do apigee, por isso é importante começar um novo shared flow no Apigee e depois fazer o download do projeto usando esse comando.
+apigeetool fetchSharedflow -u {EMAIL_CONTA_APIGEE} -p {SENHA_CONTA_APIGEE} -o {NOME_ORGANIZACAO} -n {NOME_SHARED_FLOW} -r {REVISAO_SHARED}
+
+//Faz o push/envio do projeto para o apigee, vai criar uma nova versão e fazer deploy desta versão no Apigee
+apigeetool deploysharedflow -u {EMAIL_CONTA_APIGEE} -p {SENHA_CONTA_APIGEE} -o {NOME_ORGANIZACAO} -e {NOME_AMBIENTE} -n {NOME_SHARED_FLOW} -d {DIRETORIO_PROJETO}
+
+
+
+
+Walkthrough: Trying out Apigee X Evaluation End to End: https://www.youtube.com/watch?v=1hJ3S5O22KI
+
+https://docs.apigee.com/private-cloud/v4.50.00/installation-requirements
+
+
+
+

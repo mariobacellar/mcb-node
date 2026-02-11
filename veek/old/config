@@ -1,0 +1,27 @@
+config:
+  target: "https://mvnocloud.com.br/MvnoRest"
+    phases:
+    - duration: 60
+      arrivalRate: 5
+      name: Fase de aquecimento do teste
+    - duration: 120
+      arrivalRate: 5
+      rampTo: 50
+      name: Aumentando a carga 
+    - duration: 600
+      arrivalRate: 50
+      name: Carga sustentada 
+    payload:
+        path: "contratos.csv"
+        fields:
+          - "contrato"
+		  
+scenarios:
+	- name: "Consulta saldo"
+		flow:
+			- post:
+				json:
+					metodo: "consultar_saldo", 
+					token: "6A56E7E77E464217B95D03C1E481F8D278655F74BEC94638AB", 
+					Numero_contrato: {{ contrato }} 
+			- think: 1

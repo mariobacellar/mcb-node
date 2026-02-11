@@ -1,0 +1,86 @@
+RegistrarContaFatura [/clientes/faturas/v1/registro/registrar]
+
+JSON REQUEST:
+{
+  "DataRequest":{
+    "MessageHeaderAPI":{
+      "App":"OA0848",
+      "TransactionId":"OA0848:SOA0005V1.0:20190808184728755:000:00000000125600375TR644420",
+      "Timestamp":"2019-08-08T18:47:30"
+    },
+    "RegistrarContaFaturaRequest":{
+      "OrigemRequisicao":"OA0848",
+      "Identificacao":{
+        "TipoDocumento":"CPF",
+        "NumeroDocumento":"49993917915"
+      },
+      "Endereco":{
+        "Bairro":"ALTO BOQUEIRAO",
+        "CEP":"81850180",
+        "Municipio":"CURITIBA",
+        "EstadoInternacional":"PR",
+        "Logradouro":"CEL HUGO DE MATTOS MOURA",
+        "NumeroImovel":"0",
+        "TipoLogradouro":"RUA",
+        "Aglomerado":"0",
+        "CodigoAglomerado":"0",
+        "CodigoLocalidade":"41000",
+        "CodigoLogradouro":"2253500130",
+        "EnderecoComposto":"",
+        "IndicadorVerificacao":"",
+        "Localidade":"CTA",
+        "NumeroAglomerado":"0",
+        "PontoReferencia":""
+      },
+      "ContaFatura":{
+        "NomeClienteFatura":"CLEIDE KOSLOSKI",
+        "FormatoFatura":"Fatura Resumida",
+        "CicloFaturamento":"U01",
+        "UF":"PR",
+        "IndicaAdesaoDebitoAutomatico":"1",
+        "TipoCobranca":"Boleto Bancario",
+        "NomeBanco":"CEF",
+        "Agencia":"3022",
+        "ContaCorrenteCliente":"001000142839",
+        "LoginSiebel63":"TR644420",
+        "CodigoPontoVenda":"1041815",
+        "EMailEnvioFatura":"cleidekosloski@gmail.com",
+        "NumeroEnvioSms":"41999046944"
+      },
+      "Telefone":{
+        "Tipo":"Residencial",
+        "Numero":"41999046944"
+      }
+    }
+  }
+}
+
+JSON RESPONSE:
+{
+    "DataResponse": {
+        "RegistrarContaFaturaResponse": {
+            "NumeroContaFatura": ""
+        },
+        "MessageHeaderResponse": {
+            "Response": {
+                "Return": {
+                    "Type": "N",
+                    "Description": "Erro Técnico",
+                    "NativeReturn": {
+                        "Type": "N",
+                        "Description": "Erro tecnico no servico",
+                        "AppId": "FWSOA",
+                        "Code": "-5",
+                        "Detail": "-"
+                    },
+                    "Code": "00001"
+                }
+            },
+            "AppId": "OA0848",
+            "CorrelationId": "",
+            "Timestamp": "2019-08-08T16:38:22.05-03:00",
+            "BusinessId": "",
+            "TransactionId": "OA0848:SOA0005V1.0:20190808184728755:000:00000000125600375TR644420"
+        }
+    }
+}

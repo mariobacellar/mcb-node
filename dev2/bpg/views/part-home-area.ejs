@@ -1,0 +1,52 @@
+	<div class="container-fluid" id="areaAtentimento">
+		
+		 <div class="jumbotron text-center" style="background-color: purple">
+
+			<form id="idRadarForm" class="form-horizontal" action="/radar/{ltd}/{lng}?_method=PUT" method="post">
+
+				<a id="idRadarLink" href="/radar"><h1>Radar </h1></a>
+
+				<button type="submit" class="btn btn-danger" id="idRadarBtn">Radar</button>
+				<input  type="hidden" name="_method" value="PUT">
+				<input  type="hidden" name="xlat" value="">
+				<input  type="hidden" name="xlng" value="">
+				<input  type="hidden" name="username" value="mario.bacellar">
+				<input  type="hidden" name="status"   value="radar-on">
+				
+				<div id="xgpsIni"  color="white"> </div>
+				<div id="xgpsTime" color="white"> </div>
+		  		<p>Ligar/Desligar</p>
+
+			</form>	
+
+		</div>
+
+
+		 <div class="jumbotron text-center" style="background-color: red">
+			<a href="#">
+		  		<h1>O Grito</h1>
+		  		<p>Anuncie sua chegada</p>
+		  	</a>
+		</div>
+
+		 <div class="jumbotron text-center" style="background-color: yellow">
+			<a href="/produtos">
+		  		<h1>Produtos</h1>
+		  	</a>
+		</div>
+
+		 <div class="jumbotron text-center" style="background-color: orange">
+			<a href="#">
+		  		<h1>Atendimento</h1>
+		  	</a>
+		</div>
+
+		 <div class="jumbotron text-center" style="background-color: green">
+			<a href="#">
+		  		<h1>Consulta</h1>
+		  	</a>
+		</div>
+
+
+	</div>
+

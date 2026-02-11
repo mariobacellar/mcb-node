@@ -1,0 +1,134 @@
+InserirContatoConta [/clientes/contacontato/v1/criar]
+
+JSON REQUEST:
+{
+  "DataRequest": {
+    "MessageHeaderApi": {
+      "App": "OA0848",
+      "Timestamp": "2019-08-01T20:46:41",
+      "TransactionId": "OA0848:SOA0005V1.0:20190801204641718:000:00000000571351561OI412479"
+    },
+    "inserirContatoContaRequest": {
+      "ListaContatos": {
+        "Contato": {
+          "EnderecoEmail": "hemanoelleventura03@hotmail.com",
+          "HorarioContato": "",
+          "DataInicioResidencia": "2001-10-05",
+          "Comentarios": "",
+          "FormaContatoPreferencial": "",
+          "Sexo": "F",
+          "IndicadorProspect": "0",
+          "OcupacaoSecundaria": "",
+          "LembreteSenha": "",
+          "Profissao": "ADMINISTRADOR",
+          "CodigoPontoVenda": "0001033096",
+          "FaixaRendaMensal": "12 - De R$ 2.751 a R$ 3.000",
+          "Nome": "HEMANOELLE ROSARIA RAMALHO DOS SANTOS",
+          "TipoResidenciaCliente": "Própria",
+          "GrauEscolaridade": "Superior Completo",
+          "OcupacaoPrincipal": "Assalariado",
+          "NomeNaRedeSocialPrincipal": "",
+          "DataNascimento": "1995-12-24",
+          "IdiomaCliente": "",
+          "CategoriaCliente": "",
+          "IndicadorChamadaTelefoneResidencial": "0",
+          "NomeMae": "MARIA MADALENA RAMALHO DOS SAN",
+          "NaturalidadeCliente": "",
+          "CargoProfissional": "Outros",
+          "IndicadorEnvioFax": "0",
+          "PaginaWeb": "",
+          "IndicadorEnvioEmail": "0",
+          "IndicadordocumentoPendente": "0",
+          "StatusRelacionamentoMovel": "Contact Center",
+          "IndicadorChamadaCelular": "0",
+          "IdUsuario": "OI412479",
+          "IndicadorEnvioCarta": "0",
+          "EmpregadorCliente": "",
+          "EstadoCivil": "Casado",
+          "IndicadorChamadaTelefoneComercial": "0"
+        }
+      },
+      "OrigemRequisicao": "OA0848",
+      "ListaTelefones": {
+        "Telefone": [
+          {
+            "Numero": "41998412162",
+            "Tipo": "Contato"
+          },
+          {
+            "Numero": "4132666302",
+            "Tipo": "Comercial"
+          }
+        ]
+      },
+      "ListaContas": {
+        "Conta": {
+          "IndicadorInadimplencia": "0",
+          "IndicadorFraude": "0",
+          "IdSegmentacao": "",
+          "IdClientePagador": "",
+          "IndicadorVitimaFraude": "0"
+        }
+      },
+      "ListaDocumentos": {
+        "Documento": [
+          {
+            "OrgaoExpedidorDocumentoSecundario": "SSPPR",
+            "DescricaoTipoDocumento": "CPF",
+            "NumeroDocumento": "09121371938"
+          }
+        ]
+      },
+      "ListaEnderecos": {
+        "Endereco": {
+          "Logradouro": "LEONARDO GELINSKI",
+          "ListaComplementos": {},
+          "NumeroImovel": "0",
+          "CodigoLogradouro": "2253714800",
+          "CodigoOperadoraOiRegional": "67",
+          "Bairro": "CAJURU",
+          "CodigoAglomerado": "0",
+          "CEP": "82920500",
+          "Municipio": "CURITIBA",
+          "UF": "PR",
+          "TipoLogradouro": "RUA",
+          "NumeroAglomerado": "0",
+          "CodigoLocalidade": "41000",
+          "BaseConsultaOrigem": "SERASA-STC",
+          "CodigoLiteralLocalidade": "CTA",
+          "Aglomerado": "0"
+        }
+      }
+    }
+  }
+}
+
+JSON RESPONSE:
+{
+  "DataResponse": {
+    "InserirContatoContaResponse": {
+      "Codigo": "-3",
+      "Mensagem": "Já existe uma conta cliente para o CPF informado."
+    },
+    "MessageHeaderResponse": {
+      "Response": {
+        "Return": {
+          "Type": "N",
+          "Description": "Não foram encontrados registros para os parâmetros enviados",
+          "NativeReturn": {
+            "Type": "N",
+            "Description": "Já existe uma conta cliente para o CPF informado.",
+            "AppId": "FWSOA",
+            "Code": "-3"
+          },
+          "Code": "00021"
+        }
+      },
+      "AppId": "OA0848",
+      "CorrelationId": "",
+      "Timestamp": "2019-08-01T17:46:42.093-03:00",
+      "BusinessId": "",
+      "TransactionId": "OA0848:SOA0005V1.0:20190801204641718:000:00000000571351561OI412479"
+    }
+  }
+}

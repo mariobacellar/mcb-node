@@ -1,0 +1,13 @@
+Node.js + Node-Foreman
+https://coderwall.com/p/qdluuq/node-js-node-foreman
+
+
+https://www.npmjs.com/package/foreman
+
+https://devcenter.heroku.com/articles/heroku-local
+
+https://www.theforeman.org/
+
+Best Practices for Node.js Development
+https://devcenter.heroku.com/articles/node-best-practices
+

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Bar Praia - Peça por Geolocalização</title>
+
+        <meta http-equiv="Content-Type" const="text/html" charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa">
+        <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" id="bootstrap-css">
+        <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" id="bootstrap-css">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        
+    </head>
+
+    <body>
+
+        <div class="container mx-auto"" >
+
+            <div class="jumbotron"  style="background-attachment: scroll; background-size: cover; background-repeat: no-repeat; background-position: center top; background-image: url(img/barpraia-3.jpg);">
+                <h1 class="display-4" style="color:orange; font-size:50px; font-weight:bold";>BarPraia</h1>                
+                <p style='color:green; background-color:lightyellow; ; font-size:15px; font-weight:bold'> Água, Sanduiche, Cerveja, Picolé, ... </p>
+                <p class="lead" style='background-color:orange; color:black; font-weight:bold; font-size:20px;'> Peça por geolocalização</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Saiba mais...</a>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="panel panel-login">
+                        
+                        <div class="panel-heading">
+                            
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <a href="#" class="active" id="login-form-link">Entrar</a>
+                                </div>
+                                <div class="col-xs-6">
+                                    <a href="#" id="register-form-link"  style="color:red">Novo Usuário</a>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    
+                                    <form id="login-form" action="/sign-in" method="post" role="form" style="display: block;">
+                                        <div class="form-group">
+                                            <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="e-mail" value="">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="senha">
+                                        </div>
+                                        
+                                        <div class="form-group text-center">
+                                            <input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+                                            <label for="remember"> Permanecer conectado</label>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-sm-offset-3">
+                                                    <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Iniciar">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="text-center">
+                                                        <a href="#" tabindex="5" class="forgot-password">Esqueçeu sua senha?</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                    <form id="register-form" action="/sign-up" method="post" role="form" style="display: none;">
+
+                                        <div class="form-group">
+                                            <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="e-mail" value="">
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Senha">
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirme a senha">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-sm-offset-3">
+                                                    <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Registrar Agora">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+            <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+
+            <script>
+                $(function () {
+
+                    $('#login-form-link').click(function (e) {
+                        $("#login-form").delay(100).fadeIn(100);
+                        $("#register-form").fadeOut(100);
+                        $('#register-form-link').removeClass('active');
+                        $(this).addClass('active');
+                        e.preventDefault();
+                    });
+
+                    $('#register-form-link').click(function (e) {
+                        $("#register-form").delay(100).fadeIn(100);
+                        $("#login-form").fadeOut(100);
+                        $('#login-form-link').removeClass('active');
+                        $(this).addClass('active');
+                        e.preventDefault();
+                    });
+
+                });
+
+            </script>
+
+
+
+        <!--     
+
+            <script src ="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+            <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+            <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+
+            <script src="//code.jquery.com/jquery-3.3.1.slim.min.js"                          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+         -->
+    </body>
+
+</html>

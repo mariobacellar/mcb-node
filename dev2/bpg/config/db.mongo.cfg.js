@@ -3,5 +3,5 @@
 // Pass: Mcb@2019
 
 module.exports = {
-  url: 'mongodb+srv://admin:admin@cluster0-rv6nl.mongodb.net/barpraia?retryWrites=true&w=majority'
+  url: 'mongodb+srv://<user>:<pass>@<cluster>.mongodb.net</seu_db>?retryWrites=true&w=majority'
 }
